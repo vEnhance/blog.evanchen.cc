@@ -31,11 +31,13 @@ a.category {
   border-color: var(--muted-color);
   font-weight: bold;
   color: var(--black-color);
+  white-space: nowrap;
 }
 a.tags {
   background: var(--secondary-color);
   color: var(--black-color);
   display: inline-block;
+  white-space: nowrap;
 }
 a.readmore {
   background: var(--primary-color);

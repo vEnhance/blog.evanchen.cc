@@ -203,6 +203,21 @@ h1.title {
   display: inline;
   margin: 0 0.5em;
 }
+@media (max-width: 480px) {
+  .pages a.next_page,
+  .pages a.prev_page {
+    width: 40px;
+  }
+  .pages .prev-next-text {
+    display: none;
+  }
+  .pages span.pagination-center {
+    margin: 0 50px;
+  }
+  .pages span.separator {
+    margin: 0 0;
+  }
+}
 
 /* Footer at bottom of page */
 footer {
