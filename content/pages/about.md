@@ -1,8 +1,6 @@
 title: About
 slug: about
 
-## Who am I
-
 This is the public blog of [Evan Chen](https://web.evanchen.cc).
 
 On this blog you can likely find me posting about
