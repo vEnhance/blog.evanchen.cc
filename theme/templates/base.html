@@ -129,12 +129,24 @@
                     </nav>
                 {% endif %}
                 <div class="header_box">
-                    <h1>
-                        <a href="{{ SITEURL }}/">{{ SITENAME }}</a>
-                    </h1>
-                    <h2>
-                        The blog of <a href="https://web.evanchen.cc" target="_blank">Evan Chen</a>
-                    </h2>
+                    <span class="avatar">
+                        <a href="{{ SITEURL }}/">
+                            {# djlint: off #}
+                            <img src="{{ SITEURL }}/theme/avatar.png"
+                                 width="120"
+                                 alt="vEnhance's avatar"
+                                 class="header-image" />
+                            {# djlint: on #}
+                        </a>
+                    </span>
+                    <div class="header-text">
+                        <h1>
+                            <a href="{{ SITEURL }}/">{{ SITENAME }}</a>
+                        </h1>
+                        <h2>
+                            The blog of <a href="https://web.evanchen.cc" target="_blank">Evan Chen</a>
+                        </h2>
+                    </div>
                 </div>
             </header>
         {% endif %}
