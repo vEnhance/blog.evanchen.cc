@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 {% block title %}
-    {{ SITENAME }} | articles tagged "{{ tag }}"
+    {{ SITENAME }} | Posts tagged "{{ tag }}"
     {% if articles_page.number != 1 %}| Page {{ articles_page.number }}{% endif %}
 {% endblock title %}
 {% block ephemeral_nav %}
