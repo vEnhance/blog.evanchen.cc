@@ -27,11 +27,11 @@ header,
   display: none; /* Hidden by default on small screens */
 }
 
-/* Show sidebar on large displays (1000px+) */
-@media (min-width: 1024px) {
+/* Show sidebar on large displays (1280px+) */
+@media (min-width: 1280px) {
   header,
   #wrapper {
-    max-width: 1024px;
+    max-width: 1152px;
   }
   #wrapper {
     display: flex;
@@ -43,7 +43,7 @@ header,
   }
   #sidebar {
     display: block;
-    width: 224px;
+    width: 192px;
     flex-shrink: 0;
     margin-top: 3em;
     margin-left: 32px;

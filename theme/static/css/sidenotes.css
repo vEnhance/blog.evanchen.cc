@@ -31,16 +31,33 @@ article.post {
 }
 
 /* The sidenote content - float left with clear to prevent overlap */
+/* Uses calc() to dynamically fill available left margin space, capped at 320px */
 .sidenote {
   float: left;
   clear: left;
-  width: 140px;
-  margin-left: -160px;
+  --space-left: min(calc((100vw - 768px) / 2 + 160px), 350px);
+  margin-left: calc(-1 * var(--space-left) + 20px);
+  width: calc(var(--space-left) - 30px);
   margin-bottom: 0.5em;
   font-size: 0.85em;
   line-height: 1.4;
   color: var(--muted-color);
   text-align: right;
+}
+
+/* Fix alignment when sidenote is inside indented content */
+blockquote .sidenote,
+li .sidenote {
+  --extra-indent: 40px;
+  margin-left: calc(-1 * var(--space-left) - var(--extra-indent) + 20px);
+  width: calc(var(--space-left) + var(--extra-indent) - 30px);
+}
+
+/* At 1280px+, max-width changes to 1152px */
+@media (min-width: 1280px) {
+  .sidenote {
+    --space-left: min(calc((100vw - 1152px) / 2 + 160px), 350px);
+  }
 }
 
 /* Sidenote number prefix in the margin */
@@ -62,12 +79,6 @@ article.post {
 /* Scale down KaTeX math in sidenotes */
 .sidenote .katex {
   font-size: 0.85em;
-}
-
-/* Fix alignment when sidenote is inside indented content */
-blockquote .sidenote,
-li .sidenote {
-  margin-left: -200px; /* Compensate for typical indentation */
 }
 
 /* Hide original footnotes on desktop */
