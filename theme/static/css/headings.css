@@ -21,3 +21,44 @@ h2 {
 h3 {
   font-size: 1.2em;
 }
+
+/* Section markers in left margin */
+.post h1:not(.title),
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  position: relative;
+}
+
+.post h1:not(.title)::before,
+.post h2::before,
+.post h3::before,
+.post h4::before,
+.post h5::before,
+.post h6::before {
+  content: "§";
+  font-size: 70%;
+  font-family:
+    Trebuchet MS,
+    Arial,
+    sans-serif;
+  transform: scaleX(0.7);
+  position: absolute;
+  right: 100%;
+  padding-right: 5px;
+  color: var(--black-color);
+}
+
+/* Hide on mobile where there's no left margin */
+@media (max-width: 768px) {
+  .post h1:not(.title)::before,
+  .post h2::before,
+  .post h3::before,
+  .post h4::before,
+  .post h5::before,
+  .post h6::before {
+    display: none;
+  }
+}
