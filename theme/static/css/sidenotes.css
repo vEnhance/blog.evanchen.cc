@@ -1,0 +1,161 @@
+/* Tufte-style Sidenotes */
+
+/* Counter for automatic numbering */
+article.post {
+  counter-reset: sidenote-counter;
+}
+
+/* Wrapper keeps elements together inline */
+.sidenote-wrapper {
+  display: inline;
+}
+
+/* The sidenote number (superscript in text) */
+.sidenote-number {
+  counter-increment: sidenote-counter;
+  cursor: pointer;
+}
+
+.sidenote-number::after {
+  content: counter(sidenote-counter);
+  font-size: 0.75em;
+  position: relative;
+  top: -0.5em;
+  left: 0.1em;
+  color: var(--primary-color);
+}
+
+/* Hide the checkbox toggle */
+.sidenote-toggle {
+  display: none;
+}
+
+/* The sidenote content - float left with clear to prevent overlap */
+.sidenote {
+  float: left;
+  clear: left;
+  width: 140px;
+  margin-left: -160px;
+  margin-bottom: 0.5em;
+  font-size: 0.85em;
+  line-height: 1.4;
+  color: var(--muted-color);
+  text-align: right;
+}
+
+/* Sidenote number prefix in the margin */
+.sidenote::before {
+  content: counter(sidenote-counter) ". ";
+  color: var(--primary-color);
+}
+
+/* Links in sidenotes */
+.sidenote a {
+  color: var(--muted-color);
+  text-decoration: underline;
+}
+
+.sidenote a:hover {
+  color: var(--primary-color);
+}
+
+/* Scale down KaTeX math in sidenotes */
+.sidenote .katex {
+  font-size: 0.85em;
+}
+
+/* Fix alignment when sidenote is inside indented content */
+blockquote .sidenote,
+li .sidenote {
+  margin-left: -200px; /* Compensate for typical indentation */
+}
+
+/* Hide original footnotes on desktop */
+.sidenote-hidden-desktop {
+  display: none;
+}
+
+/* Mobile and summarized: show sidenotes inline when toggled */
+@media (max-width: 768px) {
+  .sidenote {
+    display: none;
+    float: none;
+    width: auto;
+    text-align: left;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.5em;
+    background-color: var(--menu-background-color);
+    border-left: 3px solid var(--primary-color);
+  }
+
+  blockquote .sidenote,
+  li .sidenote {
+    margin-left: 1em;
+  }
+
+  .sidenote .katex {
+    font-size: 1em;
+  }
+
+  .sidenote-number {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .sidenote-toggle:checked + .sidenote {
+    display: block;
+  }
+
+  .sidenote-hidden-desktop {
+    display: block;
+  }
+}
+
+/* Summarized view: same as mobile */
+.summarized .sidenote {
+  display: none;
+  float: none;
+  width: auto;
+  text-align: left;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.5em;
+  background-color: var(--menu-background-color);
+  border-left: 3px solid var(--primary-color);
+}
+
+.summarized blockquote .sidenote,
+.summarized li .sidenote {
+  margin-left: 1em;
+}
+
+.summarized .sidenote .katex {
+  font-size: 1em;
+}
+
+.summarized .sidenote-number {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.summarized .sidenote-toggle:checked + .sidenote {
+  display: block;
+}
+
+.summarized .sidenote-hidden-desktop {
+  display: block;
+}
+
+/* Print: show original footnotes */
+@media print {
+  .sidenote {
+    display: none;
+  }
+
+  .sidenote-hidden-desktop {
+    display: block;
+  }
+
+  .sidenote-toggle {
+    display: none;
+  }
+}

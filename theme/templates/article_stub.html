@@ -13,12 +13,14 @@
         {% include "translations.html" %}
     {% endif %}
     {% if articles_page and article.summary != article.content %}
-        {{ article.summary }}
+        <div class="summarized">{{ article.summary }}</div>
         <div>
             <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
         </div>
+    {% elif articles_page %}
+        <div class="summarized">{{ article.content }}</div>
     {% else %}
-        {{ article.content }}
+        <div class="full">{{ article.content }}</div>
     {% endif %}
     <div class="clear"></div>
     <div class="info">

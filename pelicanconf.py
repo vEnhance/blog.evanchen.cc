@@ -48,9 +48,11 @@ PAGE_SAVE_AS = "{slug}/index.html"
 
 THEME = "theme"
 
+PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     "pelican_redirect",
     "pelican_katex",
+    "sidenotes",
 ]
 
 MARKDOWN = {
