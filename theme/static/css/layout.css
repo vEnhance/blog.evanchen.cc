@@ -57,7 +57,6 @@ header,
   }
 
   p.sidebar-title {
-    font-family: sans-serif;
     font-style: italic;
     margin-bottom: 1.5em;
   }
@@ -82,7 +81,6 @@ header,
 
   .sidebar-posts a {
     display: block;
-    font-family: sans-serif;
     font-size: 0.9em;
     line-height: 1.4em;
     margin-bottom: 0.3em;
@@ -93,7 +91,6 @@ header,
 
   .sidebar-date {
     display: block;
-    font-family: sans-serif;
     font-size: 0.75em;
     color: var(--muted-color);
   }
@@ -144,7 +141,6 @@ nav li.ephemeral.selected a {
   margin: 0 90px;
 }
 .pages {
-  font-family: sans-serif;
   line-height: 2.5em;
   margin: 4.5em 0 3em;
   background-color: var(--menu-background-color);
@@ -182,7 +178,6 @@ nav li.ephemeral.selected a {
 
 /* Footer at bottom of page */
 footer {
-  font-family: sans-serif;
   line-height: 2.5em;
   text-align: center;
   color: var(--muted-color);

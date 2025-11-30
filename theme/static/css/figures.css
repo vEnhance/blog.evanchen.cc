@@ -32,6 +32,5 @@ figcaption {
   font-style: italic;
   color: var(--muted-color);
   font-size: 0.9em;
-  font-family: sans-serif;
   line-height: 1.3em;
 }
