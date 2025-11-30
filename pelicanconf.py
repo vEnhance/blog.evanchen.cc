@@ -18,10 +18,9 @@ AUTHOR_FEED_RSS = None
 
 DISPLAY_PAGES_ON_MENU = True
 MENU_INTERNAL_PAGES = (
-    ("All", "archives", "archives/index.html"),
     ("Cats", "categories", "categories/index.html"),
+    ("All", "archives", "archives/index.html"),
 )
-MENUITEMS = (("Exit", "https://web.evanchen.cc"),)
 
 DEFAULT_CATEGORY = "Uncategorized"
 USE_FOLDER_AS_CATEGORY = True

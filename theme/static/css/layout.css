@@ -1,5 +1,6 @@
 header .header_box {
   padding-top: 2.5em;
+  padding-bottom: 1.5em;
 }
 header h1 {
   font-size: 3em;
@@ -125,7 +126,7 @@ nav li.selected a {
 .post.archives {
   margin-bottom: 1.5em;
 }
-.post h1.title {
+h1.title {
   margin-top: 0;
 }
 
@@ -145,9 +146,6 @@ nav li.selected a {
   }
 }
 
-.page {
-  margin: 0 90px;
-}
 .pages {
   line-height: 2.5em;
   background-color: var(--menu-background-color);

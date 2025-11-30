@@ -132,7 +132,9 @@
                     <h1>
                         <a href="{{ SITEURL }}/">{{ SITENAME }}</a>
                     </h1>
-                    {% if SITESUBTITLE %}<h2>{{ SITESUBTITLE }}</h2>{% endif %}
+                    <h2>
+                        The blog of <a href="https://web.evanchen.cc" target="_blank">Evan Chen</a>
+                    </h2>
                 </div>
             </header>
         {% endif %}
@@ -143,15 +145,13 @@
                         <div class="clear"></div>
                         <footer>
                             <p>
-                                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
-                                ·
-                                Powered by <a href="https://getpelican.com">Pelican</a>
+                                <a href="https://github.com/vEnhance/blog.evanchen.cc">GitHub repository</a>
                                 {% if FEED_ALL_ATOM %}
-                                    ·
+                                    •
                                     <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
                                 {% endif %}
                                 {% if FEED_ALL_RSS %}
-                                    ·
+                                    •
                                     <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate">Rss Feed</a>
                                 {% endif %}
                             </p>
