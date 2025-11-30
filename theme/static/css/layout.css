@@ -1,0 +1,195 @@
+header .header_box {
+  padding-top: 2.5em;
+}
+header h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 0;
+}
+header h2 {
+  font-size: 1.4em;
+  margin: 0.3em 0;
+  color: var(--muted-color);
+}
+#content {
+  margin-top: 3em;
+}
+
+header,
+#wrapper {
+  padding: 0 10px;
+  min-width: 500px;
+  max-width: 800px;
+  margin: auto;
+}
+
+#sidebar {
+  display: none; /* Hidden by default on small screens */
+}
+
+/* Show sidebar on large displays (1200px+) */
+@media (min-width: 1200px) {
+  header,
+  #wrapper {
+    max-width: 1200px;
+  }
+  #wrapper {
+    display: flex;
+  }
+  #content {
+    flex: 1;
+    min-width: 0; /* Prevent flex item from overflowing */
+    display: flow-root; /* Properly contain floats for date alignment */
+  }
+  #sidebar {
+    display: block;
+    width: 280px;
+    flex-shrink: 0;
+    margin-top: 3em;
+    margin-left: 40px;
+  }
+
+  .sidebar-section {
+    background-color: var(--menu-background-color);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  p.sidebar-title {
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 1.5em;
+  }
+
+  .sidebar-posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-posts li {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--menu-emph-color);
+  }
+
+  .sidebar-posts li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .sidebar-posts a {
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    margin-bottom: 0.3em;
+  }
+
+  .sidebar-posts a:hover {
+  }
+
+  .sidebar-date {
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.75em;
+    color: var(--muted-color);
+  }
+}
+
+/* Navigation at top right */
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0 0 0 3em;
+  padding: 0;
+}
+nav li {
+  float: left;
+}
+nav a {
+  display: block;
+  padding: 4.5em 10px 10px 10px;
+  background-color: var(--secondary-color);
+  color: #000;
+}
+nav a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+nav li.selected a {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+nav li.ephemeral.selected a {
+  background-color: var(--muted-color);
+}
+
+/* Post layout */
+.post {
+  margin: 0 0 4.5em 150px;
+}
+.post.archives {
+  margin-bottom: 1.5em;
+  margin-left: 160px;
+}
+.post h1:first-child {
+  margin-top: 0;
+}
+
+/* Pagination at bottom */
+.page {
+  margin: 0 90px;
+}
+.pages {
+  font-family: sans-serif;
+  line-height: 2.5em;
+  margin: 4.5em 0 3em;
+  background-color: var(--menu-background-color);
+  color: var(--muted-color);
+  border-radius: 5px;
+}
+.pages a.next_page {
+  float: right;
+  width: 140px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--menu-emph-color);
+}
+.pages a.prev_page {
+  float: left;
+  width: 140px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: var(--menu-emph-color);
+}
+.pages a {
+  color: inherit;
+  border: none;
+}
+.pages a:hover {
+  font-weight: bold;
+}
+.pages span {
+  display: block;
+  margin: 0 160px;
+  text-align: center;
+}
+
+/* Footer at bottom of page */
+footer {
+  font-family: sans-serif;
+  line-height: 2.5em;
+  text-align: center;
+  color: var(--muted-color);
+  margin: 3em 0;
+  border: 1px solid var(--menu-emph-color);
+  border-radius: 5px;
+}
+footer p {
+  margin: 0;
+}

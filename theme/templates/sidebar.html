@@ -1,0 +1,13 @@
+<aside id="sidebar">
+    <div class="sidebar-section">
+        <p class="sidebar-title">Recent Posts</p>
+        <ul class="sidebar-posts">
+            {% for article in articles[:10] %}
+                <li>
+                    <a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a>
+                    <span class="sidebar-date">{{ article.date.strftime("%b %d, %Y") }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</aside>
