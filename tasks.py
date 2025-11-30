@@ -3,8 +3,8 @@ import shlex
 import shutil
 import sys
 
-from invoke import task
 from invoke.main import program
+from invoke.tasks import task
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
@@ -87,6 +87,7 @@ def reserve(c):
 def preview(c):
     """Build production version of site"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
+
 
 @task
 def livereload(c):
