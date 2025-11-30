@@ -19,7 +19,7 @@ header,
 #wrapper {
   padding: 0 10px;
   min-width: 500px;
-  max-width: 768px;
+  max-width: var(--small-screen-threshold);
   margin: auto;
 }
 
@@ -27,11 +27,11 @@ header,
   display: none; /* Hidden by default on small screens */
 }
 
-/* Show sidebar on large displays (1280px+) */
-@media (min-width: 1280px) {
+/* Show sidebar on large displays */
+@media (min-width: 1152px) {
   header,
   #wrapper {
-    max-width: 1152px;
+    max-width: var(--wrapper-max-width);
   }
   #wrapper {
     display: flex;
@@ -43,7 +43,7 @@ header,
   }
   #sidebar {
     display: block;
-    width: 192px;
+    width: var(--sidebar-width);
     flex-shrink: 0;
     margin-top: 3em;
     margin-left: 32px;
@@ -126,11 +126,8 @@ nav li.ephemeral.selected a {
 
 /* Post layout */
 .post {
-  margin: 0 0 4.5em 150px;
-}
-.post.archives {
-  margin-bottom: 1.5em;
-  margin-left: 160px;
+  margin-bottom: 4.5em;
+  margin-left: var(--post-margin-left);
 }
 .post h1:first-child {
   margin-top: 0;

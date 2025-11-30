@@ -35,28 +35,33 @@ article.post {
 .sidenote {
   float: left;
   clear: left;
-  --space-left: min(calc((100vw - 768px) / 2 + 160px), 350px);
-  margin-left: calc(-1 * var(--space-left) + 20px);
-  width: calc(var(--space-left) - 30px);
   margin-bottom: 0.5em;
   font-size: 0.85em;
   line-height: 1.4;
   color: var(--muted-color);
   text-align: right;
+
+  --extra-indent: 0px;
+  --wrapper-width: var(--small-screen-threshold);
+
+  --space-left: min(
+    calc((100vw - var(--wrapper-width)) / 2 + var(--post-margin-left)),
+    var(--max-sidenote-width)
+  );
+  width: calc(var(--space-left) - 30px);
+  margin-left: calc(-1 * var(--space-left) + -1 * var(--extra-indent) + 15px);
 }
 
 /* Fix alignment when sidenote is inside indented content */
 blockquote .sidenote,
 li .sidenote {
   --extra-indent: 40px;
-  margin-left: calc(-1 * var(--space-left) - var(--extra-indent) + 20px);
-  width: calc(var(--space-left) + var(--extra-indent) - 30px);
 }
 
-/* At 1280px+, max-width changes to 1152px */
-@media (min-width: 1280px) {
+/* max-width changes to */
+@media (min-width: 1152px) {
   .sidenote {
-    --space-left: min(calc((100vw - 1152px) / 2 + 160px), 350px);
+    --wrapper-width: var(--wrapper-max-width);
   }
 }
 

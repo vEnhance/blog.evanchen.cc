@@ -8,6 +8,13 @@
   --white-color: #f0f0f0;
   --black-color: #111;
   --black-emph-color: #000;
+
+  --small-screen-threshold: 768px;
+  --wrapper-max-width: 1024px;
+  --large-screen-threshold: 1152px;
+  --sidebar-width: 160px;
+  --max-sidenote-width: 320px;
+  --post-margin-left: 150px;
 }
 
 /* et-book fonts */
