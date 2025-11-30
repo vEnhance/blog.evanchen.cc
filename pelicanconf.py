@@ -61,6 +61,7 @@ MARKDOWN = {
         "markdown.extensions.extra": {},
         "markdown_extensions.figure_caption": {},
         "mdx_truly_sane_lists": {},
+        "markdown.extensions.smarty": {},
     },
     "output_format": "html5",
 }
