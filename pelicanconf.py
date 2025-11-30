@@ -60,6 +60,7 @@ MARKDOWN = {
         "markdown.extensions.codehilite": {"css_class": "highlight"},
         "markdown.extensions.extra": {},
         "markdown_extensions.figure_caption": {},
+        "mdx_truly_sane_lists": {},
     },
     "output_format": "html5",
 }
