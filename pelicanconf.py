@@ -64,7 +64,9 @@ MARKDOWN = {
 
 SUMMARY_MAX_LENGTH = 150
 
+# On dev, output stuff to /tmp
 OUTPUT_PATH = "/tmp/blog.evanchen.cc/"
+CACHE_PATH = "/tmp/blog_cache/"
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
