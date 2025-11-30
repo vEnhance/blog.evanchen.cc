@@ -52,3 +52,13 @@ a.readmore {
 .info a {
   color: inherit;
 }
+
+/* Mobile: stack date under title instead of floating left */
+@media (max-width: 768px) {
+  .date {
+    float: none;
+    width: auto;
+    display: inline-block;
+    margin: 0 0 1em 0;
+  }
+}

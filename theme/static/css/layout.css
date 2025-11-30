@@ -136,6 +136,22 @@ nav li.ephemeral.selected a {
   margin-top: 0;
 }
 
+/* Mobile: remove left margin, stack date under title */
+@media (max-width: 768px) {
+  header,
+  #wrapper {
+    min-width: 0;
+    padding: 0 15px;
+  }
+
+  .post {
+    margin-left: 0;
+  }
+  .post.archives {
+    margin-left: 0;
+  }
+}
+
 /* Pagination at bottom */
 .page {
   margin: 0 90px;
