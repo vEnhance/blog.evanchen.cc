@@ -129,7 +129,10 @@ nav li.ephemeral.selected a {
   margin-bottom: 4.5em;
   margin-left: var(--post-margin-left);
 }
-.post h1:first-child {
+.post.archives {
+  margin-bottom: 1.5em;
+}
+.post h1.title {
   margin-top: 0;
 }
 
