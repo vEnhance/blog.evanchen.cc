@@ -120,9 +120,6 @@ nav li.selected a {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
-nav li.ephemeral.selected a {
-  background-color: var(--muted-color);
-}
 
 /* Post layout */
 .post {
