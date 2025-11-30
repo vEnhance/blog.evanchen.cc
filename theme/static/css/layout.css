@@ -110,15 +110,15 @@ nav a {
   display: block;
   padding: 4.5em 10px 10px 10px;
   background-color: var(--secondary-color);
-  color: #000;
+  color: var(--black-color);
 }
 nav a:hover {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
 }
 nav li.selected a {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
 }
 nav li.ephemeral.selected a {
   background-color: var(--muted-color);

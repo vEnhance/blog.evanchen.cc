@@ -11,14 +11,14 @@
 a.category:hover,
 a.readmore:hover,
 a.tags:hover {
-  background: var(--dark-color);
-  color: #fff;
+  background: var(--black-color);
+  color: var(--white-color);
 }
 
 .date {
   background: #111;
   padding: 0.3em 0.3em;
-  color: #fff;
+  color: var(--white-color);
   float: left;
   clear: both;
   width: 110px;
@@ -30,16 +30,16 @@ a.tags:hover {
 a.category {
   border-color: var(--muted-color);
   font-weight: bold;
-  color: #000;
+  color: var(--black-color);
 }
 a.tags {
   background: var(--secondary-color);
-  color: #000;
+  color: var(--black-color);
   display: inline-block;
 }
 a.readmore {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
   display: inline-block;
   font-size: 1em;
 }

@@ -2,10 +2,12 @@
   --primary-color: #db15a9;
   --secondary-color: #ffccee;
   --background-color: #fffff8;
-  --muted-color: #444;
-  --dark-color: #222;
+  --muted-color: #555;
   --menu-background-color: #eee;
   --menu-emph-color: #ccc;
+  --white-color: #f0f0f0;
+  --black-color: #111;
+  --black-emph-color: #000;
 }
 
 /* et-book fonts */
@@ -85,6 +87,7 @@ body {
   font-size: 17px;
   line-height: 1.5em;
   background-color: var(--background-color);
+  color: var(--black-color);
 }
 
 /* General HTML tags */
@@ -135,7 +138,9 @@ blockquote {
 
 em {
   font-style: italic;
+  color: var(--black-emph-color);
 }
 strong {
   font-weight: bold;
+  color: var(--black-emph-color);
 }
