@@ -2,7 +2,7 @@
     <div class="sidebar-section">
         <p class="sidebar-title">Recent Posts</p>
         <ul class="sidebar-posts">
-            {% for article in all_articles[:10] %}
+            {% for article in all_articles[:3] %}
                 <li>
                     <a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a>
                     <span class="sidebar-date">{{ article.date.strftime("%b %d, %Y") }}</span>
