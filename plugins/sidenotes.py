@@ -75,7 +75,9 @@ def transform_footnotes_to_sidenotes(content):
         sidenote_id = f"sn-{key}"
 
         # Create sidenote wrapper structure
-        wrapper = soup.new_tag("span", attrs={"class": "sidenote-wrapper"})
+        wrapper = soup.new_tag(
+            "span", attrs={"class": "sidenote-wrapper", "id": sup_id}
+        )
 
         # Label (shows superscript number, clickable for mobile toggle)
         label = soup.new_tag(
