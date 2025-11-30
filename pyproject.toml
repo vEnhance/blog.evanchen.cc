@@ -21,3 +21,7 @@ dev = [
     "prek>=0.2.19",
     "ruff>=0.14.4",
 ]
+
+[tool.djlint]
+profile = "jinja"
+ignore = "H006"
