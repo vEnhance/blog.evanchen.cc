@@ -86,11 +86,6 @@ li .sidenote {
   font-size: 0.85em;
 }
 
-/* Hide original footnotes on desktop */
-.sidenote-hidden-desktop {
-  display: none;
-}
-
 /* Mobile and summarized: show sidenotes inline when toggled */
 @media (max-width: 768px) {
   .sidenote {
@@ -119,10 +114,6 @@ li .sidenote {
   }
 
   .sidenote-toggle:checked + .sidenote {
-    display: block;
-  }
-
-  .sidenote-hidden-desktop {
     display: block;
   }
 }
@@ -157,18 +148,10 @@ li .sidenote {
   display: block;
 }
 
-.summarized .sidenote-hidden-desktop {
-  display: block;
-}
-
 /* Print: show original footnotes */
 @media print {
   .sidenote {
     display: none;
-  }
-
-  .sidenote-hidden-desktop {
-    display: block;
   }
 
   .sidenote-toggle {

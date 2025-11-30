@@ -104,9 +104,6 @@ def transform_footnotes_to_sidenotes(content):
         # Replace original <sup> element
         sup.replace_with(wrapper)
 
-    # Hide original footnote section on desktop (CSS will handle visibility)
-    footnote_div["class"] = footnote_div.get("class", []) + ["sidenote-hidden-desktop"]
-
     # Update content
     content._content = str(soup)
 
