@@ -52,6 +52,7 @@ PLUGINS = [
     "pelican_redirect",
     "pelican_katex",
     "sidenotes",
+    "all_articles",
 ]
 
 MARKDOWN = {
