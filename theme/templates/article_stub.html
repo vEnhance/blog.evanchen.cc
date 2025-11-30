@@ -35,7 +35,7 @@
         {% if article.category.name != "misc" %}
             ·
             <a href="{{ SITEURL }}/{{ article.category.url }}"
-               class="category"
+               class="category{% if category and category.name == article.category.name %} selected{% endif %}"
                rel="tag">{{ article.category }}</a>
         {% endif %}
     </div>
