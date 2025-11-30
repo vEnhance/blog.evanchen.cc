@@ -48,8 +48,8 @@ article.post {
     calc((100vw - var(--wrapper-width)) / 2 + var(--post-margin-left)),
     var(--max-sidenote-width)
   );
-  width: calc(var(--space-left) - 30px);
-  margin-left: calc(-1 * var(--space-left) + -1 * var(--extra-indent) + 15px);
+  width: calc(var(--space-left) - 60px);
+  margin-left: calc(-1 * var(--space-left) + -1 * var(--extra-indent) + 25px);
 }
 
 /* Fix alignment when sidenote is inside indented content */
