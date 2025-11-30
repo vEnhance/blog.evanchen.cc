@@ -149,16 +149,15 @@ nav li.ephemeral.selected a {
   }
 }
 
-/* Pagination at bottom */
 .page {
   margin: 0 90px;
 }
 .pages {
   line-height: 2.5em;
-  margin: 4.5em 0 3em;
   background-color: var(--menu-background-color);
   color: var(--muted-color);
   border-radius: 5px;
+  margin-bottom: 2em;
 }
 .pages a.next_page {
   float: right;
@@ -183,10 +182,14 @@ nav li.ephemeral.selected a {
 .pages a:hover {
   font-weight: bold;
 }
-.pages span {
+.pages span.pagination-center {
   display: block;
   margin: 0 160px;
   text-align: center;
+}
+.pages span.separator {
+  display: inline;
+  margin: 0 0.5em;
 }
 
 /* Footer at bottom of page */
