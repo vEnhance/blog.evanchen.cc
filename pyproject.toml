@@ -1,0 +1,19 @@
+[project]
+name = "blog.evanchen.cc"
+version = "0.1.0"
+description = "Power Overwhelming"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "lxml>=6.0.2",
+    "pelican-katex>=1.8.2",
+    "pelican-redirect>=3.0.0",
+    "pelican[markdown]>=4.11.0.post0",
+]
+
+[dependency-groups]
+dev = [
+    "djlint>=1.36.4",
+    "ruff>=0.14.4",
+]
