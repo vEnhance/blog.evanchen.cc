@@ -43,6 +43,12 @@ a.readmore {
   display: inline-block;
   font-size: 1em;
 }
+a.category.selected,
+a.tags.selected {
+  background: var(--primary-color);
+  color: var(--white-color);
+  border-color: transparent;
+}
 
 .info {
   margin-top: 1.3em;
