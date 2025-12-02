@@ -13,6 +13,9 @@ On this blog you can likely find me posting about
 You can check my [now page](https://web.evanchen.cc/now.html)
 if you want to see what my current "job" is, whatever that means.
 
+If you want to narrow down to a specific category,
+you can [check the categories page](/categories).
+
 ## More things I wrote
 
 If you like my writing, some of the stuff on <https://web.evanchen.cc>

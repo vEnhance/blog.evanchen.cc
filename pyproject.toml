@@ -24,7 +24,7 @@ dev = [
 
 [tool.djlint]
 profile = "jinja"
-ignore = "H006"
+ignore = "H006,D018"
 
 [tool.ruff.lint]
 ignore = ["E731"]
