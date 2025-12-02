@@ -53,6 +53,7 @@ PLUGINS = [
     "pelican_katex",
     "sidenotes",
     "all_articles",
+    "sort_tags",
 ]
 
 MARKDOWN = {

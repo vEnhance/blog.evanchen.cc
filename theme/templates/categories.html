@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+    <h2>Categories</h2>
     <ul>
         {% for category, articles in categories %}
             <li>
@@ -17,7 +18,13 @@
             but our schooling would improve if we did.
         </blockquote>
     </p>
-    <p>
-        There's also a <a href="/tags">list of tags</a>, though I think that's less useful.
-    </p>
+    <h2>Tags</h2>
+    <ul>
+        {% for tag, articles in tags_sorted_by_article_length %}
+            <li>
+                <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>
+                ({{ articles|length }} posts)
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock content %}
