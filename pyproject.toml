@@ -24,7 +24,10 @@ dev = [
 
 [tool.djlint]
 profile = "jinja"
-ignore = "H006,D018"
+ignore = "H006"
 
 [tool.ruff.lint]
 ignore = ["E731"]
+
+[tool.codespell]
+ignore-words-list = "lifes"

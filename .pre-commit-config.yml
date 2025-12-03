@@ -26,10 +26,10 @@ repos:
   - repo: https://github.com/djlint/djLint
     rev: v1.36.4
     hooks:
-      - id: djlint-reformat-django
+      - id: djlint-reformat-jinja
         name: djlint reformat
         types: [html]
-      - id: djlint-django
+      - id: djlint-jinja
         name: djlint check
         types: [html]
 
