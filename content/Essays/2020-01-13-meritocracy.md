@@ -6,7 +6,7 @@ Status: published
 original_url: 2020/01/13/meritocracy-is-the-worst-form-of-admissions-except-for-all-the-other-ones/
 
 I'm now going to say something explicitly that I
-hinted at in [June](https://usamo.wordpress.com/2019/06/01/an-opening-speech-for-mop/):
+hinted at in [June](https://blog.evanchen.cc/2019/06/01/an-opening-speech-for-mop/):
 I don't think a student deserves to make MOP more because they had a higher score than another student.
 
 I think it's easy to get this impression because the selection for MOP is done
@@ -52,7 +52,7 @@ behind using score only:
     want to set the incentives right and put the goalpost at "do maximally well
     on USAMO". I think we design the USAMO well enough that preparation teaches you
     [valuable
-    lessons](https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/)
+    lessons](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/)
     (math and otherwise). For an example of how not to set the goalpost, take most
     college admissions processes.
 

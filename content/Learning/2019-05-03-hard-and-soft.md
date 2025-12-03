@@ -125,7 +125,7 @@ What this also means is that, in the after-math of a problem
 (when you've solved or given up on a problem and are reading and reflecting on the solution),
 you should also add soft techniques into the list of possible answers to "how might I have thought of that?".
 An example of this is at the end of my earlier post
-[On Reading Solutions](https://usamo.wordpress.com/2017/03/06/on-reading-solutions/),
+[On Reading Solutions](https://blog.evanchen.cc/2017/03/06/on-reading-solutions/),
 in which I describe how you can come up with solutions to two Putnam problems
 by thinking carefully about what should be the equality case.
 
