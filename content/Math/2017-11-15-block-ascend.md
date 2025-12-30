@@ -67,7 +67,7 @@ in Lewis' result one may freely mix $k$ and $k+1$'s.
 To simplify notation,
 
 > **Definition 6.** Let $I \subseteq \left\{ 1,\dots,n \right\}$.
-> Then $\mathcal L(n,k,I)$ denotes ${\mathcal L_{k+2}(a_1,\dots,a_n)}$ where
+> Then $\mathcal L(n,k,I)$ denotes $\mathcal L_{k+2}(a_1,\dots,a_n)$ where
 > $$a_i = \begin{cases} k+1 & i \in I \\ k & i \notin I. \end{cases}$$
 
 > **Theorem 7** **(Mei, Wang 2017)**
@@ -86,12 +86,12 @@ This was the first problem that I was asked to work on.
 (I remember I received the problem on Sunday morning;
 this actually matters a bit for the narrative later.)
 
-At this point I should pause to mention that this ${\mathcal L_{k+2}(\dots)}$ notation is my own invention,
+At this point I should pause to mention that this $\mathcal L_{k+2}(\dots)$ notation is my own invention,
 and did not exist when I originally started working on the problem.
 Indeed, all the results are restricted to the case where $a_i \in \{k,k+1\}$ for each $i$,
 and so it was unnecessary to think about other possibilities for $a_i$:
 Mei and Wang's paper use the notation $\mathcal L(n,k,I)$.
-So while I'll continue to use the ${\mathcal L_{k+2}(\dots)}$ notation in the blog post for readability,
+So while I'll continue to use the $\mathcal L_{k+2}(\dots)$ notation in the blog post for readability,
 it will make some of the steps more obvious than they actually were.
 
 ## 2. Setting out
@@ -103,11 +103,11 @@ and then compose two such bijections.
 I didn't see why this should be much easier, but it didn't seem to hurt either.
 
 As an example, they show how to do this bijection with $I = \{1\}$ and $I = \{n\}$.
-Indeed, suppose $I = \{1\}$. Then ${\pi_{11} < \pi_{12} < \dots < \pi_{1(k+1)}}$
+Indeed, suppose $I = \{1\}$. Then $\pi_{11} < \pi_{12} < \dots < \pi_{1(k+1)}$
 is an increasing sequence of length $k+1$ right at the start of $\pi$.
-So ${\pi_{1(k+1)}}$ had better be the largest element in the permutation:
+So $\pi_{1(k+1)}$ had better be the largest element in the permutation:
 otherwise later in $\pi$ the biggest element would complete an ascending permutation of length $k+2$ already!
-So removing ${\pi_{1(k+1)}}$ gives a bijection between
+So removing $\pi_{1(k+1)}$ gives a bijection between
 $\mathcal L(n,k,\{1\}) \rightarrow \mathcal L(n,k,\varnothing)$.
 
 But if you look carefully, this proof does essentially nothing with the later blocks.
@@ -132,7 +132,7 @@ So I shifted to trying to find small changes of this form.
 ### 3.1. Wishful thinking
 
 I had a lucky break of wishful thinking here.
-In the notation ${\mathcal L_{k+2}(a_1, \dots, a_n)}$ with $a_i \in \{k,k+1\}$,
+In the notation $\mathcal L_{k+2}(a_1, \dots, a_n)$ with $a_i \in \{k,k+1\}$,
 I had found that one could replace $a_1$ with either $k$ or $k+1$ freely.
 (But this proof relied heavily on the fact the block really being on the far
 left.) So what other changes might I be able to make?
@@ -174,9 +174,9 @@ despite having tried to learn it three or four times by now. But enumerative com
 
 Here's the plan: let $k=3$. Then using a C++ computer program:
 
-- Enumerate all the permutations in ${S = \mathcal L_{k+2}(3,4,3,4)}$.
-- Enumerate all the permutations in ${A = \mathcal L_{k+2}(3,3,3,4)}$.
-- Enumerate all the permutations in ${B = \mathcal L_{k+2}(3,3,4,4)}$.
+- Enumerate all the permutations in $S = \mathcal L_{k+2}(3,4,3,4)$.
+- Enumerate all the permutations in $A = \mathcal L_{k+2}(3,3,3,4)$.
+- Enumerate all the permutations in $B = \mathcal L_{k+2}(3,3,4,4)$.
 
 If the deletion approach is right, then I would hope $S$ and $A$ look pretty similar.
 On the flip side, if the swapping approach is right, then $S$ and $B$ should look close to each other instead.
@@ -189,7 +189,7 @@ I don't have to make decisions like the above off gut-feeling: do the "data scie
 Except this isn't actually what I did, since there was one problem.
 Computing the longest increasing subsequence of a length $N$ permutation takes $O(N \log N)$ time,
 and there are $N!$ or so permutations.
-But when $N = 3+4+3+4=14$, we have ${N! \cdot N \log N \approx 3 \cdot 10^{12}}$,
+But when $N = 3+4+3+4=14$, we have $N! \cdot N \log N \approx 3 \cdot 10^{12}$,
 which is a pretty big number.
 Unfortunately, my computer is not really that fast,
 and I didn't really have the patience to implement the "correct" algorithms to bring the runtime down.
@@ -197,29 +197,29 @@ and I didn't really have the patience to implement the "correct" algorithms to b
 The solution? Use $N = 1+4+3+2 = 10$ instead.
 
 In a deep irony that I didn't realize at the time,
-it was this moment when I introduced the ${\mathcal L_{k+2}(a_1, \dots, a_n)}$ notation,
+it was this moment when I introduced the $\mathcal L_{k+2}(a_1, \dots, a_n)$ notation,
 and for the first time allowed the $a_i$ to not be in $\{k,k+1\}$.
 My reasoning was that since I was only doing this for heuristic reasons,
-I could instead work with ${S = \mathcal L_{k+2}(2,4,3,2)}$ and probably not
+I could instead work with $S = \mathcal L_{k+2}(2,4,3,2)$ and probably not
 change much about the structure of the problem, while replacing $N = 2 + 4 + 3 + 2 = 11$,
 which would run $1000$ times faster.
 This was okay since all I wanted to do was see how much changing the "middle" would disrupt the structure.
 
 And so the new plan was:
 
-- Enumerate all the permutations in ${S = \mathcal L_{k+2}(1,4,3,2)}$.
-- Enumerate all the permutations in ${A = \mathcal L_{k+2}(1,3,3,2)}$.
-- Enumerate all the permutations in ${B = \mathcal L_{k+2}(1,3,4,2)}$.
+- Enumerate all the permutations in $S = \mathcal L_{k+2}(1,4,3,2)$.
+- Enumerate all the permutations in $A = \mathcal L_{k+2}(1,3,3,2)$.
+- Enumerate all the permutations in $B = \mathcal L_{k+2}(1,3,4,2)$.
 
 I admit I never actually ran the enumeration with $A$,
 because the route with $S$ and $B$ turned out to be even more promising than I expected.
 When I compared the empirical data for the sets $S$ and $B$,
-I found that the number of permutations with any particular triple ${(\pi_1, \pi_9, \pi_{10})}$ were equal.
+I found that the number of permutations with any particular triple $(\pi_1, \pi_9, \pi_{10})$ were equal.
 In other words, the **outer blocks were preserved**: the bijection
 $$\mathcal L_{k+2}(1,4,3,2) \rightarrow \mathcal L_{k+2}(1,3,4,2)$$
 does not tamper with the outside blocks of length $1$ and $2$.
 
-This meant I was ready to make the following conjecture. Suppose $a_i = k$, ${a_{i+1} = k+1}$.
+This meant I was ready to make the following conjecture. Suppose $a_i = k$, $a_{i+1} = k+1$.
 There is a bijection
 
 $$
@@ -269,9 +269,9 @@ Let's for concreteness suppose $k=2$ and the particular sets
 $$\mathcal L_{k+2}(1,3,2,1) \rightarrow \mathcal L_{k+2}(1,2,3,1).$$
 Well, it turns out if you look at the data:
 
-- The only element of ${\mathcal L_{k+2}(1,3,2,1)}$ which starts with $2$ and
+- The only element of $\mathcal L_{k+2}(1,3,2,1)$ which starts with $2$ and
   ends with $5$ is $2|147|36|5$.
-- The only element of ${\mathcal L_{k+2}(1,2,3,1)}$ which starts with $2$ and
+- The only element of $\mathcal L_{k+2}(1,2,3,1)$ which starts with $2$ and
   ends with $5$ is $2|47|136|5$.
 
 So that means that $147 | 36$ is changed to $47 | 136$. Thus the empirical data shows that
@@ -279,8 +279,8 @@ $$\mathbf W(135|24) = 35|124.$$
 In general, it might not be that clear cut.
 For example, if we look at the permutations starting with $2$ and $4$, there is more than one.
 
-- $2 | 1 5 7 | 3 6 | 4$ and $2 | 1 6 7 | 3 5 | 4$ are both in ${\mathcal L_{k+2}(1,3,2,1)}$.
-- $2 | 5 7 | 1 3 6 | 4$ and $2 | 6 7 | 1 3 5 | 4$ are both in in ${\mathcal L_{k+2}(1,2,3,1)}$.
+- $2 | 1 5 7 | 3 6 | 4$ and $2 | 1 6 7 | 3 5 | 4$ are both in $\mathcal L_{k+2}(1,3,2,1)$.
+- $2 | 5 7 | 1 3 6 | 4$ and $2 | 6 7 | 1 3 5 | 4$ are both in in $\mathcal L_{k+2}(1,2,3,1)$.
 
 Thus
 $$\mathbf W( \{135|24, 145|23\} ) = \{35|124, 45|123\}$$
@@ -298,8 +298,8 @@ You know what this sounds like? Perfect matchings.
 
 So here's the experimental procedure.
 
-- Enumerate all permutations in ${\mathcal L_{k+2}(2,3,4,2)}$ and ${\mathcal L_{k+2}(2,4,3,2)}$.
-- Take each possible tuple ${(\pi_1, \pi_2, \pi_{10}, \pi_{11})}$,
+- Enumerate all permutations in $\mathcal L_{k+2}(2,3,4,2)$ and $\mathcal L_{k+2}(2,4,3,2)$.
+- Take each possible tuple $(\pi_1, \pi_2, \pi_{10}, \pi_{11})$,
   and look at the permutations that start and end with those particular four elements.
   Record the reductions of $\pi_3\pi_4\pi_5|\pi_6\pi_7\pi_8\pi_9$ and
   $\pi_3\pi_4\pi_5\pi_6|\pi_7\pi_8\pi_9$ for all these permutations.
@@ -340,7 +340,7 @@ Also, if $7$ is on the right half, then it always moves over.
 Anyways, if you stare at this for an hour, you can actually figure out the exact rule:
 
 > **Claim 11.** Given an input $a_1a_2a_3|b_1b_2b_3b_4$,
-> move ${b_{i+1}}$ if $i$ is the largest index for which ${a_i < b_{i+1}}$,
+> move $b_{i+1}$ if $i$ is the largest index for which $a_i < b_{i+1}$,
 > or $b_1 = 1$ if no such index exists.
 
 And indeed, once I have this bijection,
@@ -359,7 +359,7 @@ earlier and finally noticed that in fact $\mathcal L_6(1,3,5,2)$ and
 $\mathcal L_6(1,5,3,2)$ also had the same cardinality. Huh.
 
 It seemed too good to be true, but I played around some more, and sure enough,
-the cardinality of ${\\\mathcal L_{k+2}(a_1, \dots, a_n)}$ seemed to only depend on the order of the $a_i$'s.
+the cardinality of $\\\mathcal L_{k+2}(a_1, \dots, a_n)$ seemed to only depend on the order of the $a_i$'s.
 And so at last I stumbled upon the final form the conjecture,
 realizing that all along the assumption $a_i \in \{k,k+1\}$ that I had been working with was a red herring,
 and that the bijection was really true in much vaster generality. There is a bijection
