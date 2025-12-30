@@ -145,7 +145,7 @@ since $f$ has no poles.
 
 Replacing $2$ with $n$ and carrying over the discussion gives the first main result.
 
-> \*Theorem 2\*\* **(Existence of Holomorphic $n$th Roots)**
+> **Theorem 2** **(Existence of Holomorphic $n$-th Roots)**
 >
 > <span id="thmnth_root"></span> Let $f \colon U \rightarrow \mathbb C$ be holomorphic.
 > Then $f$ has a holomorphic $n$-th root if and only if
@@ -159,7 +159,9 @@ $$\exp(z+2\pi i) = \exp(z).$$
 So if $e^w = z$, then any complex number $w + 2\pi i k$ is also a solution.
 
 We can handle this in the same way as before: it amounts to a lifting of the following diagram.
+
 ![Covering projection for exponential function]({static}/images/cproj-exp.png)
+
 There is no longer a need to work with a separate $V$ since:
 
 > **Exercise 3**
@@ -185,7 +187,7 @@ The most common special case is
 >
 > <span id="cornonvanishing"></span> Let $f \colon \Omega \rightarrow \mathbb C$ be continuous,
 > where $\Omega$ is simply connected.
-> If $f(z) \neq 0$ for every $z \in \Omega$, then $f$ has both a logarithm and holomorphic $n$th root.
+> If $f(z) \neq 0$ for every $z \in \Omega$, then $f$ has both a logarithm and holomorphic $n$-th root.
 
 Finally, let's return to the question of $f = \operatorname{id}$ from the very beginning.
 What's the best domain $U$ such that we can define $\sqrt{-} \colon U \rightarrow \mathbb C$?

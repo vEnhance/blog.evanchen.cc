@@ -359,7 +359,7 @@ earlier and finally noticed that in fact $\mathcal L_6(1,3,5,2)$ and
 $\mathcal L_6(1,5,3,2)$ also had the same cardinality. Huh.
 
 It seemed too good to be true, but I played around some more, and sure enough,
-the cardinality of $\\\mathcal L_{k+2}(a_1, \dots, a_n)$ seemed to only depend on the order of the $a_i$'s.
+the cardinality of $\mathcal L_{k+2}(a_1, \dots, a_n)$ seemed to only depend on the order of the $a_i$'s.
 And so at last I stumbled upon the final form the conjecture,
 realizing that all along the assumption $a_i \in \{k,k+1\}$ that I had been working with was a red herring,
 and that the bijection was really true in much vaster generality. There is a bijection
