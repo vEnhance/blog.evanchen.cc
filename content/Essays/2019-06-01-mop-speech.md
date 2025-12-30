@@ -34,7 +34,8 @@ Even if I can only take six students to the IMO each year,
 I never forget the other 74 of you are part of MOP too.
 
 This means one important thing: everyone who puts in their best shot deserves to be here.
-(And unfortunately this also means there are many other people who deserve to be here tonight too, and are not.
+(And unfortunately this also means there are many other people who deserve to be here tonight too,
+and are not.
 Maybe they solved one or two fewer problems than you did;
 or maybe they even solved the same number of problems,
 but they are in 11th grade and you are in 10th grade.)
@@ -48,7 +49,8 @@ You might find out you know less than you thought you did, and this can be disco
 Especially in the last week, when we run the TSTST,
 many of you will suddenly realize just how strong Team USA is.
 
-So I want to tell you now, [stay determined](https://www.youtube.com/watch?v=W1i4mTyidOc) in the face of adversity.
+So I want to tell you now, [stay
+determined](https://www.youtube.com/watch?v=W1i4mTyidOc) in the face of adversity.
 This struggle is your own, and we promise it's worth it, no matter the outcome.
 We are rooting for you, and your friends sitting around you are too.
 (And if the people around you aren't your friends yet, change that asap.)

@@ -9,13 +9,15 @@ I might be going too far with this Arch Linux brand loyalty, but I am so psyched
 
 ![💸]({static}/images/steam-deck.png)
 
-There's three pieces of hardware that I've always kind of wanted but never been willing to spend money on in isolation:
+There's three pieces of hardware that I've always kind of wanted but never been
+willing to spend money on in isolation:
 
 - A handheld gaming console
 - A laptop with a touch screen
 - A laptop with enough power to play games on a Steam library (my laptop is a bit too old for this)
 
-So when I heard the Steam Deck existed and it would be running an Arch Linux system beneath it, I totally caved.
+So when I heard the Steam Deck existed and it would be running an Arch Linux system beneath it,
+I totally caved.
 
 I'm just sad I didn't hear about in time to be early enough in the queue to get it by Christmas. Ah well.
 

@@ -54,7 +54,8 @@ because you'd want something like 한 (Romanized `han`) and 항 (Romanized `hang
 to have an edit distance of 1/3 rather than 1.
 Then, in order to deal with NFC inputs, the `/usr/share/hunspell/ko_KR.aff`
 provides many
-[`ICONV` and `OCONV` directives](https://manpages.ubuntu.com/manpages/trusty/en/man4/hunspell.4.html) that tell the
+[`ICONV` and `OCONV` directives](https://manpages.ubuntu.com/manpages/trusty/en/man4/hunspell.4.html) that tell
+the
 spellchecker how to convert from NFC input into NFD and then back.
 So `hunspell` works well.
 

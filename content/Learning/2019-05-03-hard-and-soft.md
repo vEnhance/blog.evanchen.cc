@@ -42,10 +42,12 @@ Perhaps a better definition is "things not written up". Examples include:
 - Considering variants of the problem (for example, adding or deleting conditions).
 - Coming up with lots of concrete examples and playing with them.
 - Trying to come with a counterexample to the problem's assertion and seeing what the obstructions are.
-- Drawing pictures, even on non-geometry problems (see JMO2 and JMO5 in my [2019 notes](http://web.evanchen.cc/exams/JMO-2019-notes.pdf) for example).
+- Drawing pictures, even on non-geometry problems (see JMO2 and JMO5 in my [2019
+  notes](http://web.evanchen.cc/exams/JMO-2019-notes.pdf) for example).
 - Deciding whether or not a geometry problem is "purely projective".
 - Counting the algebraic degrees of freedom in a geometry problem.
-- Checking all the linear/polynomial solutions to a functional equation, in order to get a guess what the answer might be.
+- Checking all the linear/polynomial solutions to a functional equation,
+  in order to get a guess what the answer might be.
 - Blindly trying to guess solutions to an algebraic equation.
 - Making up an artificial unnatural function in a functional equation,
   and then trying to see why it doesn't work
@@ -57,15 +59,28 @@ Perhaps a better definition is "things not written up". Examples include:
 - Giving a heuristic argument that some claim should be true or false
   ("probably $2^n \bmod n$ is odd infinitely often"), or even easy/hard to prove.
 
-and so on. There is some grey area between these two, some of the examples above might be argued to be in the other category (especially in context of specific problems), but hopefully this gives you a sense of what I'm talking about.
+and so on. There is some grey area between these two,
+some of the examples above might be argued to be in the other category
+(especially in context of specific problems), but hopefully this gives you a sense of what I'm talking about.
 
-If you look at things I wrote back when I was in high school, you'll see this referred to as "attacking" and "scouting" instead. This is too silly for me now even by my standards, but back then it was because I played a lot of _StarCraft: Brood War_ (I've since switched to StarCraft II). The analogy there is pretty self-explanatory: knowing what your opponent is doing is important because your army composition and gameplay decisions should change in reaction to more information.
+If you look at things I wrote back when I was in high school,
+you'll see this referred to as "attacking" and "scouting" instead.
+This is too silly for me now even by my standards, but back then it was because I played a lot of _StarCraft:
+Brood War_ (I've since switched to StarCraft II).
+The analogy there is pretty self-explanatory:
+knowing what your opponent is doing is important because your army composition
+and gameplay decisions should change in reaction to more information.
 
 ## 2. Using soft techniques: an example
 
 Now after all that blabber, here's the action item for you all: **you should try soft techniques when stuck**.
 
-When you first start doing a problem, you will often have some good ideas for what to try. (For example: a wild geometry appeared, let's scout for cyclic quadrilaterals.) Sometimes if you are lucky enough (especially if the problem is easier) this will be enough to topple the problem, and you can move on. But more often what happens is that eventually you run out of steam, and the problem is still standing. When that happens, my advice is to try doing some soft techniques if you haven't already done so.
+When you first start doing a problem, you will often have some good ideas for what to try.
+(For example: a wild geometry appeared,
+let's scout for cyclic quadrilaterals.) Sometimes if you are lucky enough
+(especially if the problem is easier) this will be enough to topple the problem, and you can move on.
+But more often what happens is that eventually you run out of steam, and the problem is still standing.
+When that happens, my advice is to try doing some soft techniques if you haven't already done so.
 
 Here's an example that I like to give.
 
@@ -75,9 +90,15 @@ Here's an example that I like to give.
 >
 > $$\begin{aligned} x^3 &= 3x - 12y + 50,\\ y^3 &= 12y + 3z - 2,\\ z^3 &= 27z + 27x. \end{aligned}$$
 
-A common first thing that people will try to do is add the first two equations, since that will cause the $12y$ terms to cancel. This gives a factor of $x+y$ in the left and an $x+z$ in the right, so then maybe you try to submit that into the $27(x+z)$ in the last equation, so you get $z^3 = 9(x^3+y^3-48)$, cool, there's no more linear terms. Then...
+A common first thing that people will try to do is add the first two equations,
+since that will cause the $12y$ terms to cancel.
+This gives a factor of $x+y$ in the left and an $x+z$ in the right,
+so then maybe you try to submit that into the $27(x+z)$ in the last equation,
+so you get $z^3 = 9(x^3+y^3-48)$, cool, there's no more linear terms. Then...
 
-Usually this doesn't end well. You add this and subtract that and in the end all you see is equation after equation, and after a while you realize you're not getting anywhere.
+Usually this doesn't end well.
+You add this and subtract that and in the end all you see is equation after equation,
+and after a while you realize you're not getting anywhere.
 
 So we're stuck now. What to do? I'll now bring in two of the soft techniques I mentioned earlier:
 

@@ -12,7 +12,8 @@ original_url: 2020/06/14/on-choosing-exercises/
 > As Mark Kisin has said, "You can wave your hands all you want, but it still
 > won’t make you fly."
 >
-> --- Ravi Vakil, [The Rising Sea: Foundations of Algebraic Geometry](http://math.stanford.edu/~vakil/216blog/index.html)
+> --- Ravi Vakil, [The Rising Sea:
+> Foundations of Algebraic Geometry](http://math.stanford.edu/~vakil/216blog/index.html)
 
 When people learn new areas in higher math,
 they are usually required to do some exercises.
@@ -86,7 +87,10 @@ It was after I did this exercise that I finally felt like
 I understood why distinguished open sets are so important when defining an affine scheme.
 For that matter, it finally clicked why sheaves on a base are worth caring about.
 
-I had read lots and lots of words and pushed symbols around all day. I had even proved, on paper already, that $\mathcal O(U \sqcup V) = \mathcal O(U) \times \mathcal O(V)$. But I never really felt it. This exercise changed that for me, because suddenly I had an example in front of me that I could actually see.
+I had read lots and lots of words and pushed symbols around all day.
+I had even proved, on paper already, that $\mathcal O(U \sqcup V) = \mathcal O(U) \times \mathcal O(V)$.
+But I never really felt it. This exercise changed that for me,
+because suddenly I had an example in front of me that I could actually see.
 
 ## 3. Some suggested additional criteria
 
@@ -121,7 +125,8 @@ If a whole page of exercises looks boring, students are less likely to do them.
 
 This is one place where I think people could really learn from the math contest community.
 When designing exams like IMO or USAMO, people _fight_ over which problems they think are the prettiest.
-The nicest and most instructive exam problems are passed down from generation to generation like prized heirlooms.
+The nicest and most instructive exam problems are passed down from generation to
+generation like prized heirlooms.
 (Conveniently, the problems are even named, e.g. "IMO 2008/3", which I privately think helps a _ton_;
 it gives the problems a name and face.
 The most enthusiastic students will often be able to recall where a good problem

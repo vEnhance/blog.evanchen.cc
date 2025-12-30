@@ -99,7 +99,8 @@ Examples are:
   you should see if that function forms a cycle.
   If so, take that as an ordering.
 
-The [extraction part of Brian Chen's introduction to puzzle hunts](https://blog.vero.site/post/puzzlehunts#how-to-extract-the-answer)
+The [extraction part of Brian Chen's introduction to puzzle
+hunts](https://blog.vero.site/post/puzzlehunts#how-to-extract-the-answer)
 goes over all of these in more detail.
 
 ![Table of common encodings from
@@ -182,7 +183,7 @@ there were often still a lot of smaller local decisions to make
 as I composed the puzzle.
 Editors were helpful at this step to provide feedback;
 but there are some guidelines that I would constantly check against
-during the writing process (pre-emptively addressing concerns).
+during the writing process (preemptively addressing concerns).
 
 Some examples (by no means the only ones):
 
