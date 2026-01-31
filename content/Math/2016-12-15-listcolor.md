@@ -75,8 +75,8 @@ We see that the above example requires exponentially many vertices in $n$.
 > If $G$ is a graph with $n$ vertices then
 >
 > $$
-> \chi(G) \le \operatorname{ch}(G) \le \max\left( \chi(G),
-> \left\lceil \frac{\chi(G)+n-1}{3} \right\rceil \right).
+> \chi(G) \le \operatorname{ch}(G)
+>   \le \max\left( \chi(G), \left\lceil \frac{\chi(G)+n-1}{3} \right\rceil \right).
 > $$
 >
 > In particular, if $n \le 2\chi(G)+1$ then $\operatorname{ch}(G) = \chi(G)$.
@@ -137,8 +137,8 @@ The main tool we use is the Combinatorial Nullestellensatz of Alon.
 > and $|S_i| = 2$). Consider the polynomial
 >
 > $$
-> f = \left( x_1-x_2 \right)\left( x_2-x_3 \right) \dots \left( x_{2n-1}-x_{2n}
-> \right)\left( x_{2n}-x_1 \right)
+> f = \left( x_1-x_2 \right)\left( x_2-x_3 \right) \dots
+>   \left( x_{2n-1}-x_{2n} \right)\left( x_{2n}-x_1 \right)
 > $$
 >
 > The coefficient of $x_1^1 x_2^1 \dots x_{2n}^1$ is $2 \neq 0$.
@@ -184,8 +184,10 @@ Set $\mathop{\mathrm{D}}_G(d_1,\dots,d_n) = \mathop{\mathrm{DE}}_G(d_1,\dots,d_n
 > In terms of $f_G$, this corresponds to the choice of terms
 >
 > $$
-> \left( x_1- \boldsymbol{x_2} \right) \left( \boldsymbol{x_2}-x_3 \right)
-> \left( x_2-\boldsymbol{x_4} \right) \left( \boldsymbol{x_3}-x_4 \right)
+> \left( x_1- \boldsymbol{x_2} \right)
+> \left( \boldsymbol{x_2}-x_3 \right)
+> \left( x_2-\boldsymbol{x_4} \right)
+> \left( \boldsymbol{x_3}-x_4 \right)
 > $$
 >
 > which is a $+ x_2^2 x_3 x_4$ term.
@@ -196,8 +198,8 @@ Set $\mathop{\mathrm{D}}_G(d_1,\dots,d_n) = \mathop{\mathrm{DE}}_G(d_1,\dots,d_n
 > the coefficient of $x_1^{d_1} \dots x_n^{d_n}$ is
 >
 > $$
-> \left\lvert \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) \right\rvert - \left\lvert \mathop{\mathrm{DO}}_G(d_1,
-> \dots, d_n) \right\rvert.
+> \left\lvert \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) \right\rvert
+>   - \left\lvert \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) \right\rvert.
 > $$
 
 _Proof:_ Consider expanding $f_G$.
@@ -228,17 +230,19 @@ Eulerian suborientations are brought into the picture by the following lemma.
 > Then there are natural bijections
 >
 > $$
-> \begin{aligned} \mathop{\mathrm{DE}}_G(d_1, \dots,
-> d_n) &\rightarrow \mathop{\mathrm{EE}}(D) \\ \mathop{\mathrm{DO}}_G(d_1, \dots,
-> d_n) &\rightarrow \mathop{\mathrm{EO}}(D). \end{aligned}
+> \begin{aligned}
+>   \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EE}}(D) \\
+>   \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EO}}(D).
+> \end{aligned}
 > $$
 >
 > Similarly, if $D \in \mathop{\mathrm{DO}}_G(d_1, \dots, d_n)$ then there are bijections
 >
 > $$
-> \begin{aligned} \mathop{\mathrm{DE}}_G(d_1, \dots,
-> d_n) &\rightarrow \mathop{\mathrm{EO}}(D) \\ \mathop{\mathrm{DO}}_G(d_1, \dots,
-> d_n) &\rightarrow \mathop{\mathrm{EE}}(D). \end{aligned}
+> \begin{aligned}
+>   \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EO}}(D) \\
+>   \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EE}}(D).
+> \end{aligned}
 > $$
 
 _Proof:_ Consider any orientation $D' \in \mathop{\mathrm{D}}_G(d_1, \dots, d_n)$.
@@ -247,8 +251,8 @@ by including exactly the edges of $D$ whose orientation in $D'$ is in the opposi
 It's easy to see that this induces a bijection
 
 $$
-D \rtimes - : \mathop{\mathrm{D}}_G(d_1, \dots,
-d_n) \rightarrow \mathop{\mathrm{EE}}(D) \cup \mathop{\mathrm{EO}}(D)
+D \rtimes - : \mathop{\mathrm{D}}_G(d_1, \dots, d_n)
+  \rightarrow \mathop{\mathrm{EE}}(D) \cup \mathop{\mathrm{EO}}(D)
 $$
 
 Moreover, remark that
@@ -262,8 +266,10 @@ The lemma follows from this. $\Box$
 > the coefficient of $x_1^{d_1} \dots x_n^{d_n}$ is
 >
 > $$
-> \pm \left( \left\lvert \mathop{\mathrm{EE}}(D) \right\rvert - \left\lvert
-> \mathop{\mathrm{EO}}(D) \right\rvert \right)
+> \pm \left(
+>   \left\lvert \mathop{\mathrm{EE}}(D) \right\rvert
+>   - \left\lvert \mathop{\mathrm{EO}}(D) \right\rvert
+> \right)
 > $$
 >
 > where $D \in \mathop{\mathrm{D}}_G(d_1, \dots, d_n)$ is arbitrary.
@@ -297,8 +303,8 @@ _Proof:_ This is an application of Hall's marriage theorem.
 Let $d = \left\lceil L(G) \right\rceil \ge L(G)$. Construct a bipartite graph
 
 $$
-E \cup X \qquad \text{where}\qquad E = E(G) \quad\text{ and }\quad X =
-\underbrace{V(G) \sqcup \dots \sqcup V(G)}_{d \text{ times}}.
+E \cup X \qquad \text{where}\qquad E = E(G) \quad\text{ and }\quad
+  X = \underbrace{V(G) \sqcup \dots \sqcup V(G)}_{d \text{ times}}.
 $$
 
 Connect $e \in E$ and $v \in X$ if $v$ is an endpoint of $e$.

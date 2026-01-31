@@ -223,8 +223,8 @@ This meant I was ready to make the following conjecture. Suppose $a_i = k$, $a_{
 There is a bijection
 
 $$
-\mathcal L_{k+2}(a_1, \dots, a_i, a_{i+1}, \dots, a_n) \rightarrow \mathcal L_{k+2}(a_1, \dots, a_{i+1},
-a_{i}, \dots, a_n)
+\mathcal L_{k+2}(a_1, \dots, a_i, a_{i+1}, \dots, a_n)
+  \rightarrow \mathcal L_{k+2}(a_1, \dots, a_{i+1}, a_{i}, \dots, a_n)
 $$
 
 which only involves rearranging the elements of the $i$-th and $(i+1)$-st blocks.
@@ -423,8 +423,8 @@ Eventually, I was able to work out the details, but they're more involved than I
 But the idea is that you can move elements "one at a time": something like
 
 $$
-\mathcal L_{k+2}(7,4) \rightarrow \mathcal L_{k+2}(6,5) \rightarrow \mathcal
-L_{k+2}(5,6) \rightarrow \mathcal L_{k+2}(4,7)
+\mathcal L_{k+2}(7,4) \rightarrow \mathcal L_{k+2}(6,5)
+  \rightarrow \mathcal L_{k+2}(5,6) \rightarrow \mathcal L_{k+2}(4,7)
 $$
 
 while preserving the length of increasing subsequences at each step.
