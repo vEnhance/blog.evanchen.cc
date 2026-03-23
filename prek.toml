@@ -9,18 +9,28 @@ default_install_hook_types = [
 default_stages = ["pre-commit"]
 
 [[repos]]
-repo = "https://github.com/pre-commit/pre-commit-hooks"
-rev = "v6.0.0"
+repo = "builtin"
 hooks = [
+  { id = "check-executables-have-shebangs" },
   { id = "check-json" },
   { id = "check-merge-conflict" },
+  { id = "check-symlinks" },
   { id = "check-toml" },
   { id = "check-yaml" },
   { id = "detect-private-key" },
   { id = "end-of-file-fixer" },
   { id = "fix-byte-order-marker" },
   { id = "mixed-line-ending" },
-  { id = "trailing-whitespace" }
+  {
+    id = "trailing-whitespace",
+    args = ["--markdown-linebreak-ext=md"]
+  }
+]
+
+[[repos]]
+repo = "meta"
+hooks = [
+  { id = "check-useless-excludes" },
 ]
 
 [[repos]]
@@ -46,11 +56,13 @@ rev = "v1.36.4"
 hooks = [
   {
     id = "djlint-reformat",
-    types = ["html"]
+    types = ["html"],
+    files = "templates/",
   },
   {
     id = "djlint",
-    types = ["html"]
+    types = ["html"],
+    files = "templates/",
   }
 ]
 
