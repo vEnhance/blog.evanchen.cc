@@ -31,13 +31,9 @@ $$r = u p_1^{e_1} p_2^{e_2} \dots p_m^{e_m}$$
 
 > **Definition 2.** We say $r$ **divides** $s$ if $s = r'r$ for some $r' \in R$. This is written $r \mid s$.
 
-<p></p>
-
 > **Example 3** **(Divisibility in $\mathbb Z$)**
 >
 > The number $0$ is divisible by every element of $\mathbb Z$. All other divisibility as expected.
-
-<p></p>
 
 > **Question 4**
 >
@@ -91,8 +87,6 @@ Our structure theorem takes two forms:
 > Let $R$ be a PID and let $M$ be any finitely generated $R$-module. Then
 > $$M \cong \bigoplus_{i=1}^m R/s_i$$
 > for some $s_i$ satisfying $s_1 \mid s_2 \mid \dots \mid s_m$.
-
-<p></p>
 
 > **Corollary 10** **(Structure theorem, primary form)**
 >
@@ -213,13 +207,9 @@ Here are some examples:
 >
 > and similarly when $m \le n$.
 
-<p></p>
-
 > **Question 15**
 >
 > Show that Smith normal form implies the structure theorem.
-
-<p></p>
 
 > **Remark 16.** Note that this is not a generalization of Jordan form.
 >
@@ -227,8 +217,6 @@ Here are some examples:
 >   note that the source and target space are the _same_, and we are considering one basis for the space $V$.
 > - In Smith form the maps $T : M \rightarrow N$ are between _different_ modules,
 >   and we pick _two_ sets of bases (one for $M$ and one for $N$).
-
-<p></p>
 
 > **Example 17** **(Example of Smith normal form)**
 >
@@ -321,8 +309,6 @@ Now, we can apply our structure theorem! I'll just sketch proofs of these and le
 
 _Proof:_ In the structure theorem, $k / (s_i) \in \{0,k\}$. $\Box$
 
-<p></p>
-
 > **Corollary 20** **(Frobenius normal form)**
 >
 > Let $T : V \rightarrow V$ where $V$ is a finite-dimensional vector space over an
@@ -338,8 +324,6 @@ _Proof:_ In the structure theorem, $k / (s_i) \in \{0,k\}$. $\Box$
 _Proof:_ View $V$ as a $k[x]$-module with action $x \cdot v = T(v)$.
 By theorem $V \cong \bigoplus_i k[x] / (s_i)$ for some polynomials $s_i$,
 where $s_1 \mid s_2 \mid s_3 \mid \dots$. Write each block in the form described. $\Box$
-
-<p></p>
 
 > **Corollary 21** **(Jordan normal form)**
 >

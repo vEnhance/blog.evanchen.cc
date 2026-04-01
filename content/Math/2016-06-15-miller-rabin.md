@@ -53,8 +53,6 @@ We will define the following anyways:
 > - $a^n \equiv 1 \pmod p$ for every $a \not\equiv 0 \pmod p$,
 > - or equivalently, $p-1 \mid n$.
 
-<p></p>
-
 > **Theorem 5** **(All/nothing)**
 >
 > Suppose an exponent $n$ does not annihilate the prime $p$.

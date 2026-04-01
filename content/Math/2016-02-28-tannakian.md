@@ -45,19 +45,13 @@ Now the example
 > - $\Delta$ comes form $g \mapsto g \otimes g$ extended linearly.
 > - $S$ takes $g \mapsto g^{-1}$ extended linearly.
 
-<p></p>
-
 > **Theorem 3.** The group-like elements are precisely the basis elements $1_k \cdot g \in k[g]$.
-
-<p></p>
 
 _Proof:_ Assume $V = \sum_{g \in G} a_g g$ is grouplike. Then by assumption we should have
 $$\sum_{g \in G} a_g (g \otimes g) = \Delta(v) = \sum_{g \in G} \sum_{h \in G} a_ga_h (g \otimes h).$$
 Comparing each coefficient, we get that
 $$a_ga_h = \begin{cases} a_g & g = h \\ 0 & \text{otherwise}. \end{cases}$$
 This can only occur if some $a_g$ is $1$ and the remaining coefficients are all zero. $\Box$
-
-<p></p>
 
 ## 2. Monoidal functors
 
@@ -122,8 +116,6 @@ The hard part is showing that it's surjective. For this we want to reduce it to 
 
 > **Lemma 5.** Any $T \in \text{Aut }^\otimes(U)$ is completely determined by
 > $T_{k[G]}(1_{k[G]}) \in k[G]$.
-
-<p></p>
 
 _Proof:_ Let $(V, \phi)$ be a representation of $G$.
 Then for all $v \in V$, we have a unique morphism of representations

@@ -41,12 +41,8 @@ In light of this, we can define
 > - The objects are topological spaces $X$.
 > - The morphisms $X \rightarrow Y$ are _homotopy classes_ of continuous maps $X \rightarrow Y$.
 
-<p></p>
-
 > **Remark 4.** Composition is well-defined since $[f \circ g] = [f] \circ [g]$.
 > Two spaces are isomorphic in $\mathsf{hTop}$ if they are homotopic.
-
-<p></p>
 
 > **Remark 5.** As you might guess this "quotient" construction is called a
 > [quotient category](https://en.wikipedia.org/wiki/Quotient_category).
@@ -75,8 +71,6 @@ for $A \subseteq X$. We will now show this is functorial too.
 > and consider a map $f : X \rightarrow Y$. If $f(A) \subseteq B$ we write
 > $$f : (X,A) \rightarrow (Y,B).$$
 > We say $f$ is a **map of pairs**, between the pairs $(X,A)$ and $(Y,B)$.
-
-<p></p>
 
 > **Definition 9.** We say that $f,g : (X,A) \rightarrow (Y,B)$ are
 > **pair-homotopic** if they are "homotopic through maps of pairs".
@@ -107,8 +101,6 @@ pairs of spaces $(X,A)$ such that $H_n(X,A) = 0$ for $n \ge 1$. The correct defi
 > **Definition 12.** Let $A \subset X$.
 > We say that $A$ is a **deformation retract** of $X$ if there is a map of pairs
 > $r : (X, A) \rightarrow (A, A)$ which is a pair homotopy equivalence.
-
-<p></p>
 
 > **Example 13** **(Examples of Deformation Retracts)**
 >

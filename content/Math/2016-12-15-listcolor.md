@@ -26,8 +26,6 @@ This leads to the notion of a so-called choice number, which was introduced by E
 > properly color its vertices given a list of $k$ colors at each vertex.
 > The smallest such $k$ is the **choice number** $\operatorname{ch}(G)$.
 
-<p></p>
-
 > **Example 3.** We have $\operatorname{ch}(C_{2n}) = \chi(C_{2n}) = 2$ for
 > any integer $n$ (here $C_{2n}$ is the cycle graph on $2n$ vertices).
 > To see this, we only have to show that given a list of two colors at each vertex of $C_{2n}$,
@@ -127,8 +125,6 @@ The main tool we use is the Combinatorial Nullestellensatz of Alon.
 > Then we can pick $s_1 \in S_1$, …, $s_n \in S_n$ such that
 > $$f(s_1, s_2, \dots, s_n) \neq 0.$$
 
-<p></p>
-
 > **Example 10.** <span id="exrussia"></span> Let us give a second proof that
 > $$\operatorname{ch}(C_{2n}) = 2$$
 > for every positive integer $n$. Our proof will be an application of the Nullstellensatz.
@@ -191,8 +187,6 @@ Set $\mathop{\mathrm{D}}_G(d_1,\dots,d_n) = \mathop{\mathrm{DE}}_G(d_1,\dots,d_n
 > $$
 >
 > which is a $+ x_2^2 x_3 x_4$ term.
-
-<p></p>
 
 > **Lemma 14.** <span id="lemdirect"></span> In the graph polynomial of $G$,
 > the coefficient of $x_1^{d_1} \dots x_n^{d_n}$ is

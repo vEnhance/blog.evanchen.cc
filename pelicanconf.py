@@ -63,6 +63,7 @@ MARKDOWN = {
         "markdown_extensions.figure_caption": {},
         "mdx_truly_sane_lists": {},
         "markdown.extensions.smarty": {},
+        "plugins.separate_blockquotes": {},
     },
     "output_format": "html5",
 }
@@ -72,6 +73,8 @@ SUMMARY_MAX_LENGTH = 150
 # On dev, output stuff to /tmp
 OUTPUT_PATH = "/tmp/blog.evanchen.cc/"
 CACHE_PATH = "/tmp/blog_cache/"
+
+CONTENT_CACHING_LAYER = "generator"
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
