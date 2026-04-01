@@ -61,10 +61,10 @@ MARKDOWN = {
     "extension_configs": {
         "markdown.extensions.codehilite": {"css_class": "highlight"},
         "markdown.extensions.extra": {},
-        "markdown_extensions.figure_caption": {},
+        "markdown_ext_custom.separate_blockquotes": {},
+        "markdown_ext_custom.figure_caption": {},
         "mdx_truly_sane_lists": {},
         "markdown.extensions.smarty": {},
-        "plugins.separate_blockquotes": {},
     },
     "output_format": "html5",
 }
@@ -74,8 +74,6 @@ SUMMARY_MAX_LENGTH = 150
 # On dev, output stuff to /tmp
 OUTPUT_PATH = "/tmp/blog.evanchen.cc/"
 CACHE_PATH = "/tmp/blog_cache/"
-
-CONTENT_CACHING_LAYER = "generator"
 
 AUTHORS_SAVE_AS = ""
 
