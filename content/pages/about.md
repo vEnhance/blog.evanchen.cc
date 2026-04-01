@@ -1,5 +1,7 @@
+---
 title: About
 slug: about
+---
 
 This is the public blog of [Evan Chen](https://web.evanchen.cc).
 

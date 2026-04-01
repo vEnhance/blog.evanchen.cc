@@ -21,10 +21,7 @@ hooks = [
   { id = "end-of-file-fixer" },
   { id = "fix-byte-order-marker" },
   { id = "mixed-line-ending" },
-  {
-    id = "trailing-whitespace",
-    args = ["--markdown-linebreak-ext=md"]
-  }
+  { id = "trailing-whitespace" },
 ]
 
 [[repos]]
@@ -98,6 +95,20 @@ repo = "https://github.com/astral-sh/uv-pre-commit"
 rev = "0.11.2"
 hooks = [
   { id = "uv-lock" }
+]
+
+[[repos]]
+repo = "local"
+hooks = [
+  {
+    id = "check-post-metadata",
+    name = "Check post metadata format",
+    language = "system",
+    entry = "python3 scripts/check_metadata.py",
+    types = ["markdown"],
+    files = "^content/",
+    exclude = "^content/pages/",
+  }
 ]
 
 [[repos]]
