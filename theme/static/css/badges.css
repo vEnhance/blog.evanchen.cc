@@ -52,6 +52,11 @@ a.tags.selected {
   border-color: transparent;
 }
 
+.tags-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
 .info {
   margin-top: 1.3em;
   text-align: right;

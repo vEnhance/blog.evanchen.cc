@@ -19,12 +19,9 @@
         </blockquote>
     </p>
     <h2>Tags</h2>
-    <ul>
+    <div class="tags-grid">
         {% for tag, articles in tags_sorted_by_article_length %}
-            <li>
-                <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>
-                ({{ articles|length }} posts)
-            </li>
+            <a class="tags" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}<sup>{{ articles | length }}</sup></a>
         {% endfor %}
-    </ul>
+    </div>
 {% endblock content %}
