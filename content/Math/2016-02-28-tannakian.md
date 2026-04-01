@@ -90,20 +90,20 @@ We want to reconstruct $G$ from this category.
 Let $U$ be the forgetful functor
 $$U : \mathsf{Mod}_{k[G]} \rightarrow \mathsf{Vect}_k.$$
 It's easy to see this is in fact an monoidal functor.
-Now let $\text{Aut }^{\otimes}(U)$ be the set of monoidal automorphisms of $U$.
+Now let $\operatorname{Aut}^{\otimes}(U)$ be the set of monoidal automorphisms of $U$.
 
 The key claim is the following:
 
-> **Theorem 4** **($G$ is isomorphic to $\text{Aut }^\otimes(U)$)**
+> **Theorem 4** **($G$ is isomorphic to $\operatorname{Aut}^\otimes(U)$)**
 >
 > Consider the map
-> $$i : G \rightarrow \text{Aut }^\otimes(U) \quad\text{by}\quad g \mapsto T^g.$$
+> $$i : G \rightarrow \operatorname{Aut}^\otimes(U) \quad\text{by}\quad g \mapsto T^g.$$
 > Here, the natural transformation $T^g$ is defined by the components
 > $$T^g_{(V,\phi)} : (V, \phi) \rightarrow U(V, \phi) = V \quad\text{by}\quad v \mapsto \phi(g) v.$$
 > Then $i$ is an isomorphism of groups.
 
 In particular, using only $\otimes$ structure this exhibits an isomorphism
-$G \cong \text{Aut }^\otimes(U)$.
+$G \cong \operatorname{Aut}^\otimes(U)$.
 Consequently this solves the problem proposed at the beginning of the lecture.
 
 _Proof:_ It's easy to see $i$ is a group homomorphism.
@@ -114,7 +114,7 @@ Now just take the regular representation, which is faithful!
 
 The hard part is showing that it's surjective. For this we want to reduce it to the regular representation.
 
-> **Lemma 5.** Any $T \in \text{Aut }^\otimes(U)$ is completely determined by
+> **Lemma 5.** Any $T \in \operatorname{Aut}^\otimes(U)$ is completely determined by
 > $T_{k[G]}(1_{k[G]}) \in k[G]$.
 
 _Proof:_ Let $(V, \phi)$ be a representation of $G$.

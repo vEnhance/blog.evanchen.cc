@@ -295,7 +295,7 @@ Now we repeat the same procedure with this lower-right $(m-1) \times (n-1)$ matr
 This gives the Smith normal form. $\Box$
 
 With the Smith normal form, we have in the original situation that
-$$M \cong R^{\oplus d} / \text{im } T$$
+$$M \cong R^{\oplus d} / \operatoranme{im} T$$
 and applying the theorem to $T$ completes the proof of the structure theorem.
 
 ## 5. Applications
