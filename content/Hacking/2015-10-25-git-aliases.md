@@ -42,7 +42,7 @@ It's really an undo button!
 Now for the fun part -- some of Git's useful commands are pretty verbose and take up lots of space.
 For example, here's what git status looks like:
 
-![git status]({static}/images/git-status.png)
+![git status](./images/git-status.png)
 
 Kind of verbose if you ask me, and by now I know what "git pull" does.
 Fortunately, it turns out that there are some options you can run to make this look nicer.
@@ -52,7 +52,7 @@ All you have to do is say `git status -s -b`, or in the context of this post, se
 
 Then you get
 
-![git ss]({static}/images/git-alias-ss.png)
+![git ss](./images/git-alias-ss.png)
 
 which is much cooler.
 

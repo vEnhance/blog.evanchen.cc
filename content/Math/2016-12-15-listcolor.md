@@ -63,7 +63,7 @@ However, the following example shows that this is not the case.
 The case $n = 3$ is illustrated in the figure below (image in [public
 domain](https://commons.wikimedia.org/wiki/File:List-coloring-K-3-27.svg)).
 
-![The n=3 case showing choice numbers and chromatic numbers can differ.]({static}/images/k-3-27.png)
+![The n=3 case showing choice numbers and chromatic numbers can differ.](./images/k-3-27.png)
 
 This surprising behavior is the subject of much research:
 how can we bound the choice number of a graph as a function of its chromatic
@@ -174,7 +174,7 @@ Set $\mathop{\mathrm{D}}_G(d_1,\dots,d_n) = \mathop{\mathrm{DE}}_G(d_1,\dots,d_n
 
 > **Example 13.** <span id="exorient"></span> Consider the following orientation:
 >
-> ![An even orientation.]({static}/images/even-orientation.png)
+> ![An even orientation.](./images/even-orientation.png)
 >
 > There are exactly two ascending edges, namely $1 \rightarrow 2$ and $2 \rightarrow 4$.
 > The indegrees of are $d_1 = 0$, $d_2 = 2$ and $d_3 = d_4 = 1$.

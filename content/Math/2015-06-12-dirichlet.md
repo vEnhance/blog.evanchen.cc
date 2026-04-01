@@ -78,7 +78,7 @@ Here are the main steps:
 
 Possibly helpful diagram:
 
-![Contour integral for zeta function.]({static}/images/zeta-contour.png)
+![Contour integral for zeta function.](./images/zeta-contour.png)
 
 The pink dots denote zeros; we think the nontrivial ones all lie on the
 half-line by the Generalized Riemann Hypothesis but they could actually be anywhere in the green strip.

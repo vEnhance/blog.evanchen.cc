@@ -7,7 +7,7 @@ original_url: 2023/02/09/japanese-egmo-is-published/
 status: published
 ---
 
-![Another translation has arrived!]({static}/images/jp-egmo.jpg)
+![Another translation has arrived!](./images/jp-egmo.jpg)
 
 I'm happy to thank 日本評論社 and their team (Fuma Hirayama, Yuki Kumagae, Taiyo Kodama, Ayato Shukuta,
 among others) for making the Japanese translation a reality.

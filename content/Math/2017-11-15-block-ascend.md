@@ -46,7 +46,7 @@ if $\max \{a_1, \dots, a_n\} \ge k+2$.
 > (but not in $\mathcal L_6(3,2,4)$, since one can see an increasing length $6$ subsequence shaded).
 > We would denote it $134|69|2578$.
 
-![A permutation with blocks 3+2+4 with avoiding an increasing subsequence of length 7.]({static}/images/l7-example.png)
+![A permutation with blocks 3+2+4 with avoiding an increasing subsequence of length 7.](./images/l7-example.png)
 
 Now on to the results.
 A [2011 paper by Joel Brewster Lewis (JBL)](http://math.sfsu.edu/fpsac/pdfpapers/dmAN0123.pdf)

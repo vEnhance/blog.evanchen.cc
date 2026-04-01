@@ -49,7 +49,7 @@ a single code point; but the spellcheck file
 `/usr/share/hunspell/ko_KR.dic` instead has entries in NFD,
 where each _atom_ within the syllable block is a character.
 
-![That diff is spooky.]({static}/images/ko-nfd-nfc-diff.png)
+![That diff is spooky.](./images/ko-nfd-nfc-diff.png)
 
 Actually, NFD makes sense for a spellchecker,
 because you'd want something like 한 (Romanized `han`) and 항 (Romanized `hang`)
@@ -105,7 +105,7 @@ and running
 the outputted `/tmp/ko.utf-8.spl` can now check for spelling errors
 (at least if the words are in NFC format).
 
-![It's working. Sorta.]({static}/images/ko-spellcheck-demo.png)
+![It's working. Sorta.](./images/ko-spellcheck-demo.png)
 
 A summary of this process is posted on my
 [dotfiles GitHub](https://github.com/vEnhance/dotfiles/tree/main/vim/spell/korean-setup).

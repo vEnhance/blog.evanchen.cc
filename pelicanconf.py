@@ -49,6 +49,7 @@ THEME = "theme"
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
+    "auto_attach",
     "pelican_redirect",
     "pelican_katex",
     "sidenotes",

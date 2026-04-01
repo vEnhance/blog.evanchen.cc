@@ -106,7 +106,7 @@ hunts](https://blog.vero.site/post/puzzlehunts#how-to-extract-the-answer)
 goes over all of these in more detail.
 
 ![Table of common encodings from
-  [puzzledpint.com][pint]]({static}/images/puzzled-pint-sheet.webp)
+  [puzzledpint.com][pint]](./images/puzzled-pint-sheet.webp)
 
 [pint]: http://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf
 
@@ -154,7 +154,7 @@ They both got high ratings during testsolving
 because the solvers had fun anyways.
 
 ![Helpful Firefly, an iconic character from
-  So You Think You Can Count?]({static}/images/mh2021-firefly.png)
+  So You Think You Can Count?](./images/mh2021-firefly.png)
 
 I think the conclusion I drew from this was that while mechanics are important
 (e.g. things like checksumming, eliminating false trails, no extra information, etc.)

@@ -28,7 +28,7 @@ See <https://en.wikipedia.org/wiki/Coalgebra>.
 
 Now a **Hopf algebra** $A$ is a bialgebra $A$ over $k$ plus a so-called **antipode** $S : A \rightarrow A$.
 We require that the diagram
-![Hopf algebra diagram.]({static}/images/rep-tan-1.png)
+![Hopf algebra diagram.](./images/rep-tan-1.png)
 commutes.
 
 Given a Hopf algebra $A$ **group-like** element in $A$ is an element of
@@ -71,13 +71,13 @@ Then a **monoidal functor** $F : \mathscr C \rightarrow \mathscr D$ is a functor
 for which we additionally need to select an isomorphism
 $$F(A \otimes B) \xrightarrow{t_{A,B}} F(A) \otimes F(B).$$
 We then require that the diagram
-![Monoidal functor commutative diagram.]({static}/images/rep-tan-2.png)
+![Monoidal functor commutative diagram.](./images/rep-tan-2.png)
 commutes, plus some additional compatibility conditions with the identities of
 the $\otimes$'s (see [Wikipedia](https://en.wikipedia.org/wiki/Monoidal_functor#Definition) for the list).
 
 We also have a notion of a natural transformation of two functors $t : F \rightarrow G$;
 this is just making the squares
-![Natural transformation commutative diagram.]({static}/images/rep-tan-3.png)
+![Natural transformation commutative diagram.](./images/rep-tan-3.png)
 commute. Now, suppose $F : \mathscr C \rightarrow \mathscr C$ is a monoidal functor.
 Then an **automorphism** of $F$ is a natural transformation $t : F \rightarrow F$ which is invertible, i.e.
 a natural isomorphism.
@@ -123,7 +123,7 @@ _Proof:_ Let $(V, \phi)$ be a representation of $G$.
 Then for all $v \in V$, we have a unique morphism of representations
 $$f_v : k[G] \rightarrow (V, \phi) \quad\text{by}\quad 1_{k[G]} \mapsto v.$$
 If we apply the forgetful functor to this, we have a diagram
-![Forgetful functor applied.]({static}/images/rep-tan-4.png)
+![Forgetful functor applied.](./images/rep-tan-4.png)
 
 $\Box$
 
@@ -132,7 +132,7 @@ Next, we claim
 > **Lemma 6.** $T_{k[G]}(1_{k[G]})$ is a grouplike element of $k[G]$.
 
 _Proof:_ Draw the diagram
-![Proof of Lemma 6.]({static}/images/rep-tan-51.png)
+![Proof of Lemma 6.](./images/rep-tan-51.png)
 and note that it implies
 $$\Delta(T_{k[G]}(1_{k[G]})) = T_{k[G]}(1_{k[G]}) \otimes T_{k[G]}(1_{k[G]}).$$
 $\Box$
