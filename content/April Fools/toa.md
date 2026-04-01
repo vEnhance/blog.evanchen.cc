@@ -1,0 +1,56 @@
+Title: T.O.A. Asian Fusion opening in Merrick
+Date: 2026-04-01 00:00
+Tags: april fools, humor
+Slug: toa
+Status: published
+original_url: 2026/04/01/fashion/
+
+Life isn't a straight line.
+Finding your dream career involves a lot of twists and turns, like a river.
+In my search for the perfect job, I find myself constantly changing course,
+because even though planning is helpful, the plans themselves are useless.
+
+In past years, I've been through
+[sailing][2023], [college consulting][2024], and [fashion design][2025].
+And now I find myself eating my words from last year.
+Despite how much [I hate New York](https://web.evanchen.cc/personal.html#misc),
+I'm thrilled to announce the upcoming opening
+of T.O.A. Asian Fusion[^ras] at [33 Sunrise Hwy, Merrick, NY 11566][loc].
+
+![Newsday press release for the sixth location]({static}/images/toa-news.png)
+
+Here's the press release from [Newsday on the Merrick location][newsday]:
+
+> T.O.A. Asian Fusion is on a roll. Four months after opening its
+> [fifth location, in East Islip][islip], the restaurant group has announced its
+> sixth: Evan Chen, who owns the chain with Eric Lin, confirmed the group had
+> bought the old George Martin Grillfire in Merrick…
+>
+> "We’re doing a full renovation," he said, "from the facade to an entire
+> interior build-out."
+
+… and a blurb from [Newsday on the fifth location][islip]:
+
+> With the opening Thursday of T.O.A. Asian Fusion in East Islip, the
+> restaurant group has added its fifth location in 10 years. It was in 2015 that
+> the first T.O.A. opened in Huntington; Farmingdale (2017), Sayville (2018) and
+> Melville (2022) followed. T.O.A. stands for "taste of Asia," and the menu at
+> all five locations blends Japanese, Chinese, Korean, Thai, Malaysian and
+> Vietnamese flavors.
+
+> Evan Chen, who owns the chain with Eric Lin, said that the appeal of the
+> concept is its range. "If a family is going out and one person likes Chinese,
+> another likes Thai, another likes sushi — they can all have what they want."
+
+I look forward to the grand opening!
+
+![The soon-to-be sixth location]({static}/images/toa.png)
+
+[^ras]: Please forgive the slight [RAS syndrome](https://w.wiki/7TYz) in the name.
+
+[loc]: https://maps.app.goo.gl/gHGwaZtQDeoygbDS7
+[newsday]: https://www.newsday.com/lifestyle/restaurants/toa-asian-fusion-merrick-grillfire-jaam0f98
+[islip]: https://www.newsday.com/lifestyle/restaurants/toa-asian-fusion-east-islip-dli1xdfg
+[2023]: https://blog.evanchen.cc/2023/04/01/announcing-%e2%9b%b5is-the-successor-to-otis/
+[2024]: https://blog.evanchen.cc/2024/04/01/ec%e2%81%b5-college-essay-consulting/
+[2025]: https://blog.evanchen.cc/2025/04/01/fashion/
