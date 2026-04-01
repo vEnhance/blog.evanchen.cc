@@ -2,7 +2,7 @@
 title: Japanese EGMO is published!
 date: 2023-02-09 13:37
 slug: japanese-egmo
-tags: geometry, olympiad, announcement
+tags: announcement, geometry, olympiad
 original_url: 2023/02/09/japanese-egmo-is-published/
 status: published
 ---

@@ -2,7 +2,7 @@
 title: Getting to know problems
 date: 2025-02-14 13:37
 slug: getting-to-know
-tags: math, teaching, study
+tags: math, study, teaching
 original_url: 2025/02/14/getting-to-know-problems/
 status: published
 ---

@@ -2,7 +2,7 @@
 title: The story of the AutoCarrot
 date: 2024-06-03 13:37
 slug: auto-carrot
-tags: writing, humor
+tags: humor, writing
 original_url: 2024/06/03/the-story-of-the-autocarrot/
 status: published
 ---
