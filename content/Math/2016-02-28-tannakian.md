@@ -132,7 +132,7 @@ Next, we claim
 > **Lemma 6.** $T_{k[G]}(1_{k[G]})$ is a grouplike element of $k[G]$.
 
 _Proof:_ Draw the diagram
-![Proof of Lemma 6.](./images/rep-tan-51.png)
+![Proof of Lemma 6.](./images/rep-tan-5.png)
 and note that it implies
 $$\Delta(T_{k[G]}(1_{k[G]})) = T_{k[G]}(1_{k[G]}) \otimes T_{k[G]}(1_{k[G]}).$$
 $\Box$

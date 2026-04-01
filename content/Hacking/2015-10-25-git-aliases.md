@@ -63,7 +63,9 @@ which I've edited from the above blog post to suit my own tastes.
     ll = log -n 6 --pretty=format:"%C(yellow)%h\\ %C(cyan)[%cn]\\ %C(reset)%s\\ %C(red)%ad" --decorate --date=short --stat
 
 These give in my opinion the much more readable format
-![git-alias-l.png]
+
+![git ls and git ll](./images/git-alias-l.png)
+
 If you're on a branch that does merges, you might also have fun with
 
     tree = log -n 16 --pretty=format:"%C(yellow)%h\\ %C(cyan)[%cn]\\ %C(reset)%s\\ %C(red)%d" --decorate --graph
