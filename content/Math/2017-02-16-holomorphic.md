@@ -2,7 +2,7 @@
 title: Holomorphic Logarithms and Roots
 date: 2017-02-16 13:37
 slug: holomorphic
-tags: algebraic topology, complex analysis, math
+tags: algebraic topology, analysis, complex analysis, math
 original_url: 2017/02/16/holomorphic-logarithms-and-roots/
 status: published
 ---

@@ -2,7 +2,7 @@
 title: MOHS hardness scale
 date: 2019-11-26 13:37
 slug: mohs-scale
-tags: announcement, olympiad
+tags: olympiad
 original_url: 2019/11/26/mohs-hardness-scale/
 status: published
 ---

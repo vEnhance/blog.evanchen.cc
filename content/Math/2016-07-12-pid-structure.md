@@ -2,7 +2,7 @@
 title: The Structure Theorem over PID's
 date: 2016-07-12 13:37
 slug: pid-structure
-tags: linear algebra
+tags: linear algebra, math
 original_url: 2016/07/12/the-structure-theorem-over-pids/
 status: published
 ---

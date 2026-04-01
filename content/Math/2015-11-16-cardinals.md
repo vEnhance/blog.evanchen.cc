@@ -2,7 +2,7 @@
 title: Cardinals
 date: 2015-11-16 13:37
 slug: cardinals
-tags: set theory
+tags: math, set theory
 original_url: 2015/11/16/cardinals/
 status: published
 ---

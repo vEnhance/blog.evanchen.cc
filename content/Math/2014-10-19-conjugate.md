@@ -2,7 +2,7 @@
 title: Why do roots come in conjugate pairs?
 date: 2014-10-19 13:37
 slug: conjugate
-tags: number theory
+tags: math, number theory
 original_url: 2014/10/19/why-do-roots-come-in-conjugate-pairs/
 status: published
 ---

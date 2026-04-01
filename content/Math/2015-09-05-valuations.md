@@ -2,7 +2,7 @@
 title: Some Notes on Valuations
 date: 2015-09-05 13:37
 slug: valuations
-tags: number theory
+tags: math, number theory
 original_url: 2015/09/05/some-notes-on-valuations/
 status: published
 ---

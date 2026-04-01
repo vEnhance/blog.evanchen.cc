@@ -2,7 +2,7 @@
 title: FrontierMath
 date: 2024-11-10 13:37
 slug: frontiermath
-tags: ai, math, problem writing
+tags: math, problem writing
 original_url: 2024/11/10/frontiermath/
 status: published
 ---

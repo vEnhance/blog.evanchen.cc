@@ -2,7 +2,7 @@
 title: Story: the morning after Valentine's Day
 date: 2019-02-15 13:37
 slug: valentine
-tags: linux, programming, slice of life
+tags: linux, slice of life
 original_url: 2019/02/15/story-the-morning-after-valentines-day/
 status: published
 ---

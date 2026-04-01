@@ -2,7 +2,7 @@
 title: Miller-Rabin (for MIT 18.434)
 date: 2016-06-15 13:37
 slug: miller-rabin
-tags: number theory
+tags: math, number theory
 original_url: 2016/06/15/miller-rabin/
 status: published
 ---

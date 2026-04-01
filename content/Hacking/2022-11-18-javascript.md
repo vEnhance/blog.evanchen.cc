@@ -2,7 +2,7 @@
 title: Why Evan does not like JavaScript as a first language
 date: 2022-11-18 13:37
 slug: javascript
-tags: programming
+tags: linux
 original_url: 2022/11/18/why-evan-does-not-like-javascript-as-a-first-language/
 status: published
 ---

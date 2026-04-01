@@ -2,7 +2,7 @@
 title: Writing Olympiad Geometry
 date: 2014-07-01 21:04
 slug: wander-geo
-tags: geometry, olympiad
+tags: geometry, math, olympiad
 original_url: 2014/07/01/writing-olympiad-geometry/
 status: published
 ---
