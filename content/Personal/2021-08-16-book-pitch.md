@@ -68,7 +68,7 @@ Relevant quotes:
 
 > \[In the rigorous stage\], one is expected to be able to comfortably
 > manipulate abstract mathematical objects without focusing too much on what such objects actually "mean".
-> ... The transition from the first stage to the second is well known to be rather traumatic.
+> … The transition from the first stage to the second is well known to be rather traumatic.
 
 My thesis is that **for high school students with an enriched math background,
 the rigorous and post-rigorous stages should be merged or even inverted**.

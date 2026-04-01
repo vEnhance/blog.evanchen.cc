@@ -51,7 +51,7 @@ The AutoCarrot would automatically cut the carrots for you,
 add in the right amount of other ingredients, cook them at low heat,
 and even 3D-print a plate for you to serve the glazed carrots on.
 
-... Actually that sounds kinda nice. Why do four steps when you can do one?
+… Actually that sounds kinda nice. Why do four steps when you can do one?
 NEW STARTUP IDEA LET'S GO.
 
 ## 3. What do you mean you didn't read the manual?

@@ -102,7 +102,7 @@ By the time I finish, 20 minutes have passed (leaving 10 left) and the students 
 At this point I start with \#10,
 which is met with some enthusiasm as quite a few students are eager to see a solution.
 I start by asking the students to randomly guess where to place the fourth vertex until they get it right.
-(There are only $\binom 52 \cdot 3 = 30$ possible reflections, after all... :P). Nicely, the correct construction
+(There are only $\binom 52 \cdot 3 = 30$ possible reflections, after all… :P). Nicely, the correct construction
 comes out on the fourth guess.
 :) I then proceed to explain the solution, which seems to be making much more sense.
 The timing works out great, and I deliver the punch line of the solution just as the lecture ends,

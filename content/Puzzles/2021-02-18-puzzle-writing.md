@@ -68,7 +68,7 @@ but I think I vaguely mean things satisfying one or more of the following criter
 - Thing lends itself to puns or wordplay.
 - Thing has a natural mapping,
   e.g. a way to turn a number into a word (say, episode numbers of a show).
-- Thing has numbers that work well with A=1, B=2, ..., Z=26.
+- Thing has numbers that work well with A=1, B=2, … Z=26.
 - Thing has a concept of compass directions for
   [flag semaphore](https://en.wikipedia.org/wiki/Flag_semaphore).
 
@@ -86,7 +86,7 @@ experienced solvers are expected to be able to notice in Mystery Hunt.
 This has the upshot that they can be used freely in puzzles!
 Examples are:
 
-- Anything with numbers could be A=1, B=2, ..., Z=26.
+- Anything with numbers could be A=1, B=2, … Z=26.
 - Anything with a grid could be [Braille](https://en.wikipedia.org/wiki/Braille).
 - Anything with directions at all could be [semaphore](https://en.wikipedia.org/wiki/Flag_semaphore).
 - Any time you have a bunch of strings, the first letters might spell a message.

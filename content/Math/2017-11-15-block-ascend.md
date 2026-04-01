@@ -432,7 +432,7 @@ while preserving the length of increasing subsequences at each step.
 So, together with the easy observation from the beginning, this not only resolves the original problem,
 but also gives an elegant generalization. I had now proved:
 
-> **Theorem 12.** For any $a_1$, ..., $a_n$, the cardinality
+> **Theorem 12.** For any $a_1$, …, $a_n$, the cardinality
 > $$\left| \mathcal L_{k+2}(a_1, \dots, a_n) \right|$$
 > does not depend on the order of the $a_i$'s.
 

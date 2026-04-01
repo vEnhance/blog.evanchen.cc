@@ -94,7 +94,7 @@ A common first thing that people will try to do is add the first two equations,
 since that will cause the $12y$ terms to cancel.
 This gives a factor of $x+y$ in the left and an $x+z$ in the right,
 so then maybe you try to submit that into the $27(x+z)$ in the last equation,
-so you get $z^3 = 9(x^3+y^3-48)$, cool, there's no more linear terms. Then...
+so you get $z^3 = 9(x^3+y^3-48)$, cool, there's no more linear terms. Then…
 
 Usually this doesn't end well.
 You add this and subtract that and in the end all you see is equation after equation,

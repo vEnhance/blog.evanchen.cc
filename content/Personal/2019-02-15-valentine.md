@@ -69,7 +69,7 @@ The upgrades should be done by now. I refresh again, and realize that it's throw
 
 I feel a twinge of despair, which causes my cough to start to return.
 Looks like the NyQuil wore off. _It always starts like this.
-One little error, followed by another, and then..._ I clench my teeth and SSH into the new server,
+One little error, followed by another, and then…_ I clench my teeth and SSH into the new server,
 and navigate to the log files (which I remember having to set up myself a few years ago,
 precisely for situations like this).
 
