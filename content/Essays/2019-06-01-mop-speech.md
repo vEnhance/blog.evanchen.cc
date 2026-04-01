@@ -1,9 +1,11 @@
-Title: An opening speech for MOP
-Date: 2019-06-01 13:37
-Tags: olympiad, philosophy, politics
-Slug: mop-speech
-Status: published
+---
+title: An opening speech for MOP
+date: 2019-06-01 13:37
+slug: mop-speech
+tags: olympiad, philosophy, politics
 original_url: 2019/06/01/an-opening-speech-for-mop/
+status: published
+---
 
 _While making preparations for this year's [MOP](https://web.evanchen.cc/mop.html),
 I imagined to myself what I would say on orientation night if I was director of the camp,

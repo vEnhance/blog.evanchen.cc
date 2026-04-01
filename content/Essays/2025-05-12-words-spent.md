@@ -1,9 +1,11 @@
-Title: Words Spent
-Date: 2025-05-12 13:37
-Tags: writing
-Slug: words-spent
-Status: published
+---
+title: Words Spent
+date: 2025-05-12 13:37
+slug: words-spent
+tags: writing
 original_url: 2025/05/12/words-spent/
+status: published
+---
 
 One of my favorite Djikstra programming quotes is about
 thinking via ["lines of code spent"](https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD854.html)

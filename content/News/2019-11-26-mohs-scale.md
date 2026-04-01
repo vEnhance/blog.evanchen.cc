@@ -1,9 +1,11 @@
-Title: MOHS hardness scale
-Date: 2019-11-26 13:37
-Tags: olympiad, announcement
-Slug: mohs-scale
-Status: published
+---
+title: MOHS hardness scale
+date: 2019-11-26 13:37
+slug: mohs-scale
+tags: olympiad, announcement
 original_url: 2019/11/26/mohs-hardness-scale/
+status: published
+---
 
 There's a new addition to my [olympiad problems and solutions](https://web.evanchen.cc/problems.html) archive:
 I created an index of many past IMO/USAMO/USA TST(ST) problems by what my opinions on their difficulties are.

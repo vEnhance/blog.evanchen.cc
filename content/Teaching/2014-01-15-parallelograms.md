@@ -1,9 +1,11 @@
-Title: Constructing Parallelograms
-Date: 2014-01-15 13:37
-Tags: geometry
-Slug: parallelograms
-Status: published
+---
+title: Constructing Parallelograms
+date: 2014-01-15 13:37
+slug: parallelograms
+tags: geometry
 original_url: 2014/01/15/constructing-parallelograms/
+status: published
+---
 
 This is a reflection of a talk I gave today.
 Hopefully these reflections (a) help me give better talks, and (b) help out some others.

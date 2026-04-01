@@ -1,9 +1,11 @@
-Title: A Sampler of Harvard Math
-Date: 2014-02-24 13:37
-Tags: math
-Slug: harvard-sampler
-Status: published
+---
+title: A Sampler of Harvard Math
+date: 2014-02-24 13:37
+slug: harvard-sampler
+tags: math
 original_url: 2014/02/24/a-sampler-of-harvard-math/
+status: published
+---
 
 I was in Boston over this weekend for the 2014 Harvard-MIT Math Tournament.
 Before the contest on Friday, I sat in a few of the undergraduate math classes.

@@ -1,9 +1,11 @@
-Title: Cardinals
-Date: 2015-11-16 13:37
-Tags: set theory
-Slug: cardinals
-Status: published
+---
+title: Cardinals
+date: 2015-11-16 13:37
+slug: cardinals
+tags: set theory
 original_url: 2015/11/16/cardinals/
+status: published
+---
 
 (Standard post on cardinals, as a prerequisite for forthcoming theory model post.)
 

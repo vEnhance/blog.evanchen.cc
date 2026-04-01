@@ -1,9 +1,11 @@
-Title: Email, JetPack, and Wintermelon
-Date: 2014-01-01 13:37
-Tags:
-Slug: wintermelon
-Status: published
+---
+title: Email, JetPack, and Wintermelon
+date: 2014-01-01 13:37
+slug: wintermelon
+tags:
 original_url: 2014/01/01/email-jetpack-and-wintermelon/
+status: published
+---
 
 So I guess I can resume blogging now, seeing that I'm done with college applications (at last!).
 I'm not sure what I plan to blog about in general,

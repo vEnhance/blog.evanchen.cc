@@ -1,9 +1,11 @@
-Title: Writing Olympiad Geometry
-Date: 2014-07-01 21:04
-Tags: geometry, olympiad
-Slug: wander-geo
-Status: published
+---
+title: Writing Olympiad Geometry
+date: 2014-07-01 21:04
+slug: wander-geo
+tags: geometry, olympiad
 original_url: 2014/07/01/writing-olympiad-geometry/
+status: published
+---
 
 I always wondered whether I could generate olympiad geometry problems by simply
 drawing lines and circles at random until three lines looked concurrent, four points looked concyclic,

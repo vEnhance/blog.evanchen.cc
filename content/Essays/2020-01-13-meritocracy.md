@@ -1,9 +1,11 @@
-Title: Meritocracy is the worst form of admissions except for all the other ones
-Date: 2020-01-13 13:37
-Tags: politics, teaching
-Slug: meritocracy
-Status: published
+---
+title: Meritocracy is the worst form of admissions except for all the other ones
+date: 2020-01-13 13:37
+slug: meritocracy
+tags: politics, teaching
 original_url: 2020/01/13/meritocracy-is-the-worst-form-of-admissions-except-for-all-the-other-ones/
+status: published
+---
 
 I'm now going to say something explicitly that I
 hinted at in [June](https://blog.evanchen.cc/2019/06/01/an-opening-speech-for-mop/):

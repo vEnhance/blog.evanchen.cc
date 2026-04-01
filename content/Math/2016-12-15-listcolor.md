@@ -1,9 +1,11 @@
-Title: Combinatorial Nullstellensatz and List Coloring
-Date: 2016-12-15 13:37
-Tags: combinatorics, graph theory, math
-Slug: listcolor
-Status: published
+---
+title: Combinatorial Nullstellensatz and List Coloring
+date: 2016-12-15 13:37
+slug: listcolor
+tags: combinatorics, graph theory, math
 original_url: 2016/12/15/combinatorial-nullstellensatz-and-list-coloring/
+status: published
+---
 
 More than six months late, but here are notes from the combinatorial
 nullsetllensatz talk I gave at the student colloquium at MIT.

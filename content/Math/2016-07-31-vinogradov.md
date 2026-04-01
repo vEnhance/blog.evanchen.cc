@@ -1,9 +1,11 @@
-Title: Vinogradov's Three-Prime Theorem (with Sammy Luo and Ryan Alweiss)
-Date: 2016-07-31 13:37
-Tags: number theory
-Slug: vinogradov
-Status: published
+---
+title: Vinogradov's Three-Prime Theorem (with Sammy Luo and Ryan Alweiss)
+date: 2016-07-31 13:37
+slug: vinogradov
+tags: number theory
 original_url: 2016/07/31/vinogradovs-three-prime-theorem-with-sammy-luo-and-ryan-alweiss/
+status: published
+---
 
 This was my final paper for 18.099, seminar in discrete analysis, jointly with Sammy Luo and Ryan Alweiss.
 

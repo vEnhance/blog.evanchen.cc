@@ -1,9 +1,11 @@
-Title: The story of the AutoCarrot
-Date: 2024-06-03 13:37
-Tags: writing, humor
-Slug: auto-carrot
-Status: published
+---
+title: The story of the AutoCarrot
+date: 2024-06-03 13:37
+slug: auto-carrot
+tags: writing, humor
 original_url: 2024/06/03/the-story-of-the-autocarrot/
+status: published
+---
 
 ## 1. Glazed carrots
 

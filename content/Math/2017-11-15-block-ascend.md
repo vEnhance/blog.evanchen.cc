@@ -1,9 +1,11 @@
-Title: A story of block-ascending permutations
-Date: 2017-11-15 13:37
-Tags: combinatorics, math
-Slug: block-ascend
-Status: published
+---
+title: A story of block-ascending permutations
+date: 2017-11-15 13:37
+slug: block-ascend
+tags: combinatorics, math
 original_url: 2017/11/15/a-story-of-block-ascending-permutations/
+status: published
+---
 
 I recently had a [combinatorics paper](https://arxiv.org/abs/1708.01350)
 appear in the [EJC](http://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4).

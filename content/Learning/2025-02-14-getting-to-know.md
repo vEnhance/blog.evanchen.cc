@@ -1,9 +1,11 @@
-Title: Getting to know problems
-Date: 2025-02-14 13:37
-Tags: math, teaching, study
-Slug: getting-to-know
-Status: published
+---
+title: Getting to know problems
+date: 2025-02-14 13:37
+slug: getting-to-know
+tags: math, teaching, study
 original_url: 2025/02/14/getting-to-know-problems/
+status: published
+---
 
 I recently had a student writing to me asking for advice on problem-solving. The
 student gave a few examples of problems they didn't solve (like I

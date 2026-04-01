@@ -1,9 +1,11 @@
-Title: 2011 N1 = 2024 A2
-Date: 2025-07-16 13:37
-Tags: math, teaching, writing
-Slug: write-well
-Status: published
+---
+title: 2011 N1 = 2024 A2
+date: 2025-07-16 13:37
+slug: write-well
+tags: math, teaching, writing
 original_url: 2025/07/16/write-well/
+status: published
+---
 
 I am always [harping on my students][C-24] to write solutions _well_ rather
 than aiming for just mathematically correct, and now I have a

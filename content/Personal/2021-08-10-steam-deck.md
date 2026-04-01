@@ -1,9 +1,11 @@
-Title: I reserved a Steam Deck!
-Date: 2021-08-10 13:37
-Tags: linux
-Slug: steam-deck
-Status: published
+---
+title: I reserved a Steam Deck!
+date: 2021-08-10 13:37
+slug: steam-deck
+tags: linux
 original_url: 2021/08/10/i-reserved-a-steam-deck/
+status: published
+---
 
 I might be going too far with this Arch Linux brand loyalty, but I am so psyched I don't care.
 

@@ -1,9 +1,11 @@
-Title: NP-hard advice questions
-Date: 2024-02-04 13:37
-Tags: advice, teaching
-Slug: np-hard-advice
-Status: published
+---
+title: NP-hard advice questions
+date: 2024-02-04 13:37
+slug: np-hard-advice
+tags: advice, teaching
 original_url: 2024/02/04/np-hard-advice-questions/
+status: published
+---
 
 Sometimes I get asked broad advice questions on solving problems, for example
 questions like:

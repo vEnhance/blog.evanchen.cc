@@ -1,9 +1,11 @@
-Title: First drafts of Napkin up!
-Date: 2016-07-18 13:37
-Tags: announcement
-Slug: napkin-first-draft
-Status: published
+---
+title: First drafts of Napkin up!
+date: 2016-07-18 13:37
+slug: napkin-first-draft
+tags: announcement
 original_url: 2016/07/18/first-drafts-of-napkin-up/
+status: published
+---
 
 EDIT: Here's a [July 19 draft](https://blog.evanchen.cc/wp-content/uploads/2016/07/napkin-2016-07-19.pdf) that fixes some of the glaring issues that were pointed out.
 

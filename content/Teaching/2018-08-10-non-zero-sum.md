@@ -1,9 +1,11 @@
-Title: Make training non zero-sum
-Date: 2018-08-10 13:37
-Tags: olympiad, philosophy, teaching
-Slug: non-zero-sum
-Status: published
+---
+title: Make training non zero-sum
+date: 2018-08-10 13:37
+slug: non-zero-sum
+tags: olympiad, philosophy, teaching
 original_url: 2018/08/10/make-training-non-zero-sum/
+status: published
+---
 
 Some thoughts about some modern trends in mathematical olympiads that may be concerning.
 

@@ -1,9 +1,11 @@
-Title: Why Evan does not like JavaScript as a first language
-Date: 2022-11-18 13:37
-Tags: programming
-Slug: javascript
-Status: published
+---
+title: Why Evan does not like JavaScript as a first language
+date: 2022-11-18 13:37
+slug: javascript
+tags: programming
 original_url: 2022/11/18/why-evan-does-not-like-javascript-as-a-first-language/
+status: published
+---
 
 Some people have asked me why I anti-recommend JavaScript for beginners
 on my website FAQ.

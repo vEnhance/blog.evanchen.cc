@@ -1,9 +1,11 @@
-Title: Foresight
-Date: 2025-11-11 13:37
-Tags: math
-Slug: foresight
-Status: published
+---
+title: Foresight
+date: 2025-11-11 13:37
+slug: foresight
+tags: math
 original_url: 2025/11/11/foresight/
+status: published
+---
 
 Here's a section from the
 [H-group Hanabi strategy page](https://hanabi.github.io/docs/level-7/#lines):

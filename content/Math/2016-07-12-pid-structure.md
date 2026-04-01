@@ -1,9 +1,11 @@
-Title: The Structure Theorem over PID's
-Date: 2016-07-12 13:37
-Tags: linear algebra
-Slug: pid-structure
-Status: published
+---
+title: The Structure Theorem over PID's
+date: 2016-07-12 13:37
+slug: pid-structure
+tags: linear algebra
 original_url: 2016/07/12/the-structure-theorem-over-pids/
+status: published
+---
 
 In this post I'll describe the structure theorem over PID's which generalizes the following results:
 

@@ -1,9 +1,11 @@
-Title: PDF Compression
-Date: 2014-02-01 13:37
-Tags: linux
-Slug: pdf-compress
-Status: published
+---
+title: PDF Compression
+date: 2014-02-01 13:37
+slug: pdf-compress
+tags: linux
 original_url: 2014/02/01/pdf-compression/
+status: published
+---
 
 I always scan copies of letters into my computer before I send them out.
 So I had a bunch of large PDF's sitting around hogging my Dropbox space.

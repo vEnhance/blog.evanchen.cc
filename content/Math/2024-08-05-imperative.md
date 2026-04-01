@@ -1,9 +1,11 @@
-Title: Imperative statements in geometry don't matter
-Date: 2024-08-05 13:37
-Tags: math, olympiad
-Slug: imperative
-Status: published
+---
+title: Imperative statements in geometry don't matter
+date: 2024-08-05 13:37
+slug: imperative
+tags: math, olympiad
 original_url: 2024/08/05/imperative/
+status: published
+---
 
 There's this pet peeve I have where people sometimes ask things like what kind
 of strategies they should use for, say, collinearity problems in geometry.

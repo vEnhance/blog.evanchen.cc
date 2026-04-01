@@ -1,9 +1,11 @@
-Title: Notes on Publishing My Textbook
-Date: 2016-11-11 13:37
-Tags: politics
-Slug: publishing
-Status: published
+---
+title: Notes on Publishing My Textbook
+date: 2016-11-11 13:37
+slug: publishing
+tags: politics
 original_url: 2016/11/11/notes-on-publishing-my-textbook/
+status: published
+---
 
 > _Hmm, so hopefully this will be finished within the next 10 years._
 >

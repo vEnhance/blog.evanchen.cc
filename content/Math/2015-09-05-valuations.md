@@ -1,9 +1,11 @@
-Title: Some Notes on Valuations
-Date: 2015-09-05 13:37
-Tags: number theory
-Slug: valuations
-Status: published
+---
+title: Some Notes on Valuations
+date: 2015-09-05 13:37
+slug: valuations
+tags: number theory
 original_url: 2015/09/05/some-notes-on-valuations/
+status: published
+---
 
 There are some notes on valuations from the first lecture of Math 223a at Harvard.
 

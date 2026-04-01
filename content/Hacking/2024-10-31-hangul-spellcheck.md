@@ -1,9 +1,11 @@
-Title: Hangul spellcheck for Vim
-Date: 2024-10-31 13:37
-Tags: korean, linux
-Slug: hangul-spellcheck
-Status: published
+---
+title: Hangul spellcheck for Vim
+date: 2024-10-31 13:37
+slug: hangul-spellcheck
+tags: korean, linux
 original_url: 2024/10/31/hangul-spellcheck-for-vim/
+status: published
+---
 
 _There's got to be a better way to do this. Someone please enlighten me._
 

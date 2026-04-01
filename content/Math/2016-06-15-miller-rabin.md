@@ -1,9 +1,11 @@
-Title: Miller-Rabin (for MIT 18.434)
-Date: 2016-06-15 13:37
-Tags: number theory
-Slug: miller-rabin
-Status: published
+---
+title: Miller-Rabin (for MIT 18.434)
+date: 2016-06-15 13:37
+slug: miller-rabin
+tags: number theory
 original_url: 2016/06/15/miller-rabin/
+status: published
+---
 
 This is a transcript of a talk I gave as part of MIT's 18.434 class,
 the "Seminar in Theoretical Computer Science" as part of [MIT's communication

@@ -1,9 +1,11 @@
-Title: Some Advice for Olympiad Geometry
-Date: 2016-01-19 13:37
-Tags: geometry, olympiad
-Slug: geo-advice
-Status: published
+---
+title: Some Advice for Olympiad Geometry
+date: 2016-01-19 13:37
+slug: geo-advice
+tags: geometry, olympiad
 original_url: 2016/01/19/some-advice-for-olympiad-geometry/
+status: published
+---
 
 I know some friends who are fantastic at synthetic geometry.
 I can give them any problem and they'll come up with an incredibly impressive synthetic solution.

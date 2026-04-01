@@ -1,9 +1,11 @@
-Title: Algebraic Topology Functors
-Date: 2016-11-23 13:37
-Tags: algebraic topology, category theory, math
-Slug: algtop-functor
-Status: published
+---
+title: Algebraic Topology Functors
+date: 2016-11-23 13:37
+slug: algtop-functor
+tags: algebraic topology, category theory, math
 original_url: 2016/11/23/algebraic-topology-functors/
+status: published
+---
 
 This will be old news to anyone who does algebraic topology,
 but oddly enough I can't seem to find it all written in one place anywhere,

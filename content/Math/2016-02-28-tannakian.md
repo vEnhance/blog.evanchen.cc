@@ -1,9 +1,11 @@
-Title: Tannakian Reconstruction
-Date: 2016-02-28 13:37
-Tags: algebra, representation theory
-Slug: tannakian
-Status: published
+---
+title: Tannakian Reconstruction
+date: 2016-02-28 13:37
+slug: tannakian
+tags: algebra, representation theory
 original_url: 2016/02/28/tannakian-reconstruction/
+status: published
+---
 
 These notes are from the February 23, 2016 lecture of [18.757](http://www-math.mit.edu/~laurajoy/rep.html),
 _Representations of Lie Algebras_, taught by Laura Rider.

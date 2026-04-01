@@ -1,9 +1,11 @@
-Title: On choosing exercises
-Date: 2020-06-14 13:37
-Tags: math, teaching
-Slug: exercises
-Status: published
+---
+title: On choosing exercises
+date: 2020-06-14 13:37
+slug: exercises
+tags: math, teaching
 original_url: 2020/06/14/on-choosing-exercises/
+status: published
+---
 
 > Finally, if you attempt to read this without working through a significant
 > number of exercises (see §0.0.1), I will come to your house and pummel you

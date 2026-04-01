@@ -1,9 +1,11 @@
-Title: Proof of Dirichlet's Theorem on Arithmetic Progressions
-Date: 2015-06-12 13:37
-Tags: analytic number theory, complex analysis
-Slug: dirichlet
-Status: published
+---
+title: Proof of Dirichlet's Theorem on Arithmetic Progressions
+date: 2015-06-12 13:37
+slug: dirichlet
+tags: analytic number theory, complex analysis
 original_url: 2015/06/12/proof-of-dircihlets-theorem-on-arithmetic-progressions/
+status: published
+---
 
 In this post I will sketch a proof Dirichlet Theorem's in the following form:
 

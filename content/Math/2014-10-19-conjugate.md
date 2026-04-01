@@ -1,9 +1,11 @@
-Title: Why do roots come in conjugate pairs?
-Date: 2014-10-19 13:37
-Tags: number theory
-Slug: conjugate
-Status: published
+---
+title: Why do roots come in conjugate pairs?
+date: 2014-10-19 13:37
+slug: conjugate
+tags: number theory
 original_url: 2014/10/19/why-do-roots-come-in-conjugate-pairs/
+status: published
+---
 
 This is an expanded version of an answer I gave to a question that came up while
 I was assisting the [2014-2015 WOOT class](http://www.artofproblemsolving.com/School/woot.php).

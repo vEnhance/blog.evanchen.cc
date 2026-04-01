@@ -1,9 +1,11 @@
-Title: Conversations
-Date: 2015-08-05 13:37
-Tags: shower thoughts
-Slug: conversations
-Status: published
+---
+title: Conversations
+date: 2015-08-05 13:37
+slug: conversations
+tags: shower thoughts
 original_url: 2015/08/05/conversations/
+status: published
+---
 
 I've recently come to believe that "deep conversations" are overrated. Here is why.
 

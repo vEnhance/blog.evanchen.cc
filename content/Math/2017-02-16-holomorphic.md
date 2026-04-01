@@ -1,9 +1,11 @@
-Title: Holomorphic Logarithms and Roots
-Date: 2017-02-16 13:37
-Tags: algebraic topology, complex analysis, math
-Slug: holomorphic
-Status: published
+---
+title: Holomorphic Logarithms and Roots
+date: 2017-02-16 13:37
+slug: holomorphic
+tags: algebraic topology, complex analysis, math
 original_url: 2017/02/16/holomorphic-logarithms-and-roots/
+status: published
+---
 
 In this post we'll make sense of a holomorphic square root and logarithm.
 Wrote this up because I was surprised how hard it was to find a decent complete explanation.

@@ -1,9 +1,11 @@
-Title: Math contest platitudes, v3
-Date: 2019-01-31 13:37
-Tags: olympiad, teaching
-Slug: platitudes
-Status: published
+---
+title: Math contest platitudes, v3
+date: 2019-01-31 13:37
+slug: platitudes
+tags: olympiad, teaching
 original_url: 2019/01/31/math-contest-platitudes-v3/
+status: published
+---
 
 I think it would be nice if every few years I updated my generic answer to "how
 do I get better at math contests?". So here is the 2019 version.

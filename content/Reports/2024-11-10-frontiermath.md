@@ -1,9 +1,11 @@
-Title: FrontierMath
-Date: 2024-11-10 13:37
-Tags: ai, math, problem writing
-Slug: frontiermath
-Status: published
+---
+title: FrontierMath
+date: 2024-11-10 13:37
+slug: frontiermath
+tags: ai, math, problem writing
 original_url: 2024/11/10/frontiermath/
+status: published
+---
 
 This is a short blog post on the [FrontierMath benchmark][fmarxiv],
 a set of lots of difficult math problems with easily verifiable answers.

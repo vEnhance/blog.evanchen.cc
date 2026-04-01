@@ -1,9 +1,11 @@
-Title: Hard and soft techniques
-Date: 2019-05-03 13:37
-Tags: math, olympiad
-Slug: hard-and-soft
-Status: published
+---
+title: Hard and soft techniques
+date: 2019-05-03 13:37
+slug: hard-and-soft
+tags: math, olympiad
 original_url: 2019/05/03/hard-and-soft-techniques/
+status: published
+---
 
 In yet another contest-based post,
 I want to distinguish between two types of thinking:

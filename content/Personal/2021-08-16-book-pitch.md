@@ -1,9 +1,11 @@
-Title: Book pitch
-Date: 2021-08-16 13:37
-Tags: math, teaching
-Slug: book-pitch
-Status: published
+---
+title: Book pitch
+date: 2021-08-16 13:37
+slug: book-pitch
+tags: math, teaching
 original_url: 2021/08/16/book-pitch/
+status: published
+---
 
 This is a pitch for a new text that I'm thinking of writing.
 I want to post it here to solicit opinions from the general community before

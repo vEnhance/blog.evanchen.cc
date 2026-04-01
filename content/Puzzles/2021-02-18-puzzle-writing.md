@@ -1,9 +1,11 @@
-Title: Some puzzle-writing thoughts from an amateur
-Date: 2021-02-18 01:37
-Tags: mystery hunt, puzzle hunt
-Slug: puzzle-writing
-Status: published
+---
+title: Some puzzle-writing thoughts from an amateur
+date: 2021-02-18 01:37
+slug: puzzle-writing
+tags: mystery hunt, puzzle hunt
 original_url: 2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/
+status: published
+---
 
 The [2021 Mystery Hunt](https://perpendicular.institute/)
 concluded a while ago, and wow, what an experience.

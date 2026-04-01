@@ -1,9 +1,11 @@
-Title: Git Aliases
-Date: 2015-10-25 13:37
-Tags: linux
-Slug: git-aliases
-Status: published
+---
+title: Git Aliases
+date: 2015-10-25 13:37
+slug: git-aliases
+tags: linux
 original_url: 2015/10/25/git-aliases/
+status: published
+---
 
 For Git users:
 

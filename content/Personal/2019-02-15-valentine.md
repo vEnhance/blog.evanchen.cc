@@ -1,9 +1,11 @@
-Title: Story: the morning after Valentine's Day
-Date: 2019-02-15 13:37
-Tags: linux, programming, slice of life
-Slug: valentine
-Status: published
+---
+title: Story: the morning after Valentine's Day
+date: 2019-02-15 13:37
+slug: valentine
+tags: linux, programming, slice of life
 original_url: 2019/02/15/story-the-morning-after-valentines-day/
+status: published
+---
 
 When I finally open my eyes and look at the clock, it is 8am.
 It doesn't _feel_ like it's only been eight hours, though.

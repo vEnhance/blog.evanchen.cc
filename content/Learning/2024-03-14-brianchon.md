@@ -1,9 +1,11 @@
-Title: Brianchon is fair game
-Date: 2024-03-14 13:37
-Tags: math, olympiad, teaching
-Slug: brianchon
-Status: published
+---
+title: Brianchon is fair game
+date: 2024-03-14 13:37
+slug: brianchon
+tags: math, olympiad, teaching
 original_url: 2024/03/14/brianchon-is-fair-game/
+status: published
+---
 
 About five years ago I wrote a [blog post][zerosum] warning that I thought it
 was a bad idea to design math olympiads to be completely untrainable,
