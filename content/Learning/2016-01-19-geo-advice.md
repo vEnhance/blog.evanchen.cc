@@ -91,7 +91,7 @@ I'll now give some concrete examples of the things I said above.
 Warning: spoilers follow, and hyperlinks lead to my solutions on Art of Problem Solving.
 You are encouraged to try the problems yourself before reading the comments.
 
-> **Example** ([EGMO 2012/1](https://aops.com/community/p2658992)) Let $ABC$ be a
+> **Example** ([EGMO 2012/1](https://aops.com/community/p2658992)). Let $ABC$ be a
 > triangle with circumcenter $O$.
 > The points $D$, $E$, $F$ lie in the interiors of the sides $BC$, $CA$, $AB$ respectively,
 > such that $\overline{DE}$ is perpendicular to $\overline{CO}$ and
@@ -103,7 +103,7 @@ Do some angle chasing (I) to find one cyclic quad (III), and then follow through
 If you are good enough, you don't even need to find the cyclic quad in advance;
 just play around with the angles until you notice it.
 
-> **Example** ([IMO 2014, Problem 4](https://aops.com/community/h597090)) Let $P$ and $Q$ be on
+> **Example** ([IMO 2014, Problem 4](https://aops.com/community/h597090)). Let $P$ and $Q$ be on
 > segment $BC$ of an acute triangle $ABC$ such that $\angle PAB=\angle BCA$ and $\angle CAQ=\angle ABC$.
 > Let $M$ and $N$ be the points on $AP$ and $AQ$, respectively,
 > such that $P$ is the midpoint of $AM$ and $Q$ is the midpoint of $AN$.
@@ -114,7 +114,7 @@ Also similar triangles (I) solves the problem pretty quickly as well.
 Again, this problem is "easy" in the sense that one can directly approach it with either (I) or (II),
 not needing (III) at all.
 
-> **Example** ([USAMO 2015/2](https://aops.com/community/c5h1083097p4769957)) Quadrilateral
+> **Example** ([USAMO 2015/2](https://aops.com/community/c5h1083097p4769957)). Quadrilateral
 > $APBQ$ is inscribed in circle $\omega$ with $\angle P = \angle Q = 90^{\circ}$ and $AP = AQ < BP$.
 > Let $X$ be a variable point on segment $\overline{PQ}$.
 > Line $AX$ meets $\omega$ again at $S$ (other than $A$).
@@ -129,7 +129,7 @@ This is a huge example of (III) -- after this observation,
 one can solve the problem very quickly using complex numbers (II).
 It is much harder (though not impossible) to solve the problem without knowing the desired center.
 
-> **Example** ([USAMO 2014/5](https://aops.com/community/c5h587672p3478581)) Let $ABC$ be
+> **Example** ([USAMO 2014/5](https://aops.com/community/c5h587672p3478581)). Let $ABC$ be
 > a triangle with orthocenter $H$ and let $P$ be the second intersection of the
 > circumcircle of triangle $AHC$ with the internal bisector of the angle $\angle BAC$.
 > Let $X$ be the circumcenter of triangle $APB$ and $Y$ the orthocenter of triangle $APC$.
@@ -141,7 +141,7 @@ Normally, you won't see a medium-level problem that dies immediately to (II),
 and the only reason a problem like this could end up as a problem 5 is that
 there is a tiny bit of (I) that needs to happen before the complex numbers becomes feasible.
 
-> **Example** ([IMO 2014/3](https://aops.com/community/c6h596927p3542092)) Convex quadrilateral
+> **Example** ([IMO 2014/3](https://aops.com/community/c6h596927p3542092)). Convex quadrilateral
 > $ABCD$ has $\angle ABC = \angle CDA = 90^{\circ}$.
 > Point $H$ is the foot of the perpendicular from $A$ to $BD$.
 > Points $S$ and $T$ lie on sides $AB$ and $AD$, respectively, such that $H$ lies inside triangle $SCT$ and
@@ -163,7 +163,7 @@ I really want to stress that being proficient in all three strategies is key to
 getting "straightforward" solutions like this to IMO 3/6 caliber problems.
 If you miss any of these components, you are not going to solve the problem.
 
-> **Example** ([IMO 2011/6](https://aops.com/community/c6h418983p3518149)) Let $ABC$ be an
+> **Example** ([IMO 2011/6](https://aops.com/community/c6h418983p3518149)). Let $ABC$ be an
 > acute triangle with circumcircle $\Gamma$.
 > Let $\ell$ be a tangent line to $\Gamma$, and let $\ell_a$, $\ell_b$,
 > $\ell_c$ be the lines obtained by reflecting $\ell$ in the lines $BC$, $CA$, and $AB$, respectively.

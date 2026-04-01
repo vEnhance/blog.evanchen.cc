@@ -35,22 +35,22 @@ For this, we turn to the notion of a cardinal number.
 
 ## 1. Equinumerous Sets and Cardinals
 
-> **Definition 1** Two sets $A$ and $B$ are **equinumerous**, written $A \approx B$,
+> **Definition 1.** Two sets $A$ and $B$ are **equinumerous**, written $A \approx B$,
 > if there is a bijection between them.
 
 <p></p>
 
-> **Definition 2** A **cardinal** is an ordinal $\kappa$ such that for no
+> **Definition 2.** A **cardinal** is an ordinal $\kappa$ such that for no
 > $\alpha < \kappa$ do we have $\alpha \approx \kappa$.
 
 <p></p>
 
-> **Example 3 (Examples of Cardinals)** Every finite number is a cardinal. Moreover, $\omega$ is a cardinal.
+> **Example 3 (Examples of Cardinals).** Every finite number is a cardinal. Moreover, $\omega$ is a cardinal.
 > However, $\omega+1$, $\omega^2$, $\omega^{2015}$ are not, because they are countable.
 
 <p></p>
 
-> **Example 4 ($\omega^\omega$ is Countable)** Even $\omega^\omega$ is not a cardinal,
+> **Example 4 ($\omega^\omega$ is Countable).** Even $\omega^\omega$ is not a cardinal,
 > since it is a countable union
 >
 > $$\omega^\omega = \bigcup_n \omega^n$$
@@ -59,11 +59,11 @@ For this, we turn to the notion of a cardinal number.
 
 <p></p>
 
-> **Question 5** Why must an infinite cardinal be a limit ordinal?
+> **Question 5.** Why must an infinite cardinal be a limit ordinal?
 
 <p></p>
 
-> **Remark 6** There is something fishy about the definition of a cardinal:
+> **Remark 6.** There is something fishy about the definition of a cardinal:
 > it relies on an _external_ function $f$.
 > That is, to verify $\kappa$ is a cardinal I can't just look at $\kappa$ itself;
 > I need to examine the entire universe $V$ to make sure there does not exist a
@@ -74,22 +74,22 @@ For this, we turn to the notion of a cardinal number.
 
 Now that we have defined a cardinal, we can discuss the size of a set by linking it to a cardinal.
 
-> **Definition 7** The **cardinality** of a set $X$ is the _least_ ordinal
+> **Definition 7.** The **cardinality** of a set $X$ is the _least_ ordinal
 > $\kappa$ such that $X \approx \kappa$. We denote it by $\left\lvert X \right\rvert$.
 
 <p></p>
 
-> **Question 8** Why must $\left\lvert X \right\rvert$ be a cardinal?
+> **Question 8.** Why must $\left\lvert X \right\rvert$ be a cardinal?
 
 <p></p>
 
-> **Remark 9** One needs the Well-Ordering Theorem (equivalently,
+> **Remark 9.** One needs the Well-Ordering Theorem (equivalently,
 > Choice) in order to establish that such an ordinal $\kappa$ actually exists.
 
 Since cardinals are ordinals, it makes sense to ask whether $\kappa_1 \le \kappa_2$, and so on.
 Our usual intuition works well here.
 
-> **Proposition 10 (Restatement of Cardinality Properties)** Let $X$ and $Y$ be sets.
+> **Proposition 10 (Restatement of Cardinality Properties).** Let $X$ and $Y$ be sets.
 >
 > 1.  $X \approx Y$ if and only $\left\lvert X \right\rvert = \left\lvert Y \right\rvert$,
 >     if and only if there is a bijection between $X$ and $Y$.
@@ -98,7 +98,7 @@ Our usual intuition works well here.
 
 <p></p>
 
-> **Question 11** Prove this.
+> **Question 11.** Prove this.
 
 ## 3. Aleph Numbers
 
@@ -106,7 +106,7 @@ Our usual intuition works well here.
 
 First, let us check that cardinals can get arbitrarily large:
 
-> **Proposition 12** We have $\left\lvert X \right\rvert < \left\lvert \mathcal P(X) \right\rvert$ for every set
+> **Proposition 12.** We have $\left\lvert X \right\rvert < \left\lvert \mathcal P(X) \right\rvert$ for every set
 > $X$.
 
 _Proof:_ There is an injective map $X \hookrightarrow \mathcal P(X)$ but there
@@ -114,18 +114,18 @@ is no injective map $\mathcal P(X) \hookrightarrow X$ by Cantor's diagonal argum
 
 Thus we can define:
 
-> **Definition 13** For a cardinal $\kappa$, we define $\kappa^+$ to be the least cardinal above $\kappa$,
+> **Definition 13.** For a cardinal $\kappa$, we define $\kappa^+$ to be the least cardinal above $\kappa$,
 > called the **successor cardinal**.
 
 This $\kappa^+$ exists and has $\kappa^+ \le \left\lvert \mathcal P(\kappa) \right\rvert$.
 
 Next, we claim that:
 
-> **Exercise 14** Show that if $A$ is a set of cardinals, then $\cup A$ is a cardinal.
+> **Exercise 14.** Show that if $A$ is a set of cardinals, then $\cup A$ is a cardinal.
 
 Thus by transfinite induction we obtain that:
 
-> **Definition 15** For any $\alpha \in \mathrm{On}$, we define the **aleph numbers** as
+> **Definition 15.** For any $\alpha \in \mathrm{On}$, we define the **aleph numbers** as
 >
 > $$
 > \begin{aligned}
@@ -142,7 +142,7 @@ Thus by transfinite induction we obtain that:
 
 We claim the aleph numbers constitute all the cardinals:
 
-> **Lemma 16 (Aleph Numbers Constitute All Infinite Cardinals)** If $\kappa$ is
+> **Lemma 16 (Aleph Numbers Constitute All Infinite Cardinals).** If $\kappa$ is
 > a cardinal then either $\kappa$ is finite (i.e.
 > $\kappa \in \omega$) or $\kappa = \aleph_\alpha$ for some $\alpha \in \mathrm{On}$.
 
@@ -158,7 +158,7 @@ then $\aleph_\lambda$ is the supremum $\bigcup_{\gamma < \lambda} \aleph_\gamma$
 So there must be some $\gamma < \lambda$ has $\aleph_\gamma > \kappa$,
 which contradicts the minimality of $\alpha$. $\Box$
 
-> **Definition 17** An infinite cardinal which is not a successor cardinal is called a **limit cardinal**.
+> **Definition 17.** An infinite cardinal which is not a successor cardinal is called a **limit cardinal**.
 > It is exactly those cardinals of the form $\aleph_\lambda$, for $\lambda$ a limit ordinal, plus $\aleph_0$.
 
 ## 4. Cardinal Arithmetic
@@ -181,7 +181,7 @@ In the case of cardinals, we simply "ignore order".
 
 The definition of cardinal arithmetic is as expected:
 
-> **Definition 18 (Cardinal Arithmetic)** Given cardinals $\kappa$ and $\mu$, define
+> **Definition 18 (Cardinal Arithmetic).** Given cardinals $\kappa$ and $\mu$, define
 >
 > $$
 > \kappa + \mu \coloneqq \left\lvert \left( \left\{ 0 \right\}
@@ -194,7 +194,7 @@ The definition of cardinal arithmetic is as expected:
 
 <p></p>
 
-> **Question 19** Check this agrees with what you learned in pre-school for finite cardinals.
+> **Question 19.** Check this agrees with what you learned in pre-school for finite cardinals.
 
 This is a slight abuse of notation since we are using the same symbols as for ordinal arithmetic,
 even though the results are different ($\omega \cdot \omega = \omega^2$ but
@@ -205,12 +205,12 @@ To help combat this confusion, we use separate symbols for ordinals and cardinal
 Specifically, $\omega$ will always refer to $\{0,1,\dots\}$ viewed as an ordinal;
 $\aleph_0$ will always refer to the same set viewed as a cardinal. More generally,
 
-> **Definition 20** Let $\omega_\alpha = \aleph_\alpha$ viewed as an ordinal.
+> **Definition 20.** Let $\omega_\alpha = \aleph_\alpha$ viewed as an ordinal.
 
 However, as we've seen already we have that $\aleph_0 \cdot \aleph_0 = \aleph_0$.
 In fact, this holds even more generally:
 
-> **Theorem 21 (Infinite Cardinals Squared)** Let $\kappa$ be an infinite cardinal.
+> **Theorem 21 (Infinite Cardinals Squared).** Let $\kappa$ be an infinite cardinal.
 > Then $\kappa \cdot \kappa = \kappa$.
 
 _Proof:_ Obviously $\kappa \cdot \kappa \ge \kappa$, so we want to show $\kappa \cdot \kappa \le \kappa$.
@@ -264,7 +264,7 @@ $\left\lvert \overline{\gamma} \right\rvert \le \overline{\kappa} < \kappa$ as d
 
 From this it follows that cardinal addition and multiplication is really boring:
 
-> **Theorem 22 (Infinite Cardinal Arithmetic is Trivial)** Given cardinals $\kappa$ and $\mu$,
+> **Theorem 22 (Infinite Cardinal Arithmetic is Trivial).** Given cardinals $\kappa$ and $\mu$,
 > one of which is infinite, we have
 >
 > $$\kappa \cdot \mu = \kappa + \mu = \max\left( \kappa, \mu \right).$$
@@ -287,7 +287,7 @@ $\Box$
 
 (Prototypical example for this section: $2^\kappa = \left\lvert \mathcal P(\kappa) \right\rvert$.)
 
-> **Definition 23** Suppose $\kappa$ and $\lambda$ are cardinals. Then
+> **Definition 23.** Suppose $\kappa$ and $\lambda$ are cardinals. Then
 >
 > $$\kappa^\lambda \coloneqq \left\lvert \mathscr F(\lambda, \kappa) \right\rvert.$$
 >
@@ -311,7 +311,7 @@ disprove this from the $\mathsf{ZFC}$ axioms.
 (Prototypical example for this section: $\aleph_0$, $\aleph_1$, … are all regular,
 but $\aleph_\omega$ has cofinality $\omega$.)
 
-> **Definition 24** Let $\lambda$ be a limit ordinal, and $\alpha$ another ordinal.
+> **Definition 24.** Let $\lambda$ be a limit ordinal, and $\alpha$ another ordinal.
 > A map $f : \alpha \rightarrow \lambda$ of ordinals is called **cofinal** if
 > for every $\overline{\lambda} < \lambda$,
 > there is some $\overline{\alpha} \in \alpha$ such that $f(\overline{\alpha}) \ge \overline{\lambda}$.
@@ -326,13 +326,13 @@ but $\aleph_\omega$ has cofinality $\omega$.)
 
 <p></p>
 
-> **Definition 26** Let $\lambda$ be a limit ordinal.
+> **Definition 26.** Let $\lambda$ be a limit ordinal.
 > The **cofinality** of $\lambda$, denoted $\text{cof }(\lambda)$,
 > is the smallest ordinal $\alpha$ such that there is a cofinal map $\alpha \rightarrow \lambda$.
 
 <p></p>
 
-> **Question 27** Why must $\alpha$ be an infinite cardinal?
+> **Question 27.** Why must $\alpha$ be an infinite cardinal?
 
 Usually, we are interested in taking the cofinality of a cardinal $\kappa$.
 
@@ -345,12 +345,12 @@ The cofinality is then the number of bullets you need to do this.
 We now observe that "most" of the time, the cofinality of a cardinal is itself.
 Such a cardinal is called **regular**.
 
-> **Example 28 ($\aleph_0$ is Regular)** $\text{cof }(\aleph_0) = \aleph_0$,
+> **Example 28 ($\aleph_0$ is Regular).** $\text{cof }(\aleph_0) = \aleph_0$,
 > because no finite subset of $\omega$ can reach arbitrarily high.
 
 <p></p>
 
-> **Example 29 ($\aleph_1$ is Regular)** $\text{cof }(\aleph_1) = \aleph_1$.
+> **Example 29 ($\aleph_1$ is Regular).** $\text{cof }(\aleph_1) = \aleph_1$.
 > Indeed, assume for contradiction that some countable set of ordinals
 > $A = \\ \alpha_0, \alpha_1, \dots \\ \subseteq \omega_1$ reaches arbitrarily high inside $\omega_1$.
 > Then $\Lambda = \cup A$ is a _countable_ ordinal, because it is a countable union of countable ordinals.
@@ -359,13 +359,13 @@ Such a cardinal is called **regular**.
 On the other hand, there _are_ cardinals which are not regular;
 since these are the "rare" cases we call them **singular**.
 
-> **Example 30 ($\aleph_\omega$ is Not Regular)** Notice that
+> **Example 30 ($\aleph_\omega$ is Not Regular).** Notice that
 > $\aleph_0 < \aleph_1 < \aleph_2 < \dots$ reaches arbitrarily high in $\aleph_\omega$,
 > despite only having $\aleph_0$ terms. It follows that $\text{cof }(\aleph_\omega) = \aleph_0$.
 
 We now confirm a suspicion you may have:
 
-> **Theorem 31 (Successor Cardinals Are Regular)** If
+> **Theorem 31 (Successor Cardinals Are Regular).** If
 > $\kappa = \overline{\kappa}^+$ is a successor cardinal, then it is regular.
 
 _Proof:_ We copy the proof that $\aleph_1$ was regular.
@@ -385,7 +385,7 @@ So, what about limit cardinals?
 It seems to be that most of them are singular: if $\aleph_\lambda \ne \aleph_0$ is a limit ordinal,
 then the sequence $\{\aleph_\alpha\}_{\alpha \in \lambda}$ (of length $\lambda$) is certainly cofinal.
 
-> **Example 32 (Beth Fixed Point)** Consider the monstrous cardinal
+> **Example 32 (Beth Fixed Point).** Consider the monstrous cardinal
 >
 > $$\kappa = \aleph_{\aleph_{\aleph_{\ddots}}}.$$
 >
@@ -406,21 +406,21 @@ An infinite cardinal $\kappa$ is a strong limit cardinal if
 $$\forall \overline{\kappa} < \kappa \quad 2^{\overline{\kappa}} < \kappa$$
 for any cardinal $\overline{\kappa}$. For example, $\aleph_0$ is a strong limit cardinal.
 
-> **Question 33** Why must strong limit cardinals actually be limit cardinals? (This is offensively easy.)
+> **Question 33.** Why must strong limit cardinals actually be limit cardinals? (This is offensively easy.)
 
 A regular strong limit cardinal other than $\aleph_0$ is called **strongly inaccessible**.
 
 ## 8. Exercises
 
-> **Problem 1** Compute $\left\lvert V_\omega \right\rvert$.
+> **Problem 1.** Compute $\left\lvert V_\omega \right\rvert$.
 
-> **Problem 2** Prove that for any limit ordinal $\alpha$, $\text{cof }(\alpha)$ is a _regular_ cardinal.
+> **Problem 2.** Prove that for any limit ordinal $\alpha$, $\text{cof }(\alpha)$ is a _regular_ cardinal.
 
-> **Sproblem 3 (Strongly Inaccessible Cardinals)** <span
+> **Problem 3 (Strongly Inaccessible Cardinals).** <span
 > id="probstrongly_inaccessible"></span> Show that for any strongly inaccessible $\kappa$,
 > we have $\left\lvert V_\kappa \right\rvert = \kappa$.
 
-> **Problem 4 (Konig's Theorem)** Show that
+> **Problem 4 (Konig's Theorem).** Show that
 >
 > $$\kappa^{\text{cof }(\kappa)} > \kappa$$
 >
