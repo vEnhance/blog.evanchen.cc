@@ -76,5 +76,7 @@ CACHE_PATH = "/tmp/blog_cache/"
 
 CONTENT_CACHING_LAYER = "generator"
 
+AUTHORS_SAVE_AS = ""
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
