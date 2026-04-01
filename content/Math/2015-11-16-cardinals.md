@@ -327,7 +327,7 @@ but $\aleph_\omega$ has cofinality $\omega$.)
 <p></p>
 
 > **Definition 26.** Let $\lambda$ be a limit ordinal.
-> The **cofinality** of $\lambda$, denoted $\text{cof }(\lambda)$,
+> The **cofinality** of $\lambda$, denoted $\operatorname{cof}(\lambda)$,
 > is the smallest ordinal $\alpha$ such that there is a cofinal map $\alpha \rightarrow \lambda$.
 
 <p></p>
@@ -345,12 +345,12 @@ The cofinality is then the number of bullets you need to do this.
 We now observe that "most" of the time, the cofinality of a cardinal is itself.
 Such a cardinal is called **regular**.
 
-> **Example 28 ($\aleph_0$ is Regular).** $\text{cof }(\aleph_0) = \aleph_0$,
+> **Example 28 ($\aleph_0$ is Regular).** $\operatorname{cof}(\aleph_0) = \aleph_0$,
 > because no finite subset of $\omega$ can reach arbitrarily high.
 
 <p></p>
 
-> **Example 29 ($\aleph_1$ is Regular).** $\text{cof }(\aleph_1) = \aleph_1$.
+> **Example 29 ($\aleph_1$ is Regular).** $\operatorname{cof}(\aleph_1) = \aleph_1$.
 > Indeed, assume for contradiction that some countable set of ordinals
 > $A = \\ \alpha_0, \alpha_1, \dots \\ \subseteq \omega_1$ reaches arbitrarily high inside $\omega_1$.
 > Then $\Lambda = \cup A$ is a _countable_ ordinal, because it is a countable union of countable ordinals.
@@ -361,7 +361,7 @@ since these are the "rare" cases we call them **singular**.
 
 > **Example 30 ($\aleph_\omega$ is Not Regular).** Notice that
 > $\aleph_0 < \aleph_1 < \aleph_2 < \dots$ reaches arbitrarily high in $\aleph_\omega$,
-> despite only having $\aleph_0$ terms. It follows that $\text{cof }(\aleph_\omega) = \aleph_0$.
+> despite only having $\aleph_0$ terms. It follows that $\operatorname{cof}(\aleph_\omega) = \aleph_0$.
 
 We now confirm a suspicion you may have:
 
@@ -394,7 +394,7 @@ then the sequence $\{\aleph_\alpha\}_{\alpha \in \lambda}$ (of length $\lambda$)
 >
 > $$\aleph_0, \aleph_{\aleph_0}, \aleph_{\aleph_{\aleph_0}}, \dots$$
 > More generally, one can in fact prove that
-> $$\text{cof }(\aleph_\lambda) = \text{cof }(\lambda).$$
+> $$\operatorname{cof}(\aleph_\lambda) = \operatorname{cof}(\lambda).$$
 > But it is actually conceivable that $\lambda$ is so large that
 > $\left\lvert \lambda \right\rvert = \left\lvert \aleph_\lambda \right\rvert$.
 
@@ -414,7 +414,7 @@ A regular strong limit cardinal other than $\aleph_0$ is called **strongly inacc
 
 > **Problem 1.** Compute $\left\lvert V_\omega \right\rvert$.
 
-> **Problem 2.** Prove that for any limit ordinal $\alpha$, $\text{cof }(\alpha)$ is a _regular_ cardinal.
+> **Problem 2.** Prove that for any limit ordinal $\alpha$, $\operatorname{cof}(\alpha)$ is a _regular_ cardinal.
 
 > **Problem 3 (Strongly Inaccessible Cardinals).** <span
 > id="probstrongly_inaccessible"></span> Show that for any strongly inaccessible $\kappa$,
@@ -422,7 +422,7 @@ A regular strong limit cardinal other than $\aleph_0$ is called **strongly inacc
 
 > **Problem 4 (Konig's Theorem).** Show that
 >
-> $$\kappa^{\text{cof }(\kappa)} > \kappa$$
+> $$\kappa^{\operatorname{cof}(\kappa)} > \kappa$$
 >
 > for every infinite cardinal $\kappa$.
 

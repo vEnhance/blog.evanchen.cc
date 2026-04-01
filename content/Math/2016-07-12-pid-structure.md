@@ -144,7 +144,7 @@ Consequently, we have a composition
 $$R^{\oplus f} \twoheadrightarrow K \hookrightarrow R^{\oplus d} \twoheadrightarrow M.$$
 Observe that $M$ is the _cokernel_ of the composition $T : R^{\oplus f} \rightarrow R^{\oplus d}$, i.e.
 we have that
-$$M \cong R^{\oplus d} / \text{im }(T).$$
+$$M \cong R^{\oplus d} / \operatorname{im}(T).$$
 So it suffices to understand the map $T$ well.
 
 ## 4. Smith normal form
