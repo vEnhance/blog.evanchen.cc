@@ -7,7 +7,7 @@ original_url: 2021/08/10/i-reserved-a-steam-deck/
 
 I might be going too far with this Arch Linux brand loyalty, but I am so psyched I don't care.
 
-![💸.]({static}/images/steam-deck.png)
+![💸]({static}/images/steam-deck.png)
 
 There's three pieces of hardware that I've always kind of wanted but never been
 willing to spend money on in isolation:

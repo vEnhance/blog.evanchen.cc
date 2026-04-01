@@ -29,7 +29,7 @@ and I found myself automatically visiting those sites when I wasn't doing anythi
 A couple days ago while I was reviewing my goals and realizing that I wasn't following this one,
 I remembered the title text of [XKCD 862](http://xkcd.com/862/).
 
-![XKCD 862](https://imgs.xkcd.com/comics/let_go.png)
+![XKCD 862.](https://imgs.xkcd.com/comics/let_go.png)
 
 > After years of trying various methods, I broke this habit by pitting my impatience against my laziness.
 > I decoupled the action and the neurological reward by setting up a simple
