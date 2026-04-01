@@ -16,9 +16,15 @@ In this post I will sketch a proof Dirichlet Theorem's in the following form:
 > $$\psi(x;q,a) = \frac{1}{\phi(q)} x + O\left( x\exp\left(-C(N) \sqrt{\log x}\right) \right)$$
 > uniformly in $q$.
 
-Prerequisites: complex analysis, [previous two posts](https://blog.evanchen.cc/2015/05/29/zeros-and-primes/), possibly also [Dirichlet characters](http://en.wikipedia.org/wiki/Dirichlet_character). It is probably also advisable to read [the last chapter of Hildebrand first](http://www.math.uiuc.edu/~hildebr/ant/), since this contains a much more thorough version of an easier version in which the zeros of $L$-functions are less involved.
+Prerequisites: complex analysis, [previous two posts](https://blog.evanchen.cc/2015/05/29/zeros-and-primes/),
+possibly also [Dirichlet characters](http://en.wikipedia.org/wiki/Dirichlet_character).
+It is probably also advisable to read [the last chapter of Hildebrand first](http://www.math.uiuc.edu/~hildebr/ant/),
+since this contains a much more thorough version of an easier version in which the zeros of $L$-functions are less involved.
 
-Warning: I _really_ don't understand what I am saying. It is at least 50% likely that this post contains a major error, and 90% likely that there will be multiple minor errors. Please kindly point out any screw-ups of mine; thanks!
+Warning: I _really_ don't understand what I am saying.
+It is at least 50% likely that this post contains a major error,
+and 90% likely that there will be multiple minor errors.
+Please kindly point out any screw-ups of mine; thanks!
 
 Throughout this post: $s = \sigma + it$ and $\rho = \beta + i \gamma$, as always.
 All $O$-estimates have absolute constants unless noted otherwise, and $A \ll B$ means $A = O(B)$,
@@ -274,8 +280,6 @@ so the functional equation applies and we get the information we want about zero
   $$(-1) \cdot -x^1/1 = +x.$$
   This is the "main term". Per laziness, $\delta(\chi) x$ it is.
 
-   
-
 - Depending on whether $\chi$ is odd or even, we detect the trivial zeros, which we can express succinctly by
 
   $$\sum_{m \ge 1} \frac{x^{a-2m}}{2m-a}$$
@@ -296,8 +300,6 @@ so the functional equation applies and we get the information we want about zero
 
   $$\frac{x^s}{s} = \frac 1s + \log x + \dots$$
   so we pick up an extra residue of $-\log x$. So, call this a bonus of $-(1-a) \log x$
-
-   
 
 - Finally, the hard-to-understand zeros in the strip $0 < \sigma < 1$.
   If $\rho = \beta+i\gamma$ is a zero, then it contributes a residue of $-\frac{x^\rho}{\rho}$.
@@ -380,8 +382,7 @@ Taking a logarithmic derivative and cleaning up, we derive the following lemma.
 > For any primitive character $\chi$ (possibly trivial) we have
 >
 > $$
-> \begin{aligned}
->   -\frac{L'}{L}(s, \chi)
+> \begin{aligned} -\frac{L'}{L}(s, \chi)
 >     &= \frac{1}{2} \log\frac{q}{\pi}
 >        + \frac{1}{2}\frac{\Gamma'(\frac{1}{2} s + \frac{1}{2} a)}{\Gamma(\frac{1}{2} s + \frac{1}{2} a)} \\
 >     &- B(\chi) - \sum_{\rho} \left( \frac{1}{s-\rho} + \frac{1}{\rho} \right)
@@ -389,7 +390,7 @@ Taking a logarithmic derivative and cleaning up, we derive the following lemma.
 > \end{aligned}
 > $$
 
-_Proof:_ One one hand, we have
+_Proof:_ On one hand, we have
 
 $$
 \log \xi(s, \chi) = A(\chi) + B(\chi) s

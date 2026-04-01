@@ -117,7 +117,7 @@ aren't particularly good.
 If you look at the suggestions for the spellcheck for the
 typo'd word 항글, the top 10 are:
 
-```
+```text
  1 "한글"
  2 "고글"
  3 "궁글"

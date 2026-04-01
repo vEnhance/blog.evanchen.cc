@@ -198,4 +198,4 @@ geometry which distinguish it from other subjects.
   (Olympiad inequalities also has this kind of behavior.) Again combinatorics is the opposite of this.
 - You have a reliable backup in case you can't find the official solution: bash.
   Moreover, in general there are often many different ways to solve a problem; not true of other subjects.
-- If you want to make some "critical claim" you can quickly test it empirically (by drawing a good diagram).  
+- If you want to make some "critical claim" you can quickly test it empirically (by drawing a good diagram).

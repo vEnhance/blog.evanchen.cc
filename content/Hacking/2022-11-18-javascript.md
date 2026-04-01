@@ -44,7 +44,7 @@ didn't do what it was supposed to, and trace back through the entire source.
 It's at a point where you can generate memes by just taking two different types
 of objects and adding or subtracting them and then laughing at the result.
 
-```
+```text
 Welcome to Node.js v19.1.0.
 Type ".help" for more information.
 > '7' + 3
@@ -78,7 +78,7 @@ training to keep the differences straight in my head.
 
 Last I checked though:
 
-```
+```text
 Welcome to Node.js v19.1.0.
 Type ".help" for more information.
 > null === null
@@ -93,7 +93,7 @@ Oh yeah, for those of you that don't know, you always use `===` and not `==`
 these days because the latter operator is a
 [total minefield](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality):
 
-```
+```text
 > 0 == false
 true
 > 0 == null
@@ -130,7 +130,7 @@ worse no keyword at all) so I guess it's not as bad as it used to be.
 Though of course [you can still find some contrived
 examples](https://wtfjs.com/wtfs/2010-02-15-accidental-global).
 
-```
+```text
 Welcome to Node.js v19.1.0.
 Type ".help" for more information.
 > (function() { const x = y = 1; })();
@@ -174,7 +174,7 @@ day-to-day code. But examples like this make for a good laugh, and they're
 harmless because if you actually run into them in real life you're doing
 something wrong anyway.
 
-```
+```text
 Welcome to Node.js v19.1.0.
 Type ".help" for more information.
 > null > 0
