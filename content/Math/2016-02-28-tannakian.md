@@ -2,7 +2,7 @@
 title: Tannakian Reconstruction
 date: 2016-02-28 13:37
 slug: tannakian
-tags: algebra, representation theory
+tags: representation theory
 original_url: 2016/02/28/tannakian-reconstruction/
 status: published
 ---
