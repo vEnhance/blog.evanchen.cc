@@ -54,7 +54,7 @@ It is a warning to the red points: if you cross this line, you will die!
 However, if we move the red circle just a little upwards (so that it misses the
 negative real axis) this issue is avoided entirely, and we get what seems to be a "nice" square root.
 
-![Dodging the ray of death by moving upwards a bit]({static}/images/holomorphic-log-2.png)
+![Dodging the ray of death by moving upwards a bit.]({static}/images/holomorphic-log-2.png)
 
 In fact, the ray of death is fairly arbitrary:
 it is the set of "boundary issues" that arose when we picked $-\frac{1}{2}\pi < \alpha \le \frac{1}{2}\pi$.
@@ -62,7 +62,7 @@ Suppose we instead insisted on the interval $0 \le \alpha < \pi$;
 then the ray of death would be the _positive_ real axis instead.
 The earlier circle we had now works just fine.
 
-![Choosing a different ray of death]({static}/images/holomorphic-log-3.png)
+![Choosing a different ray of death.]({static}/images/holomorphic-log-3.png)
 
 What we see is that picking a particular $\alpha$-interval leads to a different set of edge cases,
 and hence a different ray of death. The only thing these rays have in common is their starting point of zero.
@@ -126,7 +126,7 @@ So the burden is completing $g \colon V \rightarrow \mathbb C$.
 
 Then essentially, what we are trying to do is construct a lifting $g$ for the following diagram:
 
-![Covering projection for square function]({static}/images/cproj-square.png)
+![Covering projection for square function.]({static}/images/cproj-square.png)
 
 Our map $p$ can be described as "winding around twice".
 From algebraic topology, we now know that this lifting exists if and only if
@@ -160,7 +160,7 @@ So if $e^w = z$, then any complex number $w + 2\pi i k$ is also a solution.
 
 We can handle this in the same way as before: it amounts to a lifting of the following diagram.
 
-![Covering projection for exponential function]({static}/images/cproj-exp.png)
+![Covering projection for exponential function.]({static}/images/cproj-exp.png)
 
 There is no longer a need to work with a separate $V$ since:
 
