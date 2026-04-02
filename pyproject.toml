@@ -3,7 +3,7 @@ name = "blog.evanchen.cc"
 version = "0.1.0"
 description = "Power Overwhelming"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.14.2",
     "lxml>=6.0.2",
