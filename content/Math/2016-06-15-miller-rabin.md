@@ -46,7 +46,7 @@ This bound is sharp for primes:
 > (Hence $(\mathbb Z/p\mathbb Z)^\times \cong \mathbb Z/(p-1)$.)
 
 For a proof, see the last exercise of [my orders
-handout](http://www.mit.edu/~evanchen/handouts/ORPR/ORPR.pdf).
+handout](https://web.evanchen.cc/handouts/ORPR/ORPR.pdf).
 
 We will define the following anyways:
 

@@ -428,4 +428,4 @@ A regular strong limit cardinal other than $\aleph_0$ is called **strongly inacc
 >
 > for every infinite cardinal $\kappa$.
 
-(This post is a draft of a chapter from my [Napkin project](http://www.mit.edu/~evanchen/napkin.html).)
+(This post is a draft of a chapter from my [Napkin project](https://web.evanchen.cc/napkin.html).)

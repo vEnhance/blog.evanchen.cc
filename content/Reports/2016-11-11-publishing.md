@@ -11,7 +11,7 @@ status: published
 >
 > --- An email of mine at the beginning of this project
 
-My [Euclidean geometry book](http://www.mit.edu/~evanchen/geombook.html) was published last March or so.
+My [Euclidean geometry book](https://web.evanchen.cc/geombook.html) was published last March or so.
 I thought I'd take the time to write about what the whole process of publishing this book was like,
 but I'll start with the disclaimer that my process was probably not very typical
 and is unlikely to be representative of what everyone else does.
@@ -358,7 +358,7 @@ I got a fairly standard royalty contract from the publisher, which I signed off 
 
 I had a total of zero math editors and one copy editor provided.
 It shows through on the [enormous list of
-errors](http://www.mit.edu/~evanchen/geombook.html) (and this is _after_ all the
+errors](https://web.evanchen.cc/geombook.html) (and this is _after_ all the
 mistakes my friends helped me find).
 
 Fortunately, my copy editor was quite good (and I have a lot of sympathy for this poor soul,
