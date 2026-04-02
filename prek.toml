@@ -35,17 +35,8 @@ hooks = [
 repo = "https://github.com/astral-sh/ruff-pre-commit"
 rev = "v0.15.8"
 hooks = [
-  {
-    id = "ruff-format",
-    name = "ruff format",
-    types = ["python"]
-  },
-  {
-    id = "ruff",
-    name = "ruff check",
-    args = ["--fix"],
-    types = ["python"]
-  }
+  { id = "ruff-check" },
+  { id = "ruff-format" },
 ]
 
 [[repos]]
@@ -65,19 +56,20 @@ hooks = [
 ]
 
 [[repos]]
+repo = "https://github.com/rvben/rumdl-pre-commit"
+rev = "v0.1.65"
+hooks = [
+  { id = "rumdl" },
+  { id = "rumdl-fmt" },
+]
+
+[[repos]]
 repo = "https://github.com/JoC0de/pre-commit-prettier"
 rev = "v3.8.1"
 hooks = [
   {
     id = "prettier",
-    types_or = [
-      "css",
-      "javascript",
-      "markdown",
-      "json",
-      "toml",
-      "yaml"
-    ]
+    types_or = ["css", "javascript", "json", "yaml"]
   }
 ]
 

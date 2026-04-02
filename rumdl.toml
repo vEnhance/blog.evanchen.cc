@@ -1,0 +1,22 @@
+[global]
+disable = ["MD025", "MD026", "MD028", "MD033", "MD041", "MD064", "MD075"]
+
+# MD064: blocked on https://github.com/rvben/rumdl/issues/558
+# MD075: blocked on https://github.com/rvben/rumdl/issues/557
+
+extend-enable = ["MD060"]
+exclude = [
+    ".git",
+    "LICENSE.md",
+]
+respect-gitignore = true
+
+[MD013]
+line-length = 160
+code-blocks = false
+tables = false
+headings = false
+
+[MD030]
+ol-single = 2
+ol-multi = 2
