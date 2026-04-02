@@ -40,17 +40,11 @@ For this, we turn to the notion of a cardinal number.
 > **Definition 1.** Two sets $A$ and $B$ are **equinumerous**, written $A \approx B$,
 > if there is a bijection between them.
 
-<p></p>
-
 > **Definition 2.** A **cardinal** is an ordinal $\kappa$ such that for no
 > $\alpha < \kappa$ do we have $\alpha \approx \kappa$.
 
-<p></p>
-
 > **Example 3 (Examples of Cardinals).** Every finite number is a cardinal. Moreover, $\omega$ is a cardinal.
 > However, $\omega+1$, $\omega^2$, $\omega^{2015}$ are not, because they are countable.
-
-<p></p>
 
 > **Example 4 ($\omega^\omega$ is Countable).** Even $\omega^\omega$ is not a cardinal,
 > since it is a countable union
@@ -59,11 +53,7 @@ For this, we turn to the notion of a cardinal number.
 >
 > and each $\omega^n$ is countable.
 
-<p></p>
-
 > **Question 5.** Why must an infinite cardinal be a limit ordinal?
-
-<p></p>
 
 > **Remark 6.** There is something fishy about the definition of a cardinal:
 > it relies on an _external_ function $f$.
@@ -79,11 +69,7 @@ Now that we have defined a cardinal, we can discuss the size of a set by linking
 > **Definition 7.** The **cardinality** of a set $X$ is the _least_ ordinal
 > $\kappa$ such that $X \approx \kappa$. We denote it by $\left\lvert X \right\rvert$.
 
-<p></p>
-
 > **Question 8.** Why must $\left\lvert X \right\rvert$ be a cardinal?
-
-<p></p>
 
 > **Remark 9.** One needs the Well-Ordering Theorem (equivalently,
 > Choice) in order to establish that such an ordinal $\kappa$ actually exists.
@@ -97,8 +83,6 @@ Our usual intuition works well here.
 >     if and only if there is a bijection between $X$ and $Y$.
 > 2.  $\left\lvert X \right\rvert \le \left\lvert Y \right\rvert$ if and only if
 >     there is an injective map $X \hookrightarrow Y$.
-
-<p></p>
 
 > **Question 11.** Prove this.
 
@@ -193,8 +177,6 @@ The definition of cardinal arithmetic is as expected:
 > and
 >
 > $$k \cdot \mu \coloneqq \left\lvert \mu \times \kappa \right\rvert .$$
-
-<p></p>
 
 > **Question 19.** Check this agrees with what you learned in pre-school for finite cardinals.
 
@@ -319,20 +301,14 @@ but $\aleph_\omega$ has cofinality $\omega$.)
 > there is some $\overline{\alpha} \in \alpha$ such that $f(\overline{\alpha}) \ge \overline{\lambda}$.
 > In other words, the map reaches arbitrarily high into $\lambda$.
 
-<p></p>
-
 > **Example 25 (Example of a Cofinal Map)**
 >
 > 1.  The map $\omega \rightarrow \omega^\omega$ by $n \mapsto \omega^n$ is cofinal.
 > 2.  For any ordinal $\alpha$, the identity map $\alpha \rightarrow \alpha$ is cofinal.
 
-<p></p>
-
 > **Definition 26.** Let $\lambda$ be a limit ordinal.
 > The **cofinality** of $\lambda$, denoted $\operatorname{cof}(\lambda)$,
 > is the smallest ordinal $\alpha$ such that there is a cofinal map $\alpha \rightarrow \lambda$.
-
-<p></p>
 
 > **Question 27.** Why must $\alpha$ be an infinite cardinal?
 
@@ -349,8 +325,6 @@ Such a cardinal is called **regular**.
 
 > **Example 28 ($\aleph_0$ is Regular).** $\operatorname{cof}(\aleph_0) = \aleph_0$,
 > because no finite subset of $\omega$ can reach arbitrarily high.
-
-<p></p>
 
 > **Example 29 ($\aleph_1$ is Regular).** $\operatorname{cof}(\aleph_1) = \aleph_1$.
 > Indeed, assume for contradiction that some countable set of ordinals
