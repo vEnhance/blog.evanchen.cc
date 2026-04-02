@@ -13,7 +13,7 @@ So I had a bunch of large PDF's sitting around hogging my Dropbox space.
 One day I found [this blog post](http://pandemoniumillusion.wordpress.com/2008/05/07/compress-a-pdf-with-pdftk/)
 which claimed that simply running (in Bash) the commands
 
-```
+```text
 $ pdf2ps original.pdf temp.ps
 $ ps2pdf temp.ps new.pdf
 ```

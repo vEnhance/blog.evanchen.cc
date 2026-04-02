@@ -754,8 +754,6 @@ Let $d = \min\left\{ x-x_{\text{left}}, x_{\text{right}}-x \right\}$ for conveni
 
   provided $x \ge 7391$.
 
-   
-
 - If $n = x_{\text{left}}$, we have
 
   $$\log \frac xn = -\log\left( 1 - \frac{x-x_{\text{left}}}{x} \right) > \frac{d}{x}$$
@@ -766,8 +764,6 @@ Let $d = \min\left\{ x-x_{\text{left}}, x_{\text{right}}-x \right\}$ for conveni
   \frac{x}{Td} \right\} &< \Lambda(x_{\text{left}}) \left( \frac 43 \right)^2 \min \left\{ 1,
   \frac{x}{Td} \right\} \\ &\le \frac{16}{9} \log x \min \left\{ 1, \frac{x}{Td} \right\}. \end{aligned}
   $$
-
-   
 
 - The cases $n = x_{\text{right}}$ and
   $x_{\text{right}} + 1 \le n < \frac 54x$ give the same bounds as above, in the same way.
@@ -805,13 +801,12 @@ For this we appeal to the Hadamard expansion. We break into a couple cases.
   $$\int_{-1+iT}^{c+iT} -\frac{L'}{L}(s, \chi) \frac{x^s}{s} ds.$$
   Thus we want an estimate of $-\frac{L'}{L}$.
 
-  **Lemma 13**
+  > **Lemma 13**.
+  > Let $s$ be such that $-1 \le \sigma \le 2$, $\left\lvert t \right\rvert \ge 2$.
+  > Assume $\chi$ is primitive (possibly trivial),
+  > and that $t$ is not within $c_0\mathcal L^{-1}$ of any zeros of $L(s, \chi)$. Then
+  > $$\frac{L'(s, \chi)}{L(s, \chi)} = O(\mathcal L^2).$$
 
-  Let $s$ be such that $-1 \le \sigma \le 2$, $\left\lvert t \right\rvert \ge 2$.
-  Assume $\chi$ is primitive (possibly trivial),
-  and that $t$ is not within $c_0\mathcal L^{-1}$ of any zeros of $L(s, \chi)$. Then
-
-  $$\frac{L'(s, \chi)}{L(s, \chi)} = O(\mathcal L^2)$$
   _Proof:_ Since we assumed that $T \ge 2$ we need not worry about
   $\frac{\delta(\chi)}{s-1}$ and so we obtain
 
@@ -877,8 +872,6 @@ For this we appeal to the Hadamard expansion. We break into a couple cases.
   \frac{x^{c+1}-1}{T \log x} \\ &< O\left(\frac{\mathcal L^2 x}{T \log x}\right). \end{aligned}
   $$
 
-   
-
 - Next, for the integral $-U \le \sigma \le 1$, we use the "far-left" estimate to obtain
 
   $$
@@ -897,8 +890,6 @@ For this we appeal to the Hadamard expansion. We break into a couple cases.
   $$
 
   So the contribution in this case is $O\left( \frac{\mathcal L}{T x \log x} \right)$.
-
-   
 
 - Along the horizontal integral, we can use the same bound
 
@@ -1136,4 +1127,4 @@ $$
 \end{aligned}
 $$
 
-where $C(N) = \min \left\{ C_1(\varepsilon), c_6 \right\}$. This completes the proof of Dirichlet's Theorem. 
+where $C(N) = \min \left\{ C_1(\varepsilon), c_6 \right\}$. This completes the proof of Dirichlet's Theorem.

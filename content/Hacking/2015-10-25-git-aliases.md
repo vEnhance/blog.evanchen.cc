@@ -17,9 +17,9 @@ For those of you that don't already know, Git allows you to make aliases -- shor
 Specifically, if you add the following lines to your .gitconfig:
 
     [alias]
-    	cm = commit
-    	co = checkout
-    	br = branch
+        cm = commit
+        co = checkout
+        br = branch
 
 Then running `git cm` will expand as `git commit`, `git co master` is `git checkout master`, and so on.
 You can see how this might make you happy because it could save a few keystrokes.

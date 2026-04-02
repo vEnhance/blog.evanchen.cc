@@ -318,7 +318,7 @@ And with any luck that would tell us what $\mathbf W$ is.
 
 Luckily, the bipartite graph is quite sparse, and there was only one perfect matching.
 
-```
+```text
 246|1357 => 2467|135
 247|1356 => 2457|136
 256|1347 => 2567|134
@@ -385,7 +385,7 @@ either longest increasing subsequence of length $5$, or instead of length $6$.)
 
 The data I obtained was:
 
-```
+```text
 246|13578 => 24678|135
 247|13568 => 24578|136
 248|13567 => 24568|137
