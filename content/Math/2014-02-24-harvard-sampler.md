@@ -19,4 +19,4 @@ As I mentioned, I figured out what was happening in the first two lectures but
 not the third (so the notes for that one might be total gibberish).
 Hopefully they're somewhat interesting though :D
 
-[HMMT 2014 Sampler]({static}/media/hmmt2014.pdf)
+[HMMT 2014 Sampler](./media/hmmt2014.pdf)
