@@ -109,19 +109,10 @@ hooks = [
 repo = "local"
 hooks = [
   {
-    id = "check-post-metadata",
-    name = "Check post metadata format",
+    id = "check-post",
+    name = "Check post metadata and internal links",
     language = "system",
-    entry = "python3 scripts/check_metadata.py",
-    types = ["markdown"],
-    files = "^content/",
-    exclude = "^content/pages/",
-  },
-  {
-    id = "check-internal-links",
-    name = "Check internal links resolve",
-    language = "system",
-    entry = "python3 scripts/check_links.py",
+    entry = "python3 scripts/check_post.py",
     types = ["markdown"],
     files = "^content/",
   },
