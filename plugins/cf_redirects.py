@@ -12,7 +12,7 @@ This plugin collects all such fields and writes one redirect rule per article:
     /2019/01/31/math-contest-platitudes-v3/    /platitudes/    301
 """
 
-import os
+from pathlib import Path
 
 from pelican import signals
 
@@ -36,9 +36,9 @@ def write_redirects(generator):
     col = max(len(old) for old, _ in redirects) + 2
     lines = [f"{old:<{col}}{new:<30}301\n" for old, new in redirects]
 
-    out = os.path.join(generator.output_path, "_redirects")
-    with open(out, "w") as f:
-        f.writelines(lines)
+    out = Path(generator.output_path)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "_redirects").write_text("".join(lines))
 
 
 def register():
