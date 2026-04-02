@@ -79,10 +79,10 @@ Our usual intuition works well here.
 
 > **Proposition 10 (Restatement of Cardinality Properties).** Let $X$ and $Y$ be sets.
 >
-> 1.  $X \approx Y$ if and only $\left\lvert X \right\rvert = \left\lvert Y \right\rvert$,
->     if and only if there is a bijection between $X$ and $Y$.
-> 2.  $\left\lvert X \right\rvert \le \left\lvert Y \right\rvert$ if and only if
->     there is an injective map $X \hookrightarrow Y$.
+> 1. $X \approx Y$ if and only $\left\lvert X \right\rvert = \left\lvert Y \right\rvert$,
+>    if and only if there is a bijection between $X$ and $Y$.
+> 2. $\left\lvert X \right\rvert \le \left\lvert Y \right\rvert$ if and only if
+>    there is an injective map $X \hookrightarrow Y$.
 
 > **Question 11.** Prove this.
 
@@ -115,9 +115,9 @@ Thus by transfinite induction we obtain that:
 >
 > $$
 > \begin{aligned}
->   \aleph_0 &= \omega \\
->   \aleph_{\alpha+1} &= \left( \aleph_\alpha \right)^+ \\
->   \aleph_{\lambda} &= \bigcup_{\alpha < \lambda} \aleph_\alpha.
+> \aleph_0 &= \omega \\
+> \aleph_{\alpha+1} &= \left( \aleph_\alpha \right)^+ \\
+> \aleph_{\lambda} &= \bigcup_{\alpha < \lambda} \aleph_\alpha.
 > \end{aligned}
 > $$
 >
@@ -303,8 +303,8 @@ but $\aleph_\omega$ has cofinality $\omega$.)
 
 > **Example 25 (Example of a Cofinal Map)**
 >
-> 1.  The map $\omega \rightarrow \omega^\omega$ by $n \mapsto \omega^n$ is cofinal.
-> 2.  For any ordinal $\alpha$, the identity map $\alpha \rightarrow \alpha$ is cofinal.
+> 1. The map $\omega \rightarrow \omega^\omega$ by $n \mapsto \omega^n$ is cofinal.
+> 2. For any ordinal $\alpha$, the identity map $\alpha \rightarrow \alpha$ is cofinal.
 
 > **Definition 26.** Let $\lambda$ be a limit ordinal.
 > The **cofinality** of $\lambda$, denoted $\operatorname{cof}(\lambda)$,

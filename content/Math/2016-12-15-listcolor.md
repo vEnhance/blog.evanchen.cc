@@ -76,7 +76,7 @@ We see that the above example requires exponentially many vertices in $n$.
 >
 > $$
 > \chi(G) \le \operatorname{ch}(G)
->   \le \max\left( \chi(G), \left\lceil \frac{\chi(G)+n-1}{3} \right\rceil \right).
+> \le \max\left( \chi(G), \left\lceil \frac{\chi(G)+n-1}{3} \right\rceil \right).
 > $$
 >
 > In particular, if $n \le 2\chi(G)+1$ then $\operatorname{ch}(G) = \chi(G)$.
@@ -136,7 +136,7 @@ The main tool we use is the Combinatorial Nullestellensatz of Alon.
 >
 > $$
 > f = \left( x_1-x_2 \right)\left( x_2-x_3 \right) \dots
->   \left( x_{2n-1}-x_{2n} \right)\left( x_{2n}-x_1 \right)
+> \left( x_{2n-1}-x_{2n} \right)\left( x_{2n}-x_1 \right)
 > $$
 >
 > The coefficient of $x_1^1 x_2^1 \dots x_{2n}^1$ is $2 \neq 0$.
@@ -195,7 +195,7 @@ Set $\mathop{\mathrm{D}}_G(d_1,\dots,d_n) = \mathop{\mathrm{DE}}_G(d_1,\dots,d_n
 >
 > $$
 > \left\lvert \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) \right\rvert
->   - \left\lvert \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) \right\rvert.
+> - \left\lvert \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) \right\rvert.
 > $$
 
 _Proof:_ Consider expanding $f_G$.
@@ -227,8 +227,8 @@ Eulerian suborientations are brought into the picture by the following lemma.
 >
 > $$
 > \begin{aligned}
->   \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EE}}(D) \\
->   \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EO}}(D).
+> \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EE}}(D) \\
+> \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EO}}(D).
 > \end{aligned}
 > $$
 >
@@ -236,8 +236,8 @@ Eulerian suborientations are brought into the picture by the following lemma.
 >
 > $$
 > \begin{aligned}
->   \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EO}}(D) \\
->   \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EE}}(D).
+> \mathop{\mathrm{DE}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EO}}(D) \\
+> \mathop{\mathrm{DO}}_G(d_1, \dots, d_n) &\rightarrow \mathop{\mathrm{EE}}(D).
 > \end{aligned}
 > $$
 
@@ -263,8 +263,8 @@ The lemma follows from this. $\Box$
 >
 > $$
 > \pm \left(
->   \left\lvert \mathop{\mathrm{EE}}(D) \right\rvert
->   - \left\lvert \mathop{\mathrm{EO}}(D) \right\rvert
+> \left\lvert \mathop{\mathrm{EE}}(D) \right\rvert
+> - \left\lvert \mathop{\mathrm{EO}}(D) \right\rvert
 > \right)
 > $$
 >
