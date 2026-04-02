@@ -56,6 +56,7 @@ PLUGINS = [
     "autolink_style",
     "all_articles",
     "sort_tags",
+    "cf_redirects",
 ]
 
 MARKDOWN = {
