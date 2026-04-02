@@ -20,13 +20,11 @@ So I want to make this clear now: the purpose of MOP is not to train and select 
 
 I know it might seem that way, because we invite by score and grade.
 But I really think the purpose of MOP is to give each one of you
-[the experience of working hard and meeting new people, among other things][lesson].
+[the experience of working hard and meeting new people, among other things](/lessons).
 Learn math, face challenges, make friends, the usual good stuff, right?
 And that's something you can get no matter what your final rank is,
 or whether you make IMO or EGMO or even next year's MOP.
 The MOP community is an extended family, and you are all part of it now.
-
-[lesson]: /lessons
 
 What I mean to say is, the camp is designed with all 80 of you in mind.
 It made me sad back in 2012 when one of my friends realized
