@@ -33,7 +33,7 @@ hooks = [
 
 [[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
-rev = "v0.15.8"
+rev = "v0.15.9"
 hooks = [
   { id = "ruff-check" },
   { id = "ruff-format" },
@@ -57,7 +57,7 @@ hooks = [
 
 [[repos]]
 repo = "https://github.com/rvben/rumdl-pre-commit"
-rev = "v0.1.65"
+rev = "v0.1.66"
 hooks = [
   { id = "rumdl" },
   { id = "rumdl-fmt" },
