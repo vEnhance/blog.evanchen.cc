@@ -79,7 +79,7 @@ and I respond "do a lot of problems that are right above your ability".
 One of two possible things just happened:
 
 1.  I had already thought about this question,
-    and this is a [pre-computed answer](https://blog.evanchen.cc/2014/07/27/what-leads-to-success-at-math-contests/),
+    and this is a [pre-computed answer](/success),
     or
 2.  I came up with this in the half second between the end of your question and the start of my response.
     (Though you can increase this time by prepending "uh", "like", "I think".)

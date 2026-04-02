@@ -26,10 +26,10 @@ but I'm not quite sure; here's the best I can recount.
 It was sometimes in the fall of 2013, towards the start of the school year; I think late September.
 I was a senior in high school, and I was only enrolled in two classes.
 It was fantastic, because it meant I had lots of time to study math.
-[The superintendent of the school eventually found out, though,
-and forced me to enroll as an "office assistant" for three periods a
-day.](https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/) Nonetheless,
-office assistant is not a very busy job, and so I had lots of time, all the time, every day.
+The superintendent of the school eventually found out, though,
+and forced me to enroll as an "office assistant" for three periods a day.
+Nonetheless, office assistant is not a very busy job,
+and so I had lots of time, all the time, every day.
 
 Anyways, I had written a bit of geometry material for my math club the previous year,
 which was intended to be a light introduction.
@@ -131,7 +131,7 @@ first drafts are always terrible, but I'm glad I ignored that advice at least at
 It was immensely helpful to have the skeleton of the book laid out in a tangible
 form that I could actually see.
 [That's one thing I really like about writing;
-helps you collect your thoughts together.](https://blog.evanchen.cc/2015/03/14/writing/)
+helps you collect your thoughts together.](/writing)
 
 It's possible that this is part of my writing style; compared to what everyone says I should do,
 I don't do very much rewriting. My first and final drafts tend to look pretty similar.

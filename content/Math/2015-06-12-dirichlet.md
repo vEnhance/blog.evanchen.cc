@@ -18,7 +18,7 @@ In this post I will sketch a proof Dirichlet Theorem's in the following form:
 > $$\psi(x;q,a) = \frac{1}{\phi(q)} x + O\left( x\exp\left(-C(N) \sqrt{\log x}\right) \right)$$
 > uniformly in $q$.
 
-Prerequisites: complex analysis, [previous two posts](https://blog.evanchen.cc/2015/05/29/zeros-and-primes/),
+Prerequisites: complex analysis, [previous two posts](/zeta-2),
 possibly also [Dirichlet characters](http://en.wikipedia.org/wiki/Dirichlet_character).
 It is probably also advisable to read [the last chapter of Hildebrand first](http://www.math.uiuc.edu/~hildebr/ant/),
 since this contains a much more thorough version of an easier version in which the zeros of $L$-functions are less involved.

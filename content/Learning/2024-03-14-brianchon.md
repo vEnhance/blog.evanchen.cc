@@ -57,7 +57,7 @@ as I mentioned a [couple years ago for a different problem][imo2]:
 > inflexible that merely mentioning concavity makes them cower in fear.
 > _Change breaks the brittle._
 
-[zerosum]: https://blog.evanchen.cc/2018/08/10/make-training-non-zero-sum/
+[zerosum]: /non-zero-sum
 [brianchon]: https://en.wikipedia.org/wiki/Brianchon%27s_theorem
 [pascal]: https://en.wikipedia.org/wiki/Pascal's_theorem
 [lahire]: https://www.cut-the-knot.org/pythagoras/LaHire.shtml

@@ -26,7 +26,7 @@ And that's something you can get no matter what your final rank is,
 or whether you make IMO or EGMO or even next year's MOP.
 The MOP community is an extended family, and you are all part of it now.
 
-[lesson]: https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/
+[lesson]: /lessons
 
 What I mean to say is, the camp is designed with all 80 of you in mind.
 It made me sad back in 2012 when one of my friends realized

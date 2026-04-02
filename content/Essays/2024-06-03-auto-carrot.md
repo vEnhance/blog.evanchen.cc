@@ -34,7 +34,7 @@ If someone asks this question, then it indicates something is really
 wrong with their understanding of cooking.
 The English idiom "comparing apples and oranges" would be an understatement.
 It makes no sense to try to use a frying pan "instead" of a measuring spoon;
-it's practically a [type-error](https://blog.evanchen.cc/2023/01/17/a-common-type-error-on-the-otis-application/).
+it's practically a [type-error](/type).
 
 ## 2. Introducing the AutoCarrot
 

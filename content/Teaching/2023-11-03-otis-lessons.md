@@ -1,7 +1,7 @@
 ---
 title: Things I've learned from running OTIS
 date: 2023-11-03 13:37
-slug: otis
+slug: otis-lessons
 tags: otis, teaching
 original_url: 2023/11/03/things-ive-found-from-running-otis/
 status: published
@@ -53,14 +53,13 @@ his answer to the question "_what do you do for a living_?":
 > New answer: "Write emails."
 
 Now that I run OTIS, I know what he means.
-(See my recent [snapshot of what OTIS work looked like one Monday][timelog].)
+(See my recent [snapshot of what OTIS work looked like one Monday](/slice).)
 Chores like answering emails or writing up solutions aren't exactly flashy,
 but they are going to make up a lot of the day-to-day work that you do.
 Reminds me of [light bulbs and batteries][sfp].
 
 [write-emails]: https://artofproblemsolving.com/community/c864h980515_a_question_i_get_a_lot/
 [sfp]: https://strongfemaleprotagonist.com/issue-5/page-63-2/
-[timelog]: https://blog.evanchen.cc/2023/09/06/slice-of-life-of-the-otis-gm/
 
 ## 2. Lectures suck
 
@@ -73,7 +72,7 @@ but the dirty secret is that the classtime isn't the core component".
 It turns out I was wrong. You _can_ excise the in-person meeting altogether.
 OTIS has done that for years now and it works great.
 
-[per-hour]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
+[per-hour]: /per-hour
 
 There are two places I can think of where lectures were helpful:
 
@@ -138,9 +137,8 @@ classes less effective in an effort to make them more popular.[^mop]
 ## 3. Write everything out.
 
 Of course, that only works if you write well.
-When writing olympiad content,
-good taste in [choosing problems](https://blog.evanchen.cc/2020/06/14/on-choosing-exercises/)
-and [choosing themes](https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/)
+When writing olympiad content, good taste in [choosing problems](/exercises)
+and [choosing themes](/design)
 is important, and the units are one of the biggest strengths of OTIS.
 
 But it's just as important to **actually @#%^ing write things out** and not do this:
@@ -158,7 +156,7 @@ you to use "TO BE ADDED; ask if you need help" instead of "exercise for reader"?
 
 Consider solution-writing. AoPS solutions are often densely kludged
 and missing diagrams, and official contest packets can be
-[skimpy too](https://blog.evanchen.cc/2017/03/06/on-reading-solutions/).
+[skimpy too](/solread).
 (Though better than nothing --- how many college professors
 actually write out full solutions to their own problem sets?)
 I suspect there's a mindset that writing the exposition is the main work,
@@ -188,8 +186,7 @@ Indeed, if I don't edit now, someone else will eventually ask the same question.
 
 If you teach normal K-12 classes, forcing unmotivated students to work is tough.
 With olympiad students, this isn't a problem anymore (when people ask me how
-COVID affected OTIS, I reply that it
-[tripled student productivity](https://blog.evanchen.cc/2023/01/02/the-silver-lining/)).
+COVID affected OTIS, I reply that it [tripled student productivity](/silver)).
 So one OTIS trend has been to grant more freedom to students.
 
 Examples of this:
@@ -219,7 +216,7 @@ Examples of this:
   (If anything, I think more of my students are too reluctant to give up
   on a problem than give up too quickly. But it's a spectrum.)
 
-[points]: https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/
+[points]: /points
 
 [^missing-sol]:
     Assuming it's not one of the one that just says "TODO". Ugh.
@@ -320,7 +317,7 @@ It matters at least as much as the content.
 [^pr]:
     Some of the students have even started jumping in
     on adding the features they want themselves, because open source
-    [empowers people with agency](https://blog.evanchen.cc/2023/08/09/agency/).
+    [empowers people with agency](/agency).
     Send me more pull requests!
 
 [von-url-commit]: https://github.com/vEnhance/von/commit/ca1bcfbf17f8977241f1fefe4b4c00334cc472f9

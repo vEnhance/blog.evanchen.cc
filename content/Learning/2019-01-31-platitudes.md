@@ -13,7 +13,7 @@ Unlike previous instances, I'm going to be a little less olympiad-focused than I
 since these days I get a lot of people asking for help on the AMC and AIME too.
 
 (Historical notes: you can see the [version from right after I
-graduated](https://blog.evanchen.cc/2014/07/27/what-leads-to-success-at-math-contests/) and the [version
+graduated](/success) and the [version
 from when I was still in high school](https://artofproblemsolving.com/community/c5h520900).
 I admit both of them make me cringe slightly when I read them today.
 I still think everything written there is right, but the style and focus seems off to me now.)
@@ -123,8 +123,7 @@ your internal model of something you've never done is probably not that good.)
 There is one pitfall that I do see sometimes, common enough I will point it out.
 If you mostly (only?) do old practice tests or past problems,
 then you're liable to be spending too much time on easy problems.
-That was the topic of [another old post of
-mine](https://blog.evanchen.cc/2016/04/17/against-perfect-scores/),
+That was the topic of [another old post of mine](/perfect),
 but the short story is that if you find yourself constantly getting 130ish on AMC10 practice tests,
 then maybe you should spend most of your time working on problems 21-25 rather
 than repeatedly grinding 1-20 over and over.
@@ -166,7 +165,7 @@ Here's some examples of what can happen after a problem.
 - _You didn't solve the problem, and the solution makes sense,
   but you don't see how you would have come up with it._ It's possible that this
   is the fault of the solutions author (many people are actually [quite bad at
-  making solutions read naturally](https://blog.evanchen.cc/2017/03/06/on-reading-solutions/)).
+  making solutions read naturally](/solread)).
   If you have a teacher, this is the right time to ask them about it.
   But it's also possible that the problem was too hard.
   In general, I think it's better to miss problems "by a little", whatever that means,
@@ -183,7 +182,7 @@ I think you should be able to state in a couple sentences all the main ideas of 
 and basically know how to solve the problem from there.
 
 For the olympiad level, I have a whole
-[different post dedicated to reading solutions](https://blog.evanchen.cc/2017/03/06/on-reading-solutions/),
+[different post dedicated to reading solutions](/solread),
 and interested readers can read more there.
 (One point from that post I do want to emphasize since it wasn't covered
 explicitly in any of the above examples:
@@ -200,7 +199,7 @@ For concreteness, here are examples of things I think can be explained this way.
 Sometimes people will ask me whether they need to solve _every_ problem in each
 chapter of [EGMO](http://web.evanchen.cc/geombook.html), or do _every_ past practice test,
 or so on. The answer is: [of course not,
-and why would you even think that](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/)?
+and why would you even think that](/points)?
 There's nothing magical about doing 80% of the problems versus 100% of them.
 (If there was, then EGMO is secretly a terrible book, because I commented out some problems,
 and so OH NO YOU SKIPPED SOME AAAHHHHH.) And so it's okay to start Chapter 5
