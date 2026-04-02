@@ -106,12 +106,12 @@ pairs of spaces $(X,A)$ such that $H_n(X,A) = 0$ for $n \ge 1$. The correct defi
 
 > **Example 13** **(Examples of Deformation Retracts)**
 >
-> 1. If a single point $p$ is a deformation retract of a space $X$, then $X$ is contractable,
->    since the retraction $r : X \rightarrow \{*\}$ (when viewed as a map
->    $X \rightarrow X$) is homotopic to the identity map $\mathrm{id}_X : X \rightarrow X$.
-> 2. The punctured disk $D^2 \setminus \{0\}$ deformation retracts onto its boundary $S^1$.
-> 3. More generally, $D^{n} \setminus \{0\}$ deformation retracts onto its boundary $S^{n-1}$.
-> 4. Similarly, $\mathbb R^n \setminus \{0\}$ deformation retracts onto a sphere $S^{n-1}$.
+> 1.  If a single point $p$ is a deformation retract of a space $X$, then $X$ is contractable,
+>     since the retraction $r : X \rightarrow \{*\}$ (when viewed as a map
+>     $X \rightarrow X$) is homotopic to the identity map $\mathrm{id}_X : X \rightarrow X$.
+> 2.  The punctured disk $D^2 \setminus \{0\}$ deformation retracts onto its boundary $S^1$.
+> 3.  More generally, $D^{n} \setminus \{0\}$ deformation retracts onto its boundary $S^{n-1}$.
+> 4.  Similarly, $\mathbb R^n \setminus \{0\}$ deformation retracts onto a sphere $S^{n-1}$.
 
 Of course in this situation we have that
 $$H_n(X,A) \cong H_n(A,A) = 0.$$

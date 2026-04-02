@@ -13,10 +13,10 @@ Okay. Imagine you're, like, trying to make glazed carrots or something.
 
 Maybe a really simplified recipe looks something like:
 
-1. Cut your carrots into suitably sized pieces with a knife.
-2. Use a measuring spoon to get the right amount of oil, sugar, salt, etc.
-3. Throw the carrots and other ingredients into a frying pan.
-4. Serve the carrots on a plate.
+1.  Cut your carrots into suitably sized pieces with a knife.
+2.  Use a measuring spoon to get the right amount of oil, sugar, salt, etc.
+3.  Throw the carrots and other ingredients into a frying pan.
+4.  Serve the carrots on a plate.
 
 You'll notice that there were a bunch of different tools you used.
 The knife was used to cut the carrots into pieces.

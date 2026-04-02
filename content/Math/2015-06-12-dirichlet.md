@@ -133,9 +133,9 @@ The properties of these $L$-functions are that
 
 > **Theorem 3.** Let $\chi$ be a Dirichlet character modulo $q$. Then
 >
-> 1. If $\chi \ne \chi_0$, $L(\chi, s)$ can be extended to a holomorphic function on $\sigma > 0$.
-> 2. If $\chi = \chi_0$, $L(\chi, s)$ can be extended to a meromorphic function on $\sigma > 0$,
->    with a single simple pole at $s=1$ of residue $\phi(q) / q$.
+> 1.  If $\chi \ne \chi_0$, $L(\chi, s)$ can be extended to a holomorphic function on $\sigma > 0$.
+> 2.  If $\chi = \chi_0$, $L(\chi, s)$ can be extended to a meromorphic function on $\sigma > 0$,
+>     with a single simple pole at $s=1$ of residue $\phi(q) / q$.
 
 The proof is pretty much the same as for zeta.
 
@@ -155,8 +155,8 @@ equation for Dirichlet $L$-functions.
 > $$\gamma(s,\chi) = \pi^{-\frac{1}{2}(s+a)} \Gamma\left( \frac{s+a}{2} \right)$$
 > and $\delta(\chi) = 1$ if $\chi = \chi_0$ and zero otherwise. Then
 >
-> 1. $\xi$ is entire.
-> 2. If $\chi$ is primitive, then $\xi(s,\chi) = W(\chi)\xi(1-s, \overline{\chi})$ for some complex number $\left\lvert
+> 1.  $\xi$ is entire.
+> 2.  If $\chi$ is primitive, then $\xi(s,\chi) = W(\chi)\xi(1-s, \overline{\chi})$ for some complex number $\left\lvert
 >     W(\chi) \right\rvert = 1$.
 
 Unlike the $\zeta$ case, the $W(\chi)$ is nastier to describe;
@@ -521,9 +521,9 @@ I claim that:
 > Let $\chi$ be a character, possibly trivial or imprimitive.
 > There exists an absolute constant $c_1$ with the following properties:
 >
-> 1. If $\chi$ is complex, then no zeros are in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$.
-> 2. If $\chi$ is real, there are no zeros in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$,
->    with at most one exception; this zero must be real and simple.
+> 1.  If $\chi$ is complex, then no zeros are in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$.
+> 2.  If $\chi$ is real, there are no zeros in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$,
+>     with at most one exception; this zero must be real and simple.
 
 Such bad zeros are called **Siegel zeros**, and I will denote them $\beta_S$.
 The important part about this estimate is that it does not depend on $\chi$ but rather on $q$.

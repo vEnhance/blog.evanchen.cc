@@ -15,24 +15,24 @@ and doesn't necessarily reflect the intention of any collaborators.
 When you're setting a problem for a competition like the IMO or Putnam,
 three properties that are often considered desirable are:
 
-1. It should require **creative insight**.
-   Competitions avoid problems that are too similar to existing ones
-   or too easily solved by simply applying standard textbook techniques.
-   You want the problems to really feel different
-   and force the solver to feel like they came up with a new idea to solve it.
-   This is sort of what the spirit of math olympiads is about.
+1.  It should require **creative insight**.
+    Competitions avoid problems that are too similar to existing ones
+    or too easily solved by simply applying standard textbook techniques.
+    You want the problems to really feel different
+    and force the solver to feel like they came up with a new idea to solve it.
+    This is sort of what the spirit of math olympiads is about.
 
-2. It should not take a lot of **implementation**,
-   i.e. once a set of key ideas has been identified,
-   actually carrying out the proof or calculation should not be too difficult.
-   This is because a human is supposed to solve these problems
-   with nothing but pencil and paper.
+2.  It should not take a lot of **implementation**,
+    i.e. once a set of key ideas has been identified,
+    actually carrying out the proof or calculation should not be too difficult.
+    This is because a human is supposed to solve these problems
+    with nothing but pencil and paper.
 
-3. It should be **elementary**, that is, it should not rely on heavily
-   specialized esoteric knowledge. The statement should be accessible
-   to anyone with a high school or undergraduate background,
-   and the solution shouldn't be based on high-powered tools.
-   References and web search are inaccessible to human contestants.
+3.  It should be **elementary**, that is, it should not rely on heavily
+    specialized esoteric knowledge. The statement should be accessible
+    to anyone with a high school or undergraduate background,
+    and the solution shouldn't be based on high-powered tools.
+    References and web search are inaccessible to human contestants.
 
 The FrontierMath benchmark does something different from the IMO and Putnam,
 which is that **they keep the first requirement, but outright invert the second

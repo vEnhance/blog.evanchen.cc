@@ -10,12 +10,12 @@ status: published
 Sometimes I get asked broad advice questions on solving problems, for example
 questions like:
 
-1. How do I know when to switch or prioritize approaches I come up with?
-2. How do I know which points or lines to add in geometry problems?
-3. How can I tell if I'm making progress on a problem?
-4. How can I guess the answer if "find all" or "find min/max" problems?
-5. How can I tell whether a conjecture I made is true or not?
-6. What should I do on a problem when I am stuck?
+1.  How do I know when to switch or prioritize approaches I come up with?
+2.  How do I know which points or lines to add in geometry problems?
+3.  How can I tell if I'm making progress on a problem?
+4.  How can I guess the answer if "find all" or "find min/max" problems?
+5.  How can I tell whether a conjecture I made is true or not?
+6.  What should I do on a problem when I am stuck?
 
 and so on.
 
