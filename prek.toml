@@ -108,7 +108,15 @@ hooks = [
     types = ["markdown"],
     files = "^content/",
     exclude = "^content/pages/",
-  }
+  },
+  {
+    id = "check-internal-links",
+    name = "Check internal links resolve",
+    language = "system",
+    entry = "python3 scripts/check_links.py",
+    types = ["markdown"],
+    files = "^content/",
+  },
 ]
 
 [[repos]]
