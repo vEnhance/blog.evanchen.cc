@@ -4,6 +4,10 @@
 <article class="post">
     {% if article.title %}
         <h1 class="title">
+            <a class="github-source-link"
+               href="https://github.com/vEnhance/blog.evanchen.cc/blob/main/content/{{ article.category.name | replace(' ', '%20') }}/{{ article.date.strftime("%Y-%m-%d") }}-{{ article.slug }}.md?plain=1"
+               title="View source on GitHub"
+               target="_blank">🖉</a>
             <a href="{{ SITEURL }}/{{ article.url }}"
                rel="bookmark"
                title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
