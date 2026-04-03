@@ -69,7 +69,7 @@ For learning theory and fundamentals:
 - AMC - mid AIME: [Volume 2](https://artofproblemsolving.com/store/item/aops-vol2)
 - Late AIME and beyond: [E.G.M.O.](http://web.evanchen.cc/geombook.html),
   [OTIS Excerpts](http://web.evanchen.cc/excerpts.html),
-  and [more](http://web.evanchen.cc/recommend.html)
+  and [more recommendations](http://web.evanchen.cc/recommend.html)
 
 For sources of additional practice problems (other than the particular test you're preparing for):
 

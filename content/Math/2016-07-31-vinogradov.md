@@ -41,7 +41,7 @@ However, Vinogradov's bound used the ineffective Siegel-Walfisz theorem; his stu
 Borozdin showed that $3^{3^{15}}$ is large enough.
 Over the years the bound was improved,
 until recently in 2013 when Harald Helfgott claimed the first unconditional
-proof of [Theorem 2](#thmgoldbach), see [here](http://arxiv.org/abs/1312.7748).
+proof of [Theorem 2](#thmgoldbach), see [arXiv:1312.7748](http://arxiv.org/abs/1312.7748).
 
 In this exposition we follow Hardy and Littlewood's approach, i.e.
 we prove [Theorem 1](#thmvinogradov) assuming the generalized Riemann hypothesis,
