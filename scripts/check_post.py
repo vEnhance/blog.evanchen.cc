@@ -5,7 +5,6 @@ import sys
 from pathlib import Path
 
 CONTENT_DIR = Path(__file__).parent.parent / "content"
-PAGES_DIR = CONTENT_DIR / "pages"
 
 ARTICLE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-(.+)\.md$")
 LINK_RE = re.compile(r"\(/([\w-]+)/?[)#]")
@@ -25,9 +24,9 @@ def get_all_slugs() -> set[str]:
 def check_file(path: Path, valid_slugs: set[str]) -> None:
     lines = path.read_text().splitlines()
 
-    m = ARTICLE_RE.match(path.name)
-    assert m is not None, f"Filename {path} does not meet spec"
-    if path.parent != PAGES_DIR:
+    if path.parent.stem != "pages":
+        m = ARTICLE_RE.match(path.name)
+        assert m is not None, f"Filename {path} does not meet spec"
         date_from_name, slug_from_name = m.group(1), m.group(2)
         assert len(lines) >= 5 and lines[0].strip() == "---", (
             f"{path}: missing frontmatter"
