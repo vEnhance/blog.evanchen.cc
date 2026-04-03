@@ -148,7 +148,14 @@ li .sidenote {
   display: block;
 }
 
-/* Print: show original footnotes */
+/* Hide original footnotes section when sidenotes are visible (wide screens) */
+@media (min-width: 769px) {
+  .footnote {
+    display: none;
+  }
+}
+
+/* Print: show original footnotes, hide sidenotes */
 @media print {
   .sidenote {
     display: none;
@@ -156,5 +163,9 @@ li .sidenote {
 
   .sidenote-toggle {
     display: none;
+  }
+
+  .footnote {
+    display: block;
   }
 }
