@@ -1,3 +1,5 @@
+import os
+
 AUTHOR = "Evan Chen 《陳誼廷》"
 SITENAME = "Power Overwhelming"
 SITESUBTITLE = "The blog of Evan Chen"
@@ -38,7 +40,7 @@ PAGINATION_PATTERNS = (
     (2, "{base_name}/page/{number}/", "{base_name}/page/{number}/index.html"),
 )
 
-STATIC_PATHS = ["images", "media"]
+STATIC_PATHS = []
 
 ARTICLE_URL = "{slug}/"
 ARTICLE_SAVE_AS = "{slug}/index.html"
@@ -74,8 +76,7 @@ MARKDOWN = {
 SUMMARY_MAX_LENGTH = 150
 
 # On dev, output stuff to /tmp
-OUTPUT_PATH = "/tmp/blog.evanchen.cc/"
-CACHE_PATH = "/tmp/blog_cache/"
+OUTPUT_PATH = os.path.expanduser("~/.cache/blog.evanchen.cc/")
 
 AUTHORS_SAVE_AS = ""
 
