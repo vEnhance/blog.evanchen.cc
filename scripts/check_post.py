@@ -25,7 +25,9 @@ def get_all_slugs() -> set[str]:
 def check_file(path: Path, valid_slugs: set[str]) -> None:
     lines = path.read_text().splitlines()
 
-    if path.parent != PAGES_DIR and (m := ARTICLE_RE.match(path.name)):
+    m = ARTICLE_RE.match(path.name)
+    assert m is not None, f"Filename {path} does not meet spec"
+    if path.parent != PAGES_DIR:
         date_from_name, slug_from_name = m.group(1), m.group(2)
         assert len(lines) >= 5 and lines[0].strip() == "---", (
             f"{path}: missing frontmatter"
