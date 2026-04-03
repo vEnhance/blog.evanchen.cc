@@ -8,13 +8,6 @@
   margin: 0.1em 0 0.3em 0;
 }
 
-a.category:hover,
-a.readmore:hover,
-a.tags:hover {
-  background: var(--black-color);
-  color: var(--white-color);
-}
-
 .date {
   background: #111;
   padding: 0.3em 0.3em;
@@ -39,11 +32,19 @@ a.tags {
   display: inline-block;
   white-space: nowrap;
 }
+a.category:hover,
+a.tags:hover {
+  background: var(--black-color);
+  color: var(--white-color);
+}
 a.readmore {
-  background: var(--primary-color);
+  background: var(--black-color);
   color: var(--white-color);
   display: inline-block;
   font-size: 1em;
+}
+a.readmore:hover {
+  background: var(--primary-color);
 }
 a.category.selected,
 a.tags.selected {
