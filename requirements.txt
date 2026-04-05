@@ -41,7 +41,7 @@ pelican-katex==1.8.5
     # via blog-evanchen-cc (pyproject.toml)
 pelican-redirect==3.0.0
     # via blog-evanchen-cc (pyproject.toml)
-pygments==2.18.0
+pygments==2.20.0
     # via
     #   pelican
     #   rich
