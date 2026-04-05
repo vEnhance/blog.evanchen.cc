@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Usage: new.py <slug> <YYYY-MM-DD>"""
 
 import argparse
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 CONTENT_DIR = REPO_ROOT / "content"
+DRAFTS_DIR = CONTENT_DIR / "Drafts"
 NON_CATEGORY_DIRS = {"pages", "images", "media", "_DRAFTS"}
+DATE = "2099-12-31"
 
 
 def get_categories() -> list[str]:
@@ -20,17 +21,17 @@ def get_categories() -> list[str]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scaffold a new draft post.")
     parser.add_argument("slug", help="URL slug (e.g. my-post-title)")
-    parser.add_argument("category", help="Category name or alias (e.g. math, af)")
-    parser.add_argument("date", help="Publication date in YYYY-MM-DD format")
+    parser.add_argument("title", nargs="?", help="Title for the post")
     args = parser.parse_args()
 
-    filepath = CONTENT_DIR / "Drafts" / f"{args.date}-{args.slug}.md"
+    assert DRAFTS_DIR.exists(), f"{DRAFTS_DIR} missing"
+    filepath = DRAFTS_DIR / f"2099-12-31-{args.slug}.md"
     filepath.parent.mkdir(parents=True, exist_ok=True)
 
     filepath.write_text(
         f"---\n"
-        f"title: \n"
-        f"date: {args.date} 13:37\n"
+        f"title: {args.title or args.slug}\n"
+        f"date: 2099-12-31 13:37\n"
         f"slug: {args.slug}\n"
         f"tags: \n"
         f"status: draft\n"
