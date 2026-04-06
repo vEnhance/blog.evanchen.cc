@@ -456,15 +456,15 @@ markdown = [
 
 [[package]]
 name = "pelican-katex"
-version = "1.8.5"
+version = "1.8.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils" },
     { name = "pelican" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4d/83/966cc5bd3f83ad504a22ac54a9d5f6039ad2c5ced039cf0fe63b52525793/pelican_katex-1.8.5.tar.gz", hash = "sha256:13676546bfa4c81c4798986bf39a0cd740fbcf08c9327255d9844d5adfcf3d6d", size = 175658, upload-time = "2026-03-30T07:00:31.741Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/af/55/76e2451250c076d7c0085a2455eff16883632a1dc0a9ad6e9c541ec7a2ba/pelican_katex-1.8.6.tar.gz", hash = "sha256:8d0529e871486e13c268aa90aa33b9f63622920c914ca20ae89ddb9838eebd26", size = 175678, upload-time = "2026-04-06T16:46:32.909Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7c/05/66003911cf74241a4b646c4b48aad03df02a836aa6433f649750571430b2/pelican_katex-1.8.5-py3-none-any.whl", hash = "sha256:ffb9857ed0d6eef67c65cf3f6f2d6d362aae66de9ca538e35d2a571e300c140d", size = 177828, upload-time = "2026-03-30T07:00:30.155Z" },
+    { url = "https://files.pythonhosted.org/packages/7f/c8/c3edbc938c8290b3f998fa6c3301758692e46e39843c08b1576ff0cdb414/pelican_katex-1.8.6-py3-none-any.whl", hash = "sha256:9bf5f940aa1e4278b9961b199dc54d6b85198348a4803a675e7f82862e23d293", size = 177846, upload-time = "2026-04-06T16:46:31.092Z" },
 ]
 
 [[package]]
