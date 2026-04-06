@@ -2,7 +2,7 @@
 title: Proof of Dirichlet's Theorem on Arithmetic Progressions
 date: 2015-06-12 13:37
 slug: dirichlet
-tags: analytic number theory, complex analysis, math
+tags: analytic number theory, complex analysis, math, number theory
 original_url: 2015/06/12/proof-of-dircihlets-theorem-on-arithmetic-progressions/
 status: published
 ---
