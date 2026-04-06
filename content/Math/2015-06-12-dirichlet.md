@@ -39,11 +39,11 @@ $\log q \left( \left\lvert T \right\rvert + 2 \right)$, depending on context.
 
 Here are the main steps:
 
-1.  We introduce **Dirichlet character**
-    $\chi : \mathbb N \rightarrow \mathbb C$ which will serves as a roots of unity filter,
-    extracting terms $\equiv a \pmod q$.
-    We will see that this reduces the problem to estimating the function
-    $\psi(x,\chi) = \sum_{n \le x} \chi(n) \Lambda(n)$.
+1. We introduce **Dirichlet character**
+   $\chi : \mathbb N \rightarrow \mathbb C$ which will serves as a roots of unity filter,
+   extracting terms $\equiv a \pmod q$.
+   We will see that this reduces the problem to estimating the function
+   $\psi(x,\chi) = \sum_{n \le x} \chi(n) \Lambda(n)$.
 
 - Introduce the $L$-function $L(s, \chi)$, the generalization of $\zeta$ for arithmetic progressions.
   Establish a functional equation in terms of $\xi(\chi,s)$, much like with $\zeta$,
@@ -63,11 +63,11 @@ Here are the main steps:
 
 - By using Hadamard's Theorem on $\xi(\chi,s)$ which is entire,
   we can write $\frac{L'}{L}(s,\chi)$ in terms of its zeros. This has three consequences:
-  1.  We can use the previous to get bounds on $\frac{L'}{L}(s, \chi)$.
-  2.  Using a 3-4-1 trick, this gives us information on the horizontal distribution of $\rho$;
-      the dreaded Siegel zeros appear here.
-  3.  We can get an expression which lets us estimate the vertical distribution
-      of the zeros in the critical strip (specifically the number of zeros with $\gamma \in [T-1, T+1]$).
+  1. We can use the previous to get bounds on $\frac{L'}{L}(s, \chi)$.
+  2. Using a 3-4-1 trick, this gives us information on the horizontal distribution of $\rho$;
+     the dreaded Siegel zeros appear here.
+  3. We can get an expression which lets us estimate the vertical distribution
+     of the zeros in the critical strip (specifically the number of zeros with $\gamma \in [T-1, T+1]$).
 
   The first and third points let us compute $E_{\text{contour}}$.
 
@@ -133,8 +133,8 @@ The properties of these $L$-functions are that
 
 > **Theorem 3.** Let $\chi$ be a Dirichlet character modulo $q$. Then
 >
-> 1.  If $\chi \ne \chi_0$, $L(\chi, s)$ can be extended to a holomorphic function on $\sigma > 0$.
-> 2.  If $\chi = \chi_0$, $L(\chi, s)$ can be extended to a meromorphic function on $\sigma > 0$,
+> 1. If $\chi \ne \chi_0$, $L(\chi, s)$ can be extended to a holomorphic function on $\sigma > 0$.
+> 2. If $\chi = \chi_0$, $L(\chi, s)$ can be extended to a meromorphic function on $\sigma > 0$,
 >     with a single simple pole at $s=1$ of residue $\phi(q) / q$.
 
 The proof is pretty much the same as for zeta.
@@ -155,8 +155,8 @@ equation for Dirichlet $L$-functions.
 > $$\gamma(s,\chi) = \pi^{-\frac{1}{2}(s+a)} \Gamma\left( \frac{s+a}{2} \right)$$
 > and $\delta(\chi) = 1$ if $\chi = \chi_0$ and zero otherwise. Then
 >
-> 1.  $\xi$ is entire.
-> 2.  If $\chi$ is primitive, then $\xi(s,\chi) = W(\chi)\xi(1-s, \overline{\chi})$ for some complex number $\left\lvert
+> 1. $\xi$ is entire.
+> 2. If $\chi$ is primitive, then $\xi(s,\chi) = W(\chi)\xi(1-s, \overline{\chi})$ for some complex number $\left\lvert
 >     W(\chi) \right\rvert = 1$.
 
 Unlike the $\zeta$ case, the $W(\chi)$ is nastier to describe;
@@ -521,8 +521,8 @@ I claim that:
 > Let $\chi$ be a character, possibly trivial or imprimitive.
 > There exists an absolute constant $c_1$ with the following properties:
 >
-> 1.  If $\chi$ is complex, then no zeros are in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$.
-> 2.  If $\chi$ is real, there are no zeros in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$,
+> 1. If $\chi$ is complex, then no zeros are in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$.
+> 2. If $\chi$ is real, there are no zeros in the region $\sigma \ge 1 - \frac{c_1}{\mathcal L}$,
 >     with at most one exception; this zero must be real and simple.
 
 Such bad zeros are called **Siegel zeros**, and I will denote them $\beta_S$.

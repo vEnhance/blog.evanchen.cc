@@ -20,16 +20,16 @@ Nothing came up after two hours of messing around randomly.
 
 Surprisingly, though, I found almost by accident that the following modification has had significant success:
 
-1.  First, start with a known configuration: for example,
-    the incircle and $A$-excircle touch $BC$ at $D$, $E$ such that $BD = CE$.
-2.  Do some random manipulations to obtain an equivalent result.
-    For this step, I like to use harmonic bundles, but I suspect other things work too.
-    At the end of this step you should have something you might call a "proxy
-    problem" -- while you could take this and propose it to an olympiad,
-    it's probably somewhat contrived and uninteresting at the moment. (Your mileage may vary!
-    I did get a nice result out of this once.)
-3.  Starting with the proxy problem,
-    start adding in new lines and circles and points until you find a conjecture.
+1. First, start with a known configuration: for example,
+   the incircle and $A$-excircle touch $BC$ at $D$, $E$ such that $BD = CE$.
+2. Do some random manipulations to obtain an equivalent result.
+   For this step, I like to use harmonic bundles, but I suspect other things work too.
+   At the end of this step you should have something you might call a "proxy
+   problem" -- while you could take this and propose it to an olympiad,
+   it's probably somewhat contrived and uninteresting at the moment. (Your mileage may vary!
+   I did get a nice result out of this once.)
+3. Starting with the proxy problem,
+   start adding in new lines and circles and points until you find a conjecture.
 
 In other words, it seems like "randomly wander" doesn't work so well,
 but "randomly wander starting from somewhere that already has structure" works great.

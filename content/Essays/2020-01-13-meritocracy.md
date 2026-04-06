@@ -38,25 +38,25 @@ should do what every other summer camp does and have an application, or even a
 lottery. I think the answer is no, but I'm not sure. Some reasons I can think of
 behind using score only:
 
-1.  MOP does have a (secondary) goal of IMO training, and as a result the
-    program is almost insane in difficulty. For this reason you really do need
-    students with significant existing background and ability. I think very few
-    summer camps should explicitly have this level of achievement as a goal, even
-    secondarily. But I think there should be at least one such camp, and it seems to
-    be MOP.
-2.  Selection by score is transparent and fair. There is little risk of
-    favoritism, nepotism, etc. This matters a lot to me because, basically no
-    matter how much I try to convince them otherwise, people will take any
-    admissions decision as some sort of judgment, so better make it impersonal.
-    (More cynically, I honestly think if MOP switched to a less transparent
-    admissions process, we would be dealing with lawsuits within 15 years.)
-3.  For better or worse, qualifying for MOP ends up being sort of a reward, so I
-    want to set the incentives right and put the goalpost at "do maximally well
-    on USAMO". I think we design the USAMO well enough that preparation teaches you
-    [valuable
-    lessons](/lessons)
-    (math and otherwise). For an example of how not to set the goalpost, take most
-    college admissions processes.
+1. MOP does have a (secondary) goal of IMO training, and as a result the
+   program is almost insane in difficulty. For this reason you really do need
+   students with significant existing background and ability. I think very few
+   summer camps should explicitly have this level of achievement as a goal, even
+   secondarily. But I think there should be at least one such camp, and it seems to
+   be MOP.
+2. Selection by score is transparent and fair. There is little risk of
+   favoritism, nepotism, etc. This matters a lot to me because, basically no
+   matter how much I try to convince them otherwise, people will take any
+   admissions decision as some sort of judgment, so better make it impersonal.
+   (More cynically, I honestly think if MOP switched to a less transparent
+   admissions process, we would be dealing with lawsuits within 15 years.)
+3. For better or worse, qualifying for MOP ends up being sort of a reward, so I
+   want to set the incentives right and put the goalpost at "do maximally well
+   on USAMO". I think we design the USAMO well enough that preparation teaches you
+   [valuable
+   lessons](/lessons)
+   (math and otherwise). For an example of how not to set the goalpost, take most
+   college admissions processes.
 
 Honestly, the core issue might really be cultural, rather than an admissions
 problem. I wish there was a way we could do the MOP selection as we do now

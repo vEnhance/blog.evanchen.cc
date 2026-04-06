@@ -35,9 +35,9 @@ So in my usual cynicism I'll start by saying what I _think_ people typically do,
 and why I don't think it works well.
 As far as I can tell, the criteria used in most classes is:
 
-1.  The student is reasonably able to (at least in theory) eventually solve it.
-2.  A student with a solid understanding of the material should be able to do it.
-3.  (Optional) The result itself is worth knowing.
+1. The student is reasonably able to (at least in theory) eventually solve it.
+2. A student with a solid understanding of the material should be able to do it.
+3. (Optional) The result itself is worth knowing.
 
 Both of these criteria are good. My problem is that I don't think they are sufficient.
 

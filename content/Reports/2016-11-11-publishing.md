@@ -204,15 +204,15 @@ I remember I was practicing the piano at Harvard when I saw the email.
 
 There had been six reviews. While I won't quote the exact reviews, I'll briefly summarize them.
 
-1.  There is too much idiosyncratic terminology.
-2.  This is pretty impressive, but will need careful editing.
-3.  This project is fantastic; the author should be encouraged to continue.
-4.  This is well developed; may need some editing of contents since some topics are very advanced.
-5.  Overall I like this project. That said, it could benefit from some reading and editing.
-    For example, here are some passages in particular that aren't clear.
-6.  This manuscript reads well, written at a fairly high level. The motivation provided are especially good.
-    It would be nice if there were some solutions or at least longer hints for
-    the (many) problems in the text. Overall the author should be encouraged to continue.
+1. There is too much idiosyncratic terminology.
+2. This is pretty impressive, but will need careful editing.
+3. This project is fantastic; the author should be encouraged to continue.
+4. This is well developed; may need some editing of contents since some topics are very advanced.
+5. Overall I like this project. That said, it could benefit from some reading and editing.
+   For example, here are some passages in particular that aren't clear.
+6. This manuscript reads well, written at a fairly high level. The motivation provided are especially good.
+   It would be nice if there were some solutions or at least longer hints for
+   the (many) problems in the text. Overall the author should be encouraged to continue.
 
 The most surprising thing was how short the comments were.
 I had expected that, given the review had consumed the entire summer,

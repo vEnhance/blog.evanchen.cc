@@ -190,11 +190,11 @@ we can improve the error terms substantially.
 > <span id="thmpnt"></span> Let $\chi$ be a Dirichlet character modulo $q$,
 > and assume the Riemann hypothesis for the $L$-function attached to $\chi$.
 >
-> 1.  If $\chi$ is nontrivial, then
+> 1. If $\chi$ is nontrivial, then
 >
 > $$\psi(x, \chi) \ll \sqrt{x} (\log qx)^2.$$
 >
-> 2.  If $\chi = \chi_0$ is trivial, then
+> 2. If $\chi = \chi_0$ is trivial, then
 >
 > $$\psi(x, \chi_0) = x + O\left( \sqrt x (\log x)^2 + \log q \log x \right).$$
 
@@ -211,8 +211,8 @@ We will need the following fact about Gauss sums.
 
 > **Lemma 11.** <span id="lemgauss"></span> Consider Dirichlet characters modulo $q$. Then:
 >
-> 1.  We have $\tau(\chi_0) = \mu(q)$.
-> 2.  For any $\chi$ modulo $q$, $\left\lvert \tau(\chi) \right\rvert \le \sqrt q$.
+> 1. We have $\tau(\chi_0) = \mu(q)$.
+> 2. For any $\chi$ modulo $q$, $\left\lvert \tau(\chi) \right\rvert \le \sqrt q$.
 
 ### 3.4. Dirichlet approximation
 

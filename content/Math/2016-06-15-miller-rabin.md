@@ -29,8 +29,8 @@ Fortunately, it turns out that one can predict the period in advance.
 
 > **Theorem 2** **(Euler's little theorem)**
 >
-> 1.  Let $\gcd(a,n) = 1$. Then $a^{\phi(n)} \equiv 1 \pmod n$.
-> 2.  (Fermat) If $p$ is a prime, then $a^p \equiv a \pmod p$ for every $a$.
+> 1. Let $\gcd(a,n) = 1$. Then $a^{\phi(n)} \equiv 1 \pmod n$.
+> 2. (Fermat) If $p$ is a prime, then $a^p \equiv a \pmod p$ for every $a$.
 
 _Proof:_ Part (a) is a special case of Lagrange's Theorem: if $G$ is a finite group and $g \in G$,
 then $g^{|G|}$ is the identity element. Now select $G = (\mathbb Z/n\mathbb Z)^\times$.

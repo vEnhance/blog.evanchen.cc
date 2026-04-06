@@ -52,20 +52,20 @@ too.
 
 Drilling down, the things I needed to make this thing fly were:
 
-1.  Something to trigger every time a webpage was launched.
-    This was conveniently covered under "Listen for page load".
-2.  Something to actually lock the webpage.
-    This was easy, I just put `body.style.visibility = "hidden";` in JS.
-3.  Timers for a delay. This was handled by the JS `window.setTimeout()`.
-4.  Something to store the websites and their associated delays.
-    I used regular expressions to specify the domain.
-    This I did kind of painlessly through the Jetpack simple-prefs,
-    but it was kind of an ugly hack in that I manually defined six settings for up to six websites.
-    Maybe sometime when I'm bored I will take the time to make this work for arbitrarily many websites.
-5.  A way for the individual lockdown scripts to communicate with the main script and vice-versa.
-    This took me a while to figure out, but it is essentially a bunch of emit/on hooks provided in Jetpack.
-    I would inject a script lockdown.js into the page and the send it a signal
-    with the amount of time to lock the page.
+1. Something to trigger every time a webpage was launched.
+   This was conveniently covered under "Listen for page load".
+2. Something to actually lock the webpage.
+   This was easy, I just put `body.style.visibility = "hidden";` in JS.
+3. Timers for a delay. This was handled by the JS `window.setTimeout()`.
+4. Something to store the websites and their associated delays.
+   I used regular expressions to specify the domain.
+   This I did kind of painlessly through the Jetpack simple-prefs,
+   but it was kind of an ugly hack in that I manually defined six settings for up to six websites.
+   Maybe sometime when I'm bored I will take the time to make this work for arbitrarily many websites.
+5. A way for the individual lockdown scripts to communicate with the main script and vice-versa.
+   This took me a while to figure out, but it is essentially a bunch of emit/on hooks provided in Jetpack.
+   I would inject a script lockdown.js into the page and the send it a signal
+   with the amount of time to lock the page.
 
 It was actually very straightforward in retrospect, and took only a couple files of actual code.
 The project (which is very small) is [posted on my GitHub](https://github.com/vEnhance/wintermelon).

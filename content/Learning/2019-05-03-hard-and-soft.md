@@ -104,10 +104,10 @@ and after a while you realize you're not getting anywhere.
 
 So we're stuck now. What to do? I'll now bring in two of the soft techniques I mentioned earlier:
 
-1.  Let's imagine the problem had $\mathbb R$ replaced with $\mathbb C$.
-    In this new problem, you can _imagine_ solving for $y$ in terms of $x$ using the first equation, then $z$ in terms of $y$,
-    and then finally putting everything into the last equation to find a degree $27$ polynomial in $x$.
-    I say "imagine" because wow would that be ugly.
+1. Let's imagine the problem had $\mathbb R$ replaced with $\mathbb C$.
+   In this new problem, you can _imagine_ solving for $y$ in terms of $x$ using the first equation, then $z$ in terms of $y$,
+   and then finally putting everything into the last equation to find a degree $27$ polynomial in $x$.
+   I say "imagine" because wow would that be ugly.
 
 But here's the kicker: it's a polynomial.
 It should have exactly $27$ complex roots, with multiplicity.
@@ -118,7 +118,7 @@ there's a good reason this is over $\mathbb R$ but not $\mathbb C$.
 Often these kind of things end up being because there's an inequality going on somewhere,
 so there will only be a few real solutions even though there might be tons of complex ones.
 
-2.  Okay, but there's an even more blatant thing we don't know yet: _what is the answer, anyways_?
+2. Okay, but there's an even more blatant thing we don't know yet: _what is the answer, anyways_?
 
     This was more than a little bit embarrassing.
     We're half an hour in to the problem and thoroughly stuck, and we don't even have a single $(x,y,z)$ that works?

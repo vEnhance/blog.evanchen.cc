@@ -27,20 +27,20 @@ intersects $\Gamma$ at a point $X$ other than $A$.
 
 Then the following problem statements are all trivially equivalent:
 
-1.  Prove that lines $XD$ and $AM$ meet on $\Gamma$.
+1. Prove that lines $XD$ and $AM$ meet on $\Gamma$.
 
-2.  Line $XD$ meets $\Gamma$ again at $K$.
-    Prove that $A$, $M$, $K$ are collinear.
+2. Line $XD$ meets $\Gamma$ again at $K$.
+   Prove that $A$, $M$, $K$ are collinear.
 
-3.  Line $AM$ meets $\Gamma$ again at $K$.
-    Prove that $X$, $D$, $K$ are collinear.
+3. Line $AM$ meets $\Gamma$ again at $K$.
+   Prove that $X$, $D$, $K$ are collinear.
 
-4.  Line $AM$ meets $\Gamma$ again at $K$.
-    Prove that line $XK$, line $BC$, and the line
-    through $I$ perpendicular to $\overline{BC}$ are concurrent.
+4. Line $AM$ meets $\Gamma$ again at $K$.
+   Prove that line $XK$, line $BC$, and the line
+   through $I$ perpendicular to $\overline{BC}$ are concurrent.
 
-5.  Line $AM$ and $XD$ meet at $K$.
-    Prove that $A$, $B$, $K$, $C$ are concyclic.
+5. Line $AM$ and $XD$ meet at $K$.
+   Prove that $A$, $B$, $K$, $C$ are concyclic.
 
 Which is why any advice based on just which keywords are appearing in the
 problem is likely next to useless, because it can't distinguish

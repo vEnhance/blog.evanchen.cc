@@ -93,19 +93,19 @@ initial drafts available to the public.
 
 I want to try this out. I think it would look something like:
 
-1.  You can download the nicely typeset PDF for 20 dollars;
-2.  The entire source code is publicly readable on GitHub,
-    so if you can't pay or don't want to pay just download the source and compile it.
-    It might not have some formatting polishes or whatever but all the content is going to be there.
-3.  If you don't have a computer to compile things on, email me nicely and I'll send you a copy.
-4.  Pull requests welcome, and if you fix some sufficient number of typos or
-    some major errors I'll add your name to acknowledgments.
+1. You can download the nicely typeset PDF for 20 dollars;
+2. The entire source code is publicly readable on GitHub,
+   so if you can't pay or don't want to pay just download the source and compile it.
+   It might not have some formatting polishes or whatever but all the content is going to be there.
+3. If you don't have a computer to compile things on, email me nicely and I'll send you a copy.
+4. Pull requests welcome, and if you fix some sufficient number of typos or
+   some major errors I'll add your name to acknowledgments.
 
 But I'm not sure yet.
 
 ## Questions for the audience
 
-1.  Is this something people would want to see?
-2.  Is there any existing text that already satisfies my requirements?
-3.  Is the payment model fair?
-4.  Other comments or suggestions?
+1. Is this something people would want to see?
+2. Is there any existing text that already satisfies my requirements?
+3. Is the payment model fair?
+4. Other comments or suggestions?

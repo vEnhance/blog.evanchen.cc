@@ -1,24 +1,20 @@
 [global]
 disable = [
-  "MD025", # Allow multiple h1
+  "MD025", # Allow multiple h1 headings
   "MD026", # Permit punctuation in heading
-  "MD028", # Allow blockquotes separated only by blank lines
   "MD033", # Permit inline HTML
   "MD041", # Allow first line to be anything (not just h1)
-  "MD064", # Multi consecutive spaces: blocked on https://github.com/rvben/rumdl/issues/558
-  "MD075", # Pipes: blocked on https://github.com/rvben/rumdl/issues/557
 ]
-
-extend-enable = ["MD060"]
-exclude = [".git", "LICENSE.md"]
+extend-enable = ["MD060"] # Table alignment
 respect-gitignore = true
 
-[MD013]
+extend-disable = ["MD028"] # Math relies on consecutive blockquotes
+
+[MD013] # Line length
 line-length = 160
 code-blocks = false
 tables = false
 headings = false
 
-[MD030]
-ol-single = 2
-ol-multi = 2
+[MD060] # Table alignment
+enabled = true

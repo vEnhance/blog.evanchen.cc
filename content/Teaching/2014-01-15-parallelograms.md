@@ -31,10 +31,10 @@ and one of them asked for copies of my notes and told me I gave the best lecture
 
 The success of this lecture led me to adopt it for the Circle. The changes I made were:
 
-1.  Add more problems (duh).
-2.  Give more depth to the explanations, e.g. trying to explain motivations behind steps.
-3.  Give students substantial time to try the problems themselves.
-    Because IMO it spoils the fun for me to just keep giving solutions.
+1. Add more problems (duh).
+2. Give more depth to the explanations, e.g. trying to explain motivations behind steps.
+3. Give students substantial time to try the problems themselves.
+   Because IMO it spoils the fun for me to just keep giving solutions.
 
 I plotted out in my head what direction the lecture would lead to.
 The most memorable part, I decided, would be problem \#10 (by far my favorite on the set -- try it!),
