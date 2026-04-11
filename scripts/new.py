@@ -33,7 +33,7 @@ def main() -> None:
         f"title: {args.title or args.slug}\n"
         f"date: 2099-12-31 13:37\n"
         f"slug: {args.slug}\n"
-        f"tags: \n"
+        f"tags: draft\n"
         f"status: draft\n"
         f"---\n"
     )
