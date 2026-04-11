@@ -37,7 +37,7 @@ def main() -> None:
         f"status: draft\n"
         f"---\n"
     )
-    print(f"Created: {filepath}")
+    print(filepath)
 
 
 if __name__ == "__main__":
