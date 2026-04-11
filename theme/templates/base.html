@@ -129,7 +129,7 @@
                             {% if DISPLAY_PAGES_ON_MENU %}
                                 {% for p in pages %}
                                     <li {% if p == page %}class="selected"{% endif %}>
-                                        <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+                                        <a href="{{ SITEURL }}/{{ p.url }}">{{ p.short|default(p.title) }}</a>
                                     </li>
                                 {% endfor %}
                             {% endif %}
@@ -173,10 +173,12 @@
                         <div class="clear"></div>
                         <footer>
                             <p>
-                                <a href="https://github.com/vEnhance/blog.evanchen.cc">GitHub repository</a>
+                                <a href="https://github.com/vEnhance/blog.evanchen.cc">GitHub</a>
+                                •
+                                <a href="https://github.com/vEnhance/blog.evanchen.cc">Subscribe</a>
                                 {% if FEED_ALL_ATOM %}
                                     •
-                                    <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
+                                    <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom feed</a>
                                 {% endif %}
                                 {% if FEED_ALL_RSS %}
                                     •
