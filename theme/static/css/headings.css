@@ -54,15 +54,12 @@ h3 {
 /* Dim pencil link to GitHub source */
 a.github-source-link {
   float: right;
-  font-size: 0.7em;
-  opacity: 0.3;
+  opacity: 0.7;
   text-decoration: none;
-  color: inherit;
-  line-height: 1.7;
 }
 
 a.github-source-link:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 /* Hide on mobile where there's no left margin */
