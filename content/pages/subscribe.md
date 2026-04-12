@@ -35,5 +35,5 @@ New posts are automatically mirrored to my
 as are my YouTube videos.
 I also never check this, but if you still read a Facebook feed this is one option.
 
-[atom]: https://toa.evanchen.cc/feeds/all.atom.xml
+[atom]: https://blog.evanchen.cc/feeds/all.atom.xml
 [linkedin]: https://www.linkedin.com/in/venhance
