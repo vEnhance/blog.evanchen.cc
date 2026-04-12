@@ -84,3 +84,7 @@ AUTHORS_SAVE_AS = ""
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+SEO_ENHANCER_AUTHOR_FACEBOOK_PROFILES = {
+    AUTHOR: "https://www.facebook.com/evanchenmath/",
+}
