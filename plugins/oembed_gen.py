@@ -3,14 +3,16 @@ oembed_gen
 ==========
 
 Generates an ``oembed.json`` file in each article's output directory
-(alongside ``index.html``).  The JSON follows the oEmbed 1.0 spec
-(type=rich) and includes:
+(alongside ``index.html``), and injects the oEmbed discovery ``<link>``
+tag into each article's HTML after all other plugins have run.
 
-  version, type, title, author_name, author_url,
-  provider_name, provider_url, url, description (extension), html, width
+The ``<link>`` tag is injected via the ``content_written`` signal using
+``soup.new_tag()``, which guarantees correct void-element serialization
+(avoiding the stray ``</link>`` that results from BeautifulSoup re-parsing
+a template-rendered ``<link>`` tag).
 
-The corresponding ``<link rel="alternate" type="application/json+oembed">``
-tag is added by the article.html template.
+The corresponding ``og:description`` and ``meta description`` overrides
+are handled by the article.html template via ``article.oembed_description``.
 
 Settings
 --------
@@ -80,5 +82,39 @@ def generate_oembed(generator):
             json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+def inject_oembed_link(path, context):
+    """Inject the oEmbed discovery <link> tag into each article's HTML file.
+
+    Runs via content_written (after the SEO plugin's own pass) so that
+    soup.new_tag() produces a proper void element with no stray </link>.
+    """
+    article = context.get("article")
+    if not article:
+        return
+
+    siteurl = context.get("SITEURL", "").rstrip("/")
+
+    with open(path, encoding="utf-8") as f:
+        soup = BeautifulSoup(f.read(), "html.parser")
+
+    if not soup.head:
+        return
+
+    link = soup.new_tag(
+        "link",
+        attrs={
+            "rel": "alternate",
+            "type": "application/json+oembed",
+            "href": f"{siteurl}/{article.slug}/oembed.json",
+            "title": article.title,
+        },
+    )
+    soup.head.append(link)
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(str(soup))
+
+
 def register():
     signals.article_generator_finalized.connect(generate_oembed)
+    signals.content_written.connect(inject_oembed_link)
