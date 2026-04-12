@@ -3,7 +3,9 @@
 anyio==4.13.0
     # via watchfiles
 beautifulsoup4==4.14.3
-    # via blog-evanchen-cc (pyproject.toml)
+    # via
+    #   blog-evanchen-cc (pyproject.toml)
+    #   pelican-seo
 blinker==1.9.0
     # via pelican
 docutils==0.22.4
@@ -37,9 +39,12 @@ pelican==4.11.0.post0
     #   blog-evanchen-cc (pyproject.toml)
     #   pelican-katex
     #   pelican-redirect
+    #   pelican-seo
 pelican-katex==1.8.5
     # via blog-evanchen-cc (pyproject.toml)
 pelican-redirect==3.0.0
+    # via blog-evanchen-cc (pyproject.toml)
+pelican-seo @ git+https://github.com/pelican-plugins/seo@d8b3a1708f7b89c2a224483ae9955ae46b2245d3
     # via blog-evanchen-cc (pyproject.toml)
 pygments==2.18.0
     # via
