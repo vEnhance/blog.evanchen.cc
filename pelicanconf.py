@@ -3,6 +3,7 @@ import os
 AUTHOR = "Evan Chen 《陳誼廷》"
 SITENAME = "Power Overwhelming"
 SITESUBTITLE = "The blog of Evan Chen"
+SITEDESCRIPTION = "Evan Chen's blog. Math, Linux, teaching, puzzle hunts, and the like."
 SITEURL = ""
 
 PATH = "content"
@@ -55,6 +56,7 @@ PLUGINS = [
     "pelican_redirect",
     "pelican_katex",
     "sidenotes",
+    "seo",
     "autolink_style",
     "all_articles",
     "sort_tags",

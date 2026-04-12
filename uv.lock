@@ -48,6 +48,7 @@ dependencies = [
     { name = "pelican", extra = ["markdown"] },
     { name = "pelican-katex" },
     { name = "pelican-redirect" },
+    { name = "pelican-seo" },
 ]
 
 [package.dev-dependencies]
@@ -65,6 +66,7 @@ requires-dist = [
     { name = "pelican", extras = ["markdown"], specifier = ">=4.11.0.post0" },
     { name = "pelican-katex", specifier = ">=1.8.2" },
     { name = "pelican-redirect", specifier = ">=3.0.0" },
+    { name = "pelican-seo", specifier = ">=1.4.0" },
 ]
 
 [package.metadata.requires-dev]
@@ -463,6 +465,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/dd/0b/5e1847898f934728b010dc1a991102af3f8882b89d8993934146d903d0ac/pelican_redirect-3.0.0.tar.gz", hash = "sha256:44fdb03922c487be2fa776b0fb608c003ba012464e4a3dcd46baaeecd74a80d0", size = 47389, upload-time = "2025-10-12T15:25:40.022Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/21/66/0914c2d8590f51841e576c5ca82e7ee4a4e0ddc5d5e6b4e0d36bf8575343/pelican_redirect-3.0.0-py3-none-any.whl", hash = "sha256:f70b99cbf315c24f77d642cfa8ae9bb47e4dbc822e660e3d170de2ca1a1f3ebf", size = 5316, upload-time = "2025-10-12T15:25:38.604Z" },
+]
+
+[[package]]
+name = "pelican-seo"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "pelican" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/12/d5/a06835ee4b4069c7ca985599cd4ee813f6bfa44651f13bab3fe6fcd50b88/pelican_seo-1.4.0.tar.gz", hash = "sha256:a4d8b12fd9a333e6a32d93afd17ff80b90f3ef32e65e49425aab01e8bc7fce74", size = 27747, upload-time = "2025-04-25T11:21:39.152Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/9c/73ad808165ecd8935206f358ca8c20e94b73d2dd3045abfb7f2db04412a3/pelican_seo-1.4.0-py3-none-any.whl", hash = "sha256:c0c69e83f5e4eacbe9d2128d0884f79432bd537e0928066f5e08d312d358d319", size = 36353, upload-time = "2025-04-25T11:21:37.784Z" },
 ]
 
 [[package]]

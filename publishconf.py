@@ -23,3 +23,8 @@ CACHE_PATH = "cache"
 
 # DISQUS_SITENAME = ""
 # GOOGLE_ANALYTICS = ""
+
+SEO_REPORT = False
+SEO_ENHANCER = True
+SEO_ENHANCER_OPEN_GRAPH = True
+SEO_ENHANCER_SITEMAP_URL = "https://blog.evanchen.cc/sitemap.xml"
