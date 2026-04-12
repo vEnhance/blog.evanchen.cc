@@ -19,7 +19,7 @@
           title="{{ article.title }}" />
 {% endblock head %}
 {% block title %}
-    {{ SITENAME }} | {{ article.title }}
+    {{ article.title }} | {{ SITENAME }}
 {% endblock title %}
 {% block content %}
     {% include "article_stub.html" %}
