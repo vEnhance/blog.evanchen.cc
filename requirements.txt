@@ -249,7 +249,9 @@ pelican-redirect==3.0.0 \
     --hash=sha256:44fdb03922c487be2fa776b0fb608c003ba012464e4a3dcd46baaeecd74a80d0 \
     --hash=sha256:f70b99cbf315c24f77d642cfa8ae9bb47e4dbc822e660e3d170de2ca1a1f3ebf
     # via blog-evanchen-cc
-pelican-seo @ git+https://github.com/pelican-plugins/seo@d8b3a1708f7b89c2a224483ae9955ae46b2245d3
+pelican-seo==1.4.0 \
+    --hash=sha256:a4d8b12fd9a333e6a32d93afd17ff80b90f3ef32e65e49425aab01e8bc7fce74 \
+    --hash=sha256:c0c69e83f5e4eacbe9d2128d0884f79432bd537e0928066f5e08d312d358d319
     # via blog-evanchen-cc
 prek==0.3.8 \
     --hash=sha256:1000f7029696b4fe712fb1fefd4c55b9c4de72b65509c8e50296370a06f9dc3f \

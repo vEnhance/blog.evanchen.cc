@@ -66,7 +66,7 @@ requires-dist = [
     { name = "pelican", extras = ["markdown"], specifier = ">=4.11.0.post0" },
     { name = "pelican-katex", specifier = ">=1.8.2" },
     { name = "pelican-redirect", specifier = ">=3.0.0" },
-    { name = "pelican-seo", git = "https://github.com/pelican-plugins/seo?rev=d8b3a17" },
+    { name = "pelican-seo", specifier = ">=1.4.0" },
 ]
 
 [package.metadata.requires-dev]
@@ -470,10 +470,14 @@ wheels = [
 [[package]]
 name = "pelican-seo"
 version = "1.4.0"
-source = { git = "https://github.com/pelican-plugins/seo?rev=d8b3a17#d8b3a1708f7b89c2a224483ae9955ae46b2245d3" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "pelican" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/12/d5/a06835ee4b4069c7ca985599cd4ee813f6bfa44651f13bab3fe6fcd50b88/pelican_seo-1.4.0.tar.gz", hash = "sha256:a4d8b12fd9a333e6a32d93afd17ff80b90f3ef32e65e49425aab01e8bc7fce74", size = 27747, upload-time = "2025-04-25T11:21:39.152Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/9c/73ad808165ecd8935206f358ca8c20e94b73d2dd3045abfb7f2db04412a3/pelican_seo-1.4.0-py3-none-any.whl", hash = "sha256:c0c69e83f5e4eacbe9d2128d0884f79432bd537e0928066f5e08d312d358d319", size = 36353, upload-time = "2025-04-25T11:21:37.784Z" },
 ]
 
 [[package]]
