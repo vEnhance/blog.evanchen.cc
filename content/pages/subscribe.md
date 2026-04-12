@@ -9,17 +9,12 @@ here is how you can get notified automatically.
 
 ## Email subscription
 
-COMING SOON TM
-
-<!--
 I maintain a mailing list at <https://subscribe.evanchen.cc>
 that gets an email for every post that I make.
 (If you want to understand what this mailing list does,
 you can read the [source code for the server][subscribe-github].)
 
 [subscribe-github]: https://github.com/vEnhance/subscribe.evanchen.cc/
-
--->
 
 ## Atom feed
 
