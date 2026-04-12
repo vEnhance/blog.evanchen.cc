@@ -111,8 +111,17 @@
                   href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
                   crossorigin="anonymous">
             <meta name="generator" content="Pelican" />
-            <meta name="description" content="{{ SITEDESCRIPTION }}" />
+            {% block meta_description %}
+                <meta name="description" content="{{ SITEDESCRIPTION }}" />
+            {% endblock meta_description %}
             <meta name="author" content="{{ AUTHOR }}" />
+            <meta property="og:site_name" content="{{ SITENAME }}" />
+            {% block og_tags %}
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="{{ SITENAME }}" />
+                <meta property="og:description" content="{{ SITEDESCRIPTION }}" />
+                <meta property="og:url" content="{{ SITEURL }}/" />
+            {% endblock og_tags %}
         {% endblock head %}
     </head>
     <body>

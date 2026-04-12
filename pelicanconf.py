@@ -1,5 +1,3 @@
-import os
-
 AUTHOR = "Evan Chen 《陳誼廷》"
 SITENAME = "Power Overwhelming"
 SITESUBTITLE = "The blog of Evan Chen"
@@ -56,11 +54,11 @@ PLUGINS = [
     "pelican_redirect",
     "pelican_katex",
     "sidenotes",
-    "seo",
     "autolink_style",
     "all_articles",
     "sort_tags",
     "cf_redirects",
+    "oembed_gen",
 ]
 
 MARKDOWN = {
@@ -76,10 +74,6 @@ MARKDOWN = {
 }
 
 SUMMARY_MAX_LENGTH = 150
-
-# On dev, output stuff to /tmp
-OUTPUT_PATH = os.path.expanduser("~/.cache/blog.evanchen.cc/")
-
 AUTHORS_SAVE_AS = ""
 
 # Uncomment following line if you want document-relative URLs when developing

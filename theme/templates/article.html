@@ -1,8 +1,22 @@
 {% extends "base.html" %}
+{% block meta_description %}
+    {% set meta_desc = article.description if article.description else article.oembed_description %}
+    {% if meta_desc %}<meta name="description" content="{{ meta_desc }}" />{% endif %}
+{% endblock meta_description %}
+{% block og_tags %}
+    {% set meta_desc = article.description if article.description else article.oembed_description %}
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ article.title }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ article.slug }}/" />
+    {% if meta_desc %}<meta property="og:description" content="{{ meta_desc }}" />{% endif %}
+{% endblock og_tags %}
 {% block head %}
     {{ super() }}
     {% if article.tags %}<meta name="keywords" content="{{ article.tags|join(',') }}" />{% endif %}
-    {% if article.description %}<meta name="description" content="{{ article.description }}" />{% endif %}
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="{{ SITEURL }}/{{ article.slug }}/oembed.json"
+          title="{{ article.title }}" />
 {% endblock head %}
 {% block title %}
     {{ SITENAME }} | {{ article.title }}

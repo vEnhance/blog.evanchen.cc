@@ -19,6 +19,8 @@ DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = "output/"
 CACHE_PATH = "cache"
 
+PLUGINS.append("seo")  # noqa: F405
+
 # Following items are often useful when publishing
 
 # DISQUS_SITENAME = ""
@@ -26,5 +28,5 @@ CACHE_PATH = "cache"
 
 SEO_REPORT = False
 SEO_ENHANCER = True
-SEO_ENHANCER_OPEN_GRAPH = True
+SEO_ENHANCER_OPEN_GRAPH = False
 SEO_ENHANCER_SITEMAP_URL = "https://blog.evanchen.cc/sitemap.xml"
