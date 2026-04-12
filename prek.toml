@@ -89,10 +89,7 @@ repo = "https://github.com/astral-sh/uv-pre-commit"
 rev = "0.11.4"
 hooks = [
   { id = "uv-lock" },
-  {
-    id = "pip-compile",
-    args = ["pyproject.toml", "-o", "requirements.txt"]
-  }
+  { id = "uv-export" },
 ]
 
 [[repos]]
