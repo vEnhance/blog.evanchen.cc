@@ -7,7 +7,7 @@ short: Sub
 If you like this blog so much that you want to know as soon there's a new post,
 here is how you can get notified automatically.
 
-## Email subscription
+## Mailing list
 
 I maintain a mailing list at <https://list.evanchen.cc>
 that gets an email for every post that I make.
