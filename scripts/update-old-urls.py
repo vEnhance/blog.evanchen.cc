@@ -2,9 +2,9 @@ from pathlib import Path
 import json
 import sys
 
-CACHE_PATH = Path("~/.cache/blog.evanchen.cc/").expanduser()
+OUTPUT_PATH = Path(__file__).parent.parent / "output"
 
-with open(CACHE_PATH / "REDIRECTS.json") as f:
+with open(OUTPUT_PATH / "REDIRECTS.json") as f:
     redirect_dict = json.load(f)
 
 for filename in sys.argv[1:]:
