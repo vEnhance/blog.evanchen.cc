@@ -108,7 +108,7 @@ hooks = [
     id = "check-post",
     name = "Check post metadata and internal links",
     language = "system",
-    entry = "python3 scripts/check_post.py",
+    entry = "python3 scripts/check-post.py",
     types = ["markdown"],
     files = "^content/",
   },
