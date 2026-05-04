@@ -36,7 +36,8 @@ article.post {
   float: left;
   clear: left;
   margin-bottom: 0.5em;
-  font-size: 0.85em;
+  font-size: 0.6em;
+  font-family: system-ui, sans-serif;
   line-height: 1.4;
   color: var(--muted-color);
   text-align: right;

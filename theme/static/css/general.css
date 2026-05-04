@@ -91,7 +91,7 @@ table {
 /* General setup */
 body {
   font-family: et-book, Georgia, serif;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.5em;
   background-color: var(--background-color);
   color: var(--black-color);
