@@ -23,5 +23,5 @@ mkdir -p "$(dirname "$REPO_ROOT/$NEWRELPATH")"
 echo "Writing to $NEWRELPATH"
 git -C "$REPO_ROOT" show "dev:$RELPATH" |
   sed "s/^status: draft$/status: published/" |
-  sed "s/^date: .*/date: ${PUBLISH_DATE} 00:00/" |
+  sed "s/^date: .*/date: ${PUBLISH_DATE} 13:37/" |
   tee "$REPO_ROOT/$NEWRELPATH"
