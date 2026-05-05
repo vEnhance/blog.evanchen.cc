@@ -27,7 +27,7 @@ In theory, you can compile the content with the following:
 
 However, in practice when developing you probably don't need to compile all
 100+ posts for testing, or for previewing a single post
-(particularly since KaTeX rendering is really slow, this can take minutes).
+(particularly since KaTeX rendering is really slow).
 Instead, the following utility scripts are provided:
 
 - Use `scripts/new.py` to set up a new post.
