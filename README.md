@@ -1,6 +1,6 @@
 # blog.evanchen.cc
 
-This are the source files for Evan Chen's personal blog,
+These are the source files for Evan Chen's personal blog,
 <https://blog.evanchen.cc>.
 
 Pull requests to fix typos, repair broken site functionality, and so on
