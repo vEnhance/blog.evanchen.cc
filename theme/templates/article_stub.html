@@ -48,9 +48,7 @@
                rel="tag">{{ article.category }}</a>
         {% endif %}
     </div>
-    {% if articles_page and DISQUS_SITENAME %}
-        <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Click to read and post comments</a>
-    {% else %}
-        {% include "disqus.html" %}
+    {% if not articles_page %}
+        {% include "isso.html" %}
     {% endif %}
 </article>

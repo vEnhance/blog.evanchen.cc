@@ -171,3 +171,8 @@ strong {
   font-weight: bold;
   color: var(--black-emph-color);
 }
+
+#isso-thread .isso-form-wrapper .isso-input-wrapper:has(input[name="website"]) {
+  display: none;
+  margin: 0;
+}
