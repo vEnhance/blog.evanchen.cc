@@ -61,6 +61,6 @@ And that's why if you only focus on writing technically-mathematically-correct
 
 (The 2024 A2 problem has two solution paths, one that I think is elegant,
 and one that uses an annoying calculation via induction on $n$.
-Try to find the non-induction solution,.)
+Try to find the non-induction solution.)
 
 [C-24]: https://web.evanchen.cc/faq-contest.html#C-24
