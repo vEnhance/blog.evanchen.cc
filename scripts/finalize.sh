@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Usage: scripts/publish.sh <slug> [YYYY-MM-DD]
+# Usage: scripts/finalize.sh <slug> [YYYY-MM-DD]
+#
 set -euo pipefail
-SLUG=${1:?Usage: publish.sh <slug> [YYYY-MM-DD]}
+SLUG=${1:?Usage: finalize.sh <slug> [YYYY-MM-DD]}
 PUBLISH_DATE=${2:-$(date +%F)}
 
 [[ -f pelicanconf.py ]] || {
@@ -27,11 +28,10 @@ git mv "$RELPATH" "$NEWRELPATH"
 sed -i "s/^status: draft$/status: published/" "$NEWRELPATH"
 sed -i "s/^date: .*/date: ${PUBLISH_DATE} 13:37/" "$NEWRELPATH"
 git add "$NEWRELPATH"
-git commit -m "feat: publish $SLUG"
+git commit -m "feat($SLUG): finalize draft"
 
 # Update main: pull the published file into working tree (no auto-commit)
 git checkout main
 echo "Writing to $NEWRELPATH on main"
 git checkout dev -- "$NEWRELPATH"
-
-echo "Done. Dev committed. Review $NEWRELPATH on main, then commit."
+git commit -m "feat($SLUG): publish"

@@ -42,4 +42,4 @@ Instead, the following utility scripts are provided:
 You might prefer a workflow where new posts are written on `dev`
 or `dev/*`, rather than `main`.
 If so, after writing the post on `dev`,
-use `.scripts/publish.sh <slug> [YYYY-MM-DD]` to squash onto main.
+use `.scripts/finalize.sh <slug> [YYYY-MM-DD]` to squash onto main.
