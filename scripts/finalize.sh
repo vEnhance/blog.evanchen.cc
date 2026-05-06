@@ -23,15 +23,16 @@ RELPATH=$(git ls-tree -r --name-only dev | grep -E -- "[0-9]{4}-[0-9]{2}-[0-9]{2
 NEWRELPATH=${RELPATH/%[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-${SLUG}.md/${PUBLISH_DATE}-${SLUG}.md}
 
 # Update dev: rename, edit in place, commit
-git checkout dev
+git checkout --quiet dev
 git mv "$RELPATH" "$NEWRELPATH"
 sed -i "s/^status: draft$/status: published/" "$NEWRELPATH"
 sed -i "s/^date: .*/date: ${PUBLISH_DATE} 13:37/" "$NEWRELPATH"
 git add "$NEWRELPATH"
-git commit -m "feat($SLUG): finalize draft"
+PREK_QUIET=1 git commit -m "feat($SLUG): finalize draft on dev" --quiet
+git show --oneline --stat
 
 # Update main: pull the published file into working tree (no auto-commit)
-git checkout main
-echo "Writing to $NEWRELPATH on main"
-git checkout dev -- "$NEWRELPATH"
-git commit -m "feat($SLUG): publish"
+git checkout --quiet main
+git checkout --quiet dev -- "$NEWRELPATH"
+PREK_QUIET=1 git commit -m "feat($SLUG): publish on main" --quiet
+git show --oneline --stat
