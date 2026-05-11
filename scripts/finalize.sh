@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
-# Usage: scripts/finalize.sh <slug> [YYYY-MM-DD]
+# Usage: scripts/finalize.sh <slug>
+# Run from the main worktree after running stage.sh on dev.
 
 set -euo pipefail
-SLUG=${1:?Usage: finalize.sh <slug> [YYYY-MM-DD]}
-PUBLISH_DATE=${2:-$(date +%F)}
+SLUG=${1:?Usage: finalize.sh <slug>}
 
-# Check we're in root of repo on main branch
 [[ -f pelicanconf.py ]] || {
   echo "Error: run from repo root"
   exit 1
@@ -15,24 +14,20 @@ PUBLISH_DATE=${2:-$(date +%F)}
   exit 1
 }
 
-OLDPATH=$(git ls-tree -r --name-only dev | grep -E -- "[0-9]{4}-[0-9]{2}-[0-9]{2}-${SLUG}\.md$" | head -1)
-[[ -n $OLDPATH ]] || {
-  echo "No file found for slug '$SLUG' on dev"
+NEWPATH=$(git ls-tree -r --name-only dev | grep -E -- "[0-9]{4}-[0-9]{2}-[0-9]{2}-${SLUG}\.md$" | head -1) || true
+[[ -n $NEWPATH ]] || {
+  echo "No file found for slug '$SLUG' on dev. Did you run scripts/stage.sh first?"
   exit 1
 }
-NEWPATH=${OLDPATH/%[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-${SLUG}.md/${PUBLISH_DATE}-${SLUG}.md}
 
-# Update dev: rename, edit in place, commit
-git checkout --quiet dev
-git mv "$OLDPATH" "$NEWPATH"
-sed -i "s/^status: draft$/status: published/" "$NEWPATH"
-sed -i "s/^date: .*/date: ${PUBLISH_DATE} 13:37/" "$NEWPATH"
+# Safety check: refuse to publish if still marked as draft
+grep -q "^status: draft$" <(git show "dev:$NEWPATH") && {
+  echo "Error: file still has 'status: draft' on dev. Run scripts/stage.sh first."
+  exit 1
+}
+
+# Restore file from dev into main working tree and commit
+git restore --source=dev -- "$NEWPATH"
 git add "$NEWPATH"
-PREK_QUIET=1 git commit -m "feat($SLUG): finalize draft on dev" --quiet
-git show --oneline --stat
-
-# Update main: pull the published file into working tree (no auto-commit)
-git checkout --quiet main
-git checkout --quiet dev -- "$NEWPATH"
 PREK_QUIET=1 git commit -m "feat($SLUG): publish on main" --quiet
 git show --oneline --stat
