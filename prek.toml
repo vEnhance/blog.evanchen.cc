@@ -96,6 +96,15 @@ hooks = [
 repo = "local"
 hooks = [
   {
+    id = "no-merge-on-main",
+    name = "Prevent merge commits on main",
+    language = "system",
+    entry = "scripts/check-no-merge-on-main.sh",
+    stages = ["pre-commit"],
+    pass_filenames = false,
+    always_run = true,
+  },
+  {
     id = "no-dev-push",
     name = "Prevent pushing dev to origin",
     language = "system",
