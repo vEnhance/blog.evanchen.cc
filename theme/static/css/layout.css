@@ -114,12 +114,11 @@ header,
 /* Navigation at top right */
 nav ul {
   float: right;
+  display: flex;
+  flex-wrap: nowrap;
   list-style: none;
   margin: 0 0 0 3em;
   padding: 0;
-}
-nav li {
-  float: left;
 }
 nav a {
   display: block;
@@ -154,6 +153,14 @@ h1.title {
   #wrapper {
     min-width: 0;
     padding: 0 15px;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+  nav a {
+    padding: 2.5em 7px 10px 7px;
+    font-size: 0.85em;
   }
 
   .post {
