@@ -11,14 +11,14 @@ dependencies = [
     "pelican-katex>=1.8.6",
     "pelican-redirect>=3.0.0",
     "pelican-seo>=1.4.0",
-    "pelican[markdown]>=4.11.0.post0",
+    "pelican[markdown]>=4.12.0",
 ]
 
 [dependency-groups]
 dev = [
     "djlint>=1.36.4",
-    "prek>=0.3.9",
-    "ruff>=0.15.11",
+    "prek>=0.4.0",
+    "ruff>=0.15.13",
 ]
 
 [tool.djlint]
