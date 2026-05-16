@@ -59,6 +59,7 @@ PLUGINS = [
     "sort_tags",
     "cf_redirects",
     "oembed_gen",
+    "latest_json",
 ]
 
 MARKDOWN = {

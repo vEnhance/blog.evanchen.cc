@@ -21,6 +21,16 @@ you can read the [source code for the server][list-github].)
 This blog has a good old-fashioned [Atom feed][atom].
 If you use a feed reader, this is probably the option you want.
 
+## The `/latest.json` endpoint
+
+The website exposes an endpoint
+[`https://blog.evanchen.cc/latest.json`](/latest.json)
+which gives you the fields
+`categry`, `date`, `description`, `slug`, `tags`, `title`, `url`
+for the most recently published post.
+(All the field names should be self-explanatory.)
+This will be a lot smaller than the Atom feed.
+
 ## LinkedIn
 
 New posts are automatically mirrored to my [LinkedIn profile][linkedin],
