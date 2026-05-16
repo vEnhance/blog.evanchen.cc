@@ -26,8 +26,19 @@ grep -q "^status: draft$" <(git show "dev:$NEWPATH") && {
   exit 1
 }
 
-# Restore file from dev into main working tree and commit
+# Restore file from dev into main working tree
 git restore --source=dev -- "$NEWPATH"
 git add "$NEWPATH"
+
+# Copy any relative (./...) assets referenced in the post
+POST_DIR=$(dirname "$NEWPATH")
+while IFS= read -r ref; do
+  REFPATH="${POST_DIR}/${ref#./}"
+  mkdir -p "$(dirname "$REFPATH")"
+  git show "dev:$REFPATH" >"$REFPATH"
+  git add "$REFPATH"
+  echo "  + $REFPATH"
+done < <(grep -oP '\]\(\K\./[^)]+(?=\))' "$NEWPATH" | sort -u || true)
+
 PREK_QUIET=1 git commit -m "feat($SLUG): publish on main" --quiet
 git show --oneline --stat
