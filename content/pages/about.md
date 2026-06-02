@@ -35,7 +35,7 @@ may be of interest to you, like
 ## Technical details
 
 This blog was generated using [Pelican](https://getpelican.com/).
-The theme is adapted from [blue-pelican](https://github.com/jody-frankowski/blue-penguin),
+The theme is adapted from [blue-penguin](https://github.com/jody-frankowski/blue-penguin),
 and the fonts are [et-book](https://edwardtufte.github.io/et-book/).
 Comments are supported by a separate [isso server](https://isso-comments.de/).
 You can find the source repository on [GitHub][github].
