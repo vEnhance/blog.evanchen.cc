@@ -29,4 +29,4 @@ ignore = "H006"
 ignore = ["E731"]
 
 [tool.codespell]
-ignore-words-list = "lifes,HDA,Hart,te,SoCal,AFE,AKS"
+ignore-words-list = "lifes,HDA,Hart,te,SoCal,AFE,AKS,Wil"
