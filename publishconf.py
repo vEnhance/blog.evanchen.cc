@@ -16,7 +16,7 @@ CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
 DELETE_OUTPUT_DIRECTORY = True
 
-OUTPUT_PATH = "output/"
+OUTPUT_PATH = "public/"
 CACHE_PATH = "cache"
 
 PLUGINS.append("seo")  # noqa: F405

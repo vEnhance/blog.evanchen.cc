@@ -5,6 +5,7 @@ SITEDESCRIPTION = "Evan Chen's blog. Math, Linux, teaching, puzzle hunts, and th
 SITEURL = ""
 
 PATH = "content"
+OUTPUT_PATH = "public/"
 
 TIMEZONE = "US/Eastern"
 
