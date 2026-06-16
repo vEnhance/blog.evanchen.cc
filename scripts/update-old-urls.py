@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 import sys
 
-OUTPUT_PATH = Path(__file__).parent.parent / "public"
+OUTPUT_PATH = Path(__file__).parent.parent / "output"
 
 with open(OUTPUT_PATH / "REDIRECTS.json") as f:
     redirect_dict = json.load(f)
