@@ -105,10 +105,9 @@ The [extraction part of Brian Chen's introduction to puzzle
 hunts](https://blog.vero.site/post/puzzlehunts#how-to-extract-the-answer)
 goes over all of these in more detail.
 
-![Table of common encodings from
-  [puzzledpint.com][pint]](./images/puzzled-pint-sheet.webp)
+![Table of common encodings from puzzledpint.com](./images/puzzled-pint-sheet.webp)
 
-[pint]: http://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf
+(Source: [Puzzled Pint](https://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf))
 
 Examples of moments in my life when I saw something and said
 "this would be good puzzle material", and flew with it:
