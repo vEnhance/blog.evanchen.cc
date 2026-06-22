@@ -6,7 +6,7 @@ set -euo pipefail
 SLUG=${1:?Usage: watch-one.sh <slug>}
 
 REPO_ROOT=$(git rev-parse --show-toplevel)
-FILE=$(find "$REPO_ROOT/content" -name "*-${SLUG}.md" | head -1)
+FILE=$(find "$REPO_ROOT/content" -name "*.md" | grep -E "[0-9]{4}-[0-9]{2}-[0-9]{2}-${SLUG}\.md$" | head -1)
 [[ -n $FILE ]] || {
   echo "No file found for slug: $SLUG"
   exit 1
