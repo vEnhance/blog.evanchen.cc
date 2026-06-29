@@ -26,9 +26,9 @@ may be of interest to you, like
 - [An Infinitely Large Napkin](https://web.evanchen.cc/napkin.html),
   a 1000-page book touring the undergraduate and first-year grad math syllabus;
 - My [Euclidean geometry textbook](https://web.evanchen.cc/geombook.html);
-- [Past puzzles I've authored in Mystery Hunts](https://web.evanchen.cc/puzzlehunt.html#own),
 - My [Frequently Asked Questions (FAQ) list](https://web.evanchen.cc/faqs.html)
-  (answers too short to be full blog posts).
+  (answers too short to be full blog posts);
+- [Past puzzles I've authored in Mystery Hunts](https://web.evanchen.cc/puzzlehunt.html#own);
 - [wall.evanchen.cc](https://wall.evanchen.cc/about),
   my microblog for stupid daily-ish snippets from my head.
 
