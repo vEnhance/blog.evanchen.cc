@@ -5,28 +5,29 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 CONTENT_DIR = REPO_ROOT / "content"
-DRAFTS_DIR = CONTENT_DIR / "Drafts"
-NON_CATEGORY_DIRS = {"pages", "images", "media", "_DRAFTS"}
+NON_CATEGORY_DIRS = {"pages", "images", "media"}
 DATE = "2099-12-31"
 
-
-def get_categories() -> list[str]:
-    return [
-        d.name
-        for d in CONTENT_DIR.iterdir()
-        if d.is_dir() and d.name not in NON_CATEGORY_DIRS
-    ]
+categories = [
+    d.name
+    for d in CONTENT_DIR.iterdir()
+    if d.is_dir() and d.name not in NON_CATEGORY_DIRS
+]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scaffold a new draft post.")
+    parser.add_argument(
+        "category",
+        choices=categories,
+        help="Category for the new draft",
+    )
     parser.add_argument("slug", help="URL slug (e.g. my-post-title)")
     parser.add_argument("title", nargs="?", help="Title for the post")
     args = parser.parse_args()
 
-    assert DRAFTS_DIR.exists(), f"{DRAFTS_DIR} missing"
-    filepath = DRAFTS_DIR / f"2099-12-31-{args.slug}.md"
-    filepath.parent.mkdir(parents=True, exist_ok=True)
+    filepath = CONTENT_DIR / args.category / f"2099-12-31-{args.slug}.md"
+    assert filepath.parent.is_dir(), "WTF? {filepath.parent} doesn't exist"
 
     filepath.write_text(
         f"---\n"
