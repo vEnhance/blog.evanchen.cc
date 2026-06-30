@@ -23,7 +23,7 @@ def main() -> None:
         help="Category for the new draft",
     )
     parser.add_argument("slug", help="URL slug (e.g. my-post-title)")
-    parser.add_argument("title", nargs="?", help="Title for the post")
+    parser.add_argument("--title", "-t", help="Title for the post")
     args = parser.parse_args()
 
     filepath = CONTENT_DIR / args.category / f"2099-12-31-{args.slug}.md"
