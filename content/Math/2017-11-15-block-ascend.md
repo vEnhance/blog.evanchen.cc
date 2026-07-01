@@ -55,7 +55,7 @@ proved (among other things) the following result:
 > **Theorem 4** **(Lewis 2011)**
 >
 > The sets $\mathcal L_{k+2}(k,k,\dots,k)$ and
-> $\mathcal L_{k+2}(k+1,k+1,\dots,k+1}$ are in bijection
+> $\mathcal L_{k+2}(k+1,k+1,\dots,k+1)$ are in bijection
 > with Young tableau of shape $\left\langle (k+1)^n \right\rangle$.
 
 > **Remark 5.** When $k=1$, this implies $\mathcal L_3(1,1,\dots,1)$,
