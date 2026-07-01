@@ -76,7 +76,7 @@ To simplify notation,
 >
 > The $2^n$ sets $\mathcal L(n,k,I)$ are also in bijection with Young tableau of shape $\left< (k+1)^n \right>$.
 
-The proof uses the RSK correspondence,
+The proof uses the [RSK correspondence](https://w.wiki/RwNp),
 but the authors posed at the end of the paper the following open problem:
 
 > **Problem**
