@@ -46,7 +46,7 @@ I had the revelation that I had seen the same idea before.
 
 > Let $n$ be a fixed positive integer.
 > Find the minimum possible value of
-> $S = 2^0x_0^2 + 2^1x_1^2 + \dots + 2^nx_n^2$,
+> $$S = 2^0 x_0^2 + 2^1 x_1^2 + \dots + 2^n x_n^2$$
 > where $x_0$, $\dots$, $x_n$ are nonnegative integers such that $x_0+\dots+x_n=n$.
 
 The reason I like this pair so much is that normally,
