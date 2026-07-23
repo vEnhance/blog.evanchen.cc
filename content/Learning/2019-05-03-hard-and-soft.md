@@ -120,16 +120,16 @@ so there will only be a few real solutions even though there might be tons of co
 
 2. Okay, but there's an even more blatant thing we don't know yet: _what is the answer, anyways_?
 
-    This was more than a little bit embarrassing.
-    We're half an hour in to the problem and thoroughly stuck, and we don't even have a single $(x,y,z)$ that works?
-    Maybe it'd be a good idea to fix that, like, _right now_.
-    In the simplest way possible: guess and check.
+   This was more than a little bit embarrassing.
+   We're half an hour in to the problem and thoroughly stuck, and we don't even have a single $(x,y,z)$ that works?
+   Maybe it'd be a good idea to fix that, like, _right now_.
+   In the simplest way possible: guess and check.
 
-    It's much easier than it sounds, since if you pick a value of $z$,
-    say, then you get $x$ from the third equation, $y$ from the first,
-    then check whether it fits the second.
-    If we restrict our search to integer values of $z$,
-    then there aren't so many that are reasonable.
+   It's much easier than it sounds, since if you pick a value of $z$,
+   say, then you get $x$ from the third equation, $y$ from the first,
+   then check whether it fits the second.
+   If we restrict our search to integer values of $z$,
+   then there aren't so many that are reasonable.
 
 I won't spoil what the answer $(x,y,z)$ is,
 other than saying there is an integer triple and it's not hard to find it as I described.
