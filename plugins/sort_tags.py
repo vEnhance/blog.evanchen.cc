@@ -10,6 +10,7 @@ https://github.com/ingwinlu/sort_tags/blob/master/sort_tags.py
 """
 
 from operator import itemgetter
+
 from pelican import signals
 
 

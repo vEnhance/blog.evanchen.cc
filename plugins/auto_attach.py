@@ -1,9 +1,10 @@
-# -*- coding: utf8 -*-
-from markdown.extensions import Extension
-from markdown.inlinepatterns import LinkInlineProcessor
-from markdown.inlinepatterns import ImageInlineProcessor
-from pelican import signals
 import logging
+
+from markdown.extensions import Extension
+from markdown.inlinepatterns import ImageInlineProcessor, LinkInlineProcessor
+from pelican import signals
+
+logger = logging.getLogger(__name__)
 
 # Pattern must not consume characters
 ATTACH_IMAGE_RE = r"\!\[(?=[^\]]*?\]\(\./)"
@@ -19,7 +20,7 @@ class AttachImageInlineProcessor(ImageInlineProcessor):
         if el is not None and el.get("src"):
             el_oldsrc = el.get("src")
             el.set("src", "{attach}" + el_oldsrc)
-            logging.debug(f"Coercing src '{el_oldsrc}' to '{el.get('src')}'")
+            logger.debug(f"Coercing src '{el_oldsrc}' to '{el.get('src')}'")
 
         return el, start, index
 
@@ -33,7 +34,7 @@ class AttachLinkInlineProcessor(LinkInlineProcessor):
         if el is not None and el.get("href"):
             el_oldsrc = el.get("href")
             el.set("href", "{attach}" + el_oldsrc)
-            logging.debug(f"Coercing href '{el_oldsrc}' to '{el.get('href')}'")
+            logger.debug(f"Coercing href '{el_oldsrc}' to '{el.get('href')}'")
 
         return el, start, index
 

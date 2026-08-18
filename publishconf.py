@@ -5,7 +5,7 @@ import os
 import sys
 
 sys.path.append(os.curdir)
-from pelicanconf import *  # noqa: F403
+from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = os.getenv("PELICAN_SITE_URL") or "https://blog.evanchen.cc"
@@ -19,7 +19,7 @@ DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = "output/"
 CACHE_PATH = "cache"
 
-PLUGINS.append("seo")  # noqa: F405
+PLUGINS.append("seo")
 
 # Following items are often useful when publishing
 

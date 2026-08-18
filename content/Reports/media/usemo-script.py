@@ -28,7 +28,7 @@ slugs = {
 qualities = {}
 difficulties = {}
 random.seed(150)
-for k in slugs.keys():
+for k in slugs:
     # just somehow throw stuff at wall to get counts
     a, b, c, d, e, f = [random.randrange(0, 3) for _ in range(6)]
     if c >= 1:
@@ -48,7 +48,7 @@ for k in slugs.keys():
     )
 
 random.seed(369)
-for k in slugs.keys():
+for k in slugs:
     # just somehow throw stuff at wall to get counts
     a, b, c, d, e = [random.randrange(0, 5) for _ in range(5)]
     if e >= 4:
@@ -86,29 +86,25 @@ def get_color_string(x, scale_min, scale_max, color_min, color_max):
     m = (scale_max + scale_min) / 2
     a = min(int(100 * 2 * abs(x - m) / (scale_max - scale_min)), 100)
     color = color_min if x < m else color_max
-    return r"\rowcolor{%s!%d}" % (color, a) + "\n"
+    return rf"\rowcolor{{{color}!{a}}}" + "\n"
 
 
 def get_label(key, slugged=False):
     if slugged:
-        return r"{\scriptsize \textbf{%s} %s}" % (key, slugs.get(key, ""))
+        slug = slugs.get(key, "")
+        return rf"{{\scriptsize \textbf{{{key}}} {slug}}}"
     else:
-        return r"{\scriptsize \textbf{%s}}" % key
+        return rf"{{\scriptsize \textbf{{{key}}}}}"
 
 
 ## Quality rating
 def get_quality_row(key, data, slugged=True):
     a = avg(data)
-    s = ("$%+4.2f$" % a) if a is not None else "---"
+    s = f"${a:+4.2f}$" if a is not None else "---"
     color_tex = get_color_string(a, WT_U, WT_E, "Salmon", "green")
-    row_tex = r"%s & %d & %d & %d & %d & %d & %s \\" % (
-        get_label(key, slugged),
-        data.count(WT_U),
-        data.count(WT_M),
-        data.count(WT_A),
-        data.count(WT_N),
-        data.count(WT_E),
-        s,
+    row_tex = (
+        rf"{get_label(key, slugged)} & {data.count(WT_U)} & {data.count(WT_M)} "
+        rf"& {data.count(WT_A)} & {data.count(WT_N)} & {data.count(WT_E)} & {s} \\"
     )
     return color_tex + row_tex
 
@@ -126,16 +122,11 @@ def print_quality_table(d, sort_key=None, slugged=True):
 ## Difficulty rating
 def get_difficulty_row(key, data, slugged=False):
     a = avg(data)
-    s = ("$%.3f$" % a) if a is not None else "---"
+    s = f"${a:.3f}$" if a is not None else "---"
     color_tex = get_color_string(a, 1, 3, "cyan", "orange")
-    row_tex = r"%s & %d & %d & %d & %d & %d & %s \\" % (
-        get_label(key, slugged),
-        data.count(1),
-        data.count(1.5),
-        data.count(2),
-        data.count(2.5),
-        data.count(3),
-        s,
+    row_tex = (
+        rf"{get_label(key, slugged)} & {data.count(1)} & {data.count(1.5)} "
+        rf"& {data.count(2)} & {data.count(2.5)} & {data.count(3)} & {s} \\"
     )
     return color_tex + row_tex
 
@@ -221,12 +212,12 @@ print(r"""\addplot [scatter,
     visualization depends on={value \thisrow{prob} \as \prob}]""")
 print(r"table [meta=subj] {")
 print("X\tY\tprob\tsubj")
-for p in qualities.keys():
+for p, quality in qualities.items():
     x = avg(difficulties[p])
-    y = avg(qualities[p])
+    y = avg(quality)
     if x is None or y is None:
         continue
-    print("%0.2f\t%0.2f\t%s\t%s" % (x, y, p[2:], p[0]))
+    print(f"{x:0.2f}\t{y:0.2f}\t{p[2:]}\t{p[0]}")
 print(r"};")
 print(r"\end{axis}")
 print(r"\end{tikzpicture}")

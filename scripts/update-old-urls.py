@@ -1,6 +1,6 @@
-from pathlib import Path
 import json
 import sys
+from pathlib import Path
 
 OUTPUT_PATH = Path(__file__).parent.parent / "output"
 

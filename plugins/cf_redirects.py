@@ -14,11 +14,10 @@ This plugin collects all such fields and writes one redirect rule per article:
 Also generates the same content as a top-level file REDIRECTS.json.
 """
 
+import json
 from pathlib import Path
 
 from pelican import signals
-
-import json
 
 
 def write_redirects(generator):
