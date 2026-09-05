@@ -72,5 +72,6 @@ In other words, besides the `finalize.sh` script that simply copies
 the completed drafts off the `dev` branch,
 the `main` branch never receives anything from the `dev` branch.
 
-There's another `./scripts/drafts.sh` that lists the current drafts,
-which works on any branch.
+To show posts on `dev` not in `main`, use `./scripts/queue.sh` (from any branch).
+The posts are labeled as either `draft` until `stage.sh`,
+at which point they are `staged` until `finalize.sh` is run.
