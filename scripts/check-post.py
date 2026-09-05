@@ -34,7 +34,20 @@ def check_file(path: Path, valid_slugs: set[str]) -> None:
         assert lines[1].startswith("title:"), f"{path}: line 2 must be title"
         assert lines[2].startswith("date:"), f"{path}: line 3 must be date"
         assert lines[3].startswith("slug:"), f"{path}: line 4 must be slug"
-        assert lines[4].strip().startswith("tags:"), f"{path}: line 5 must be tags"
+        # Line 5 is non-empty tags, or "untagged: true" for posts that deliberately
+        # have none; an empty tags value would leave Article.tags unset.
+        line5 = lines[4].strip()
+        if line5 != "untagged: true":
+            assert line5.startswith("tags:"), (
+                f"{path}: line 5 must be tags or 'untagged: true'"
+            )
+            assert line5.split(":", 1)[1].strip(), (
+                f"{path}: line 5 tags is empty; use 'untagged: true' if deliberate"
+            )
+            # tags is a comma-separated list, not YAML: "[]" becomes a literal tag.
+            assert "[" not in line5 and "]" not in line5, (
+                f"{path}: tags must be comma-separated, not a YAML list"
+            )
         date_val = lines[2][5:].strip()[:10]
         slug_val = lines[3][5:].strip()
         assert date_val == date_from_name, (

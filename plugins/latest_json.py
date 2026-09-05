@@ -19,7 +19,7 @@ def write_latest_json(generator):
         "date": latest.date.isoformat(),
         "description": description,
         "slug": latest.slug,
-        "tags": [t.name for t in latest.tags],
+        "tags": [t.name for t in getattr(latest, "tags", [])],
         "title": latest.title,
         "url": siteurl + "/" + latest.url,
     }

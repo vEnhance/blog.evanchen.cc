@@ -11,6 +11,14 @@ PUBLISH_DATE=${2:-$(date +%F)}
 
 OLDPATH=$(git ls-tree -r --name-only HEAD | grep -E -- "[0-9]{4}-[0-9]{2}-[0-9]{2}-${SLUG}\.md$" | head -1) || true
 [[ -n $OLDPATH ]] || { echo "No file found for slug '$SLUG' on dev"; exit 1; }
+
+# Line 5 must carry real tags, or opt out explicitly; forgotten tags break the build.
+LINE5=$(sed -n 5p "$OLDPATH")
+if [[ $LINE5 != "untagged: true" ]] && [[ ! $LINE5 =~ ^tags:[[:space:]]*[^[:space:]] ]]; then
+  echo "Error: $OLDPATH line 5 must be tags or 'untagged: true'"
+  exit 1
+fi
+
 NEWPATH=${OLDPATH/%[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-${SLUG}.md/${PUBLISH_DATE}-${SLUG}.md}
 
 git mv "$OLDPATH" "$NEWPATH"
