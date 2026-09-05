@@ -34,5 +34,5 @@ git mv "$OLDPATH" "$NEWPATH"
 sed -i "s/^status: draft$/status: published/" "$NEWPATH"
 sed -i "s/^date: .*/date: ${PUBLISH_DATE} 13:37/" "$NEWPATH"
 git add "$NEWPATH"
-PREK_QUIET=1 git commit -m "feat($SLUG): finalize draft on dev" --quiet
+PREK_QUIET=1 git commit -m "feat($SLUG): stage on dev for ${PUBLISH_DATE}" --quiet
 git show --oneline --stat
