@@ -71,17 +71,21 @@ for path in "${CANDIDATES[@]}"; do
   ((${#date} > W_DATE)) && W_DATE=${#date}
   ((${#slug} > W_SLUG)) && W_SLUG=${#slug}
   ((${#words} > W_WORDS)) && W_WORDS=${#words}
-  ROWS+=("$status	$category	$date	$slug	$words")
+  # Fields are laid out in sort order, so plain sort does the work.
+  ROWS+=("$status	$date	$category	$slug	$words")
 done
 
 ((${#ROWS[@]})) || exit 0
+
+mapfile -t ROWS < <(printf "%s\n" "${ROWS[@]}" |
+  LC_ALL=C sort -t$'\t' -k1,1 -k2,2 -k3,3 -k4,4)
 
 printf "%s%-*s  %-*s  %-*s  %-*s  %*s%s\n" \
   "$BOLD" "$W_STATUS" STATUS "$W_CATEGORY" CATEGORY "$W_DATE" DATE \
   "$W_SLUG" SLUG "$W_WORDS" WORDS "$RESET"
 
 for row in "${ROWS[@]}"; do
-  IFS=$'\t' read -r status category date slug words <<<"$row"
+  IFS=$'\t' read -r status date category slug words <<<"$row"
   [[ $status == staged ]] && status_color=$GREEN || status_color=$YELLOW
   printf "%s%-*s%s  %s%-*s%s  %s%-*s%s  %-*s  %s%*s%s\n" \
     "$status_color" "$W_STATUS" "$status" "$RESET" \
