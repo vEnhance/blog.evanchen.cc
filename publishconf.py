@@ -21,11 +21,6 @@ CACHE_PATH = "cache"
 
 PLUGINS.append("seo")
 
-# Following items are often useful when publishing
-
-# DISQUS_SITENAME = ""
-# GOOGLE_ANALYTICS = ""
-
 SEO_REPORT = False
 SEO_ENHANCER = True
 SEO_ENHANCER_OPEN_GRAPH = False
