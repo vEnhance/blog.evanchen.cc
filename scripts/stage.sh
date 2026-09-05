@@ -6,11 +6,20 @@ set -euo pipefail
 SLUG=${1:?Usage: stage.sh <slug> [YYYY-MM-DD]}
 PUBLISH_DATE=${2:-$(date +%F)}
 
-[[ -f pelicanconf.py ]] || { echo "Error: run from repo root"; exit 1; }
-[[ $(git rev-parse --abbrev-ref HEAD) == "dev" ]] || { echo "Error: not on dev branch"; exit 1; }
+[[ -f pelicanconf.py ]] || {
+  echo "Error: run from repo root"
+  exit 1
+}
+[[ $(git rev-parse --abbrev-ref HEAD) == "dev" ]] || {
+  echo "Error: not on dev branch"
+  exit 1
+}
 
 OLDPATH=$(git ls-tree -r --name-only HEAD | grep -E -- "[0-9]{4}-[0-9]{2}-[0-9]{2}-${SLUG}\.md$" | head -1) || true
-[[ -n $OLDPATH ]] || { echo "No file found for slug '$SLUG' on dev"; exit 1; }
+[[ -n $OLDPATH ]] || {
+  echo "No file found for slug '$SLUG' on dev"
+  exit 1
+}
 
 # Line 5 must carry real tags, or opt out explicitly; forgotten tags break the build.
 LINE5=$(sed -n 5p "$OLDPATH")
