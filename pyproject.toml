@@ -16,9 +16,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "djlint>=1.42.2",
     "prek>=0.4.10",
-    "ruff>=0.15.22",
 ]
 
 [tool.djlint]
