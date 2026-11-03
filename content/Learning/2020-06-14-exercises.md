@@ -12,7 +12,7 @@ status: published
 > with \[Gr-EGA\] until you beg for mercy. It is important to not just have a
 > vague sense of what is true, but to be able to actually get your hands dirty.
 > As Mark Kisin has said, "You can wave your hands all you want, but it still
-> won’t make you fly."
+> won't make you fly."
 >
 > --- Ravi Vakil, [The Rising Sea:
 > Foundations of Algebraic Geometry](http://math.stanford.edu/~vakil/216blog/index.html)

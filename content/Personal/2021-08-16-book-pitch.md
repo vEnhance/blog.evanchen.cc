@@ -28,7 +28,7 @@ But I think I can do better.
 > "Your feelings and ideas are suspect. You need to think and speak our way."
 >
 > Now there is a place for formal proof in mathematics, no question.
-> But that place is not a student’s first introduction to mathematical argument.
+> But that place is not a student's first introduction to mathematical argument.
 > At least let people get familiar with some mathematical objects, and learn what to expect from them,
 > before you start formalizing everything.
 >
