@@ -38,7 +38,7 @@
             ·
             {% for t in article.tags %}
                 &nbsp;<a href="{{ SITEURL }}/{{ t.url }}"
-   class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
+                         class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
             {% endfor %}
         {% endif %}
         {% if article.category.name != "misc" %}
