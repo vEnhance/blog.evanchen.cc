@@ -32,12 +32,16 @@ may be of interest to you, like
 - [wall.evanchen.cc](https://wall.evanchen.cc/about),
   my microblog for stupid daily-ish snippets from my head.
 
+## Comments
+
+Comments are supported by a separate [isso server](https://isso-comments.de/).
+They are moderated, meaning I need to approve a comment before it appears.
+
 ## Technical details
 
 This blog was generated using [Pelican](https://getpelican.com/).
 The theme is adapted from [blue-penguin](https://github.com/jody-frankowski/blue-penguin),
 and the fonts are [et-book](https://edwardtufte.github.io/et-book/).
-Comments are supported by a separate [isso server](https://isso-comments.de/).
 You can find the source repository on [GitHub][github].
 
 ## Spot a typo?
